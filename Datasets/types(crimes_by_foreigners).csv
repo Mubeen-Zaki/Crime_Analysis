@@ -1,0 +1,40 @@
+SL,State/UT,Murder, Attempt to Murder,Homicide,Hurt,Grievous Hurt,Kidnapping and Abduction,Human Trafficking,Rape
+1,Andhra Pradesh,0,0,0,0,0,0,0,0
+2,Arunachal Pradesh,0,0,0,0,0,0,0,0
+3,Assam,0,0,0,0,0,0,0,0
+4,Bihar,0,0,0,0,0,0,0,0
+5,Chhattisgarh,0,0,0,0,0,0,0,0
+6,Goa,1,0,0,0,1,0,0,2
+7,Gujarat,1,0,0,0,0,0,0,0
+8,Haryana,0,0,1,0,0,1,1,2
+9,Himachal Pradesh,2,1,0,0,1,1,0,7
+10,Jharkhand,0,0,0,0,0,0,0,0
+11,Karnataka,0,5,1,0,0,0,0,2
+12,Kerala,1,0,0,0,0,0,0,1
+13,Madhya Pradesh,0,0,0,0,0,0,0,0
+14,Maharashtra,0,0,0,0,0,0,2,1
+15,Manipur,0,0,0,0,0,0,0,0
+16,Meghalaya,0,0,0,0,0,0,0,0
+17,Mizoram,2,1,0,0,0,0,0,0
+18,Nagaland,0,0,0,0,0,0,0,0
+19,Odisha,0,0,0,0,0,0,0,0
+20,Punjab,0,0,0,0,0,0,0,0
+21,Rajasthan,0,0,0,0,0,0,0,0
+22,Sikkim,0,0,0,0,0,0,0,0
+23,Tamil Nadu,1,0,0,1,0,0,0,0
+24,Telangana,0,0,0,0,0,0,2,0
+25,Tripura,0,0,0,0,0,0,0,0
+26,Uttar Pradesh,0,0,0,0,0,0,0,0
+27,Uttarakhand,0,0,0,0,0,0,0,0
+28,West Bengal,0,0,0,0,0,0,0,0
+,TOTAL STATE(S),8,7,2,1,2,2,5,15
+29,A&N Islands,0,0,0,0,0,0,0,0
+30,Chandigarh,0,0,0,0,0,0,0,1
+,D&N Haveli and Daman & Diu,0,0,0,0,0,0,0,1
+31,Delhi,0,1,0,0,0,0,0,1
+32,Jammu & Kashmir,0,0,0,0,0,0,0,0
+33,Ladakh,0,0,0,0,0,0,0,0
+34,Lakshadweep,0,0,0,0,0,0,0,0
+35,Puducherry,0,0,0,0,0,0,0,0
+36,TOTAL UT(S),0,1,0,0,0,0,0,3
+,TOTAL ALL INDIA,8,8,2,1,2,2,5,18
