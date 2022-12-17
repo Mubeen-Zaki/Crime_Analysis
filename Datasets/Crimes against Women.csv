@@ -27,8 +27,15 @@ SL,State / UT,2019,2020,2021
 26,Uttar Pradesh,59853,49385,56083
 27,Uttarakhand,2541,2846,3431
 28,West Bengal,29859,36439,35884
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
+,TOTAL STATE ( S ),387997,357363,409273
+29,A & N Islands,135,143,169
+30,Chandigarh,515,301,343
+31,"D & N Haveli and
++ Daman & Diu *",82,61,99
+32,Delhi,13395,10093,14277
+33,Jammu & Kashmir,3069,3405,3937
+34,Ladakh,-,9,18
+35,Lakshadweep,38,15,9
+36,Puducherry,95,113,153
+,TOTAL UT ( S ),17329,14140,19005
+,TOTAL ALL INDIA,405326,371503,428278
