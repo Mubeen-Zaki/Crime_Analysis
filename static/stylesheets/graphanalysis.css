@@ -1,0 +1,36 @@
+label {
+    font-family: monsterrat;
+    margin-left: 40px;
+}
+
+select {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.pagename {
+    color: black;
+    font-family: monsterrat;
+    line-height: 60px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.subnav {
+    background-color: #bbbbbb;
+    height: 40px;
+}
+
+.box {
+    height: 600px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+    width: 70%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+    box-shadow: 0px 0px 10px rgba(0.6, 0.5, 0.5, 0.5);
+    transform: perspective(500px);
+    overflow: auto;
+}

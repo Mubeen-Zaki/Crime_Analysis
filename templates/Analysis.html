@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Data Visualization</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['bar']
+        });
+
+        google.charts.load('current', {
+            packages: ['corechart']
+        });
+        google.charts.setOnLoadCallback(drawChart1);
+
+        function drawChart1() {
+            var state = document.getElementById("state").value;
+            var crimeType = document.getElementById("crimeType").value;
+            var jsonData = $.ajax({
+                url: "./static/javascript/BarAnalysis.json",
+                dataType: "json",
+                async: false
+            }).responseText;
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Year');
+            data.addColumn('number', crimeType);
+
+            var parsedData = JSON.parse(jsonData);
+            for (var i = 0; i < parsedData.length; i++) {
+                if (parsedData[i]["STATE/UT"] === state) {
+                    data.addRow([parsedData[i]["YEAR"].toString(), parsedData[i][crimeType]]);
+                }
+            }
+
+            var options = {
+                chart: {
+                    title: `${crimeType} CASES REPORTED IN ${state} (2001-2012)`,
+                    curveType: 'function',
+                    legend: {
+                        position: 'bottom'
+                    }
+                },
+                bars: 'vertical' // Required for Material Bar Charts.
+            };
+
+            var chart = new google.charts.Bar(document.getElementById('chart_div'));
+
+            chart.draw(data, google.charts.Bar.convertOptions(options));
+        }
+
+        function drawChart2() {
+            // Fetch JSON data and plot chart
+            fetch('./static/javascript/BarAnalysis.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Get user inputs
+                    const state = document.getElementById('state').value;
+                    const crimeType = document.getElementById('crimeType').value;
+
+                    // Filter data by state and crime type
+                    const filteredData = data.filter(entry => entry['STATE/UT'] === state && entry[crimeType]);
+
+                    // Create chart data
+                    const chartData = filteredData.map(entry => [entry['YEAR'].toString(), entry[crimeType]]);
+                    chartData.unshift(['Year', crimeType]);
+
+                    // Create chart options
+                    var chartOptions = {
+                        title: `${crimeType} CASES REPORTED IN ${state} (2001-2012)`,
+                        curveType: 'function',
+                        legend: {
+                            position: 'bottom',
+                        },
+                        'chartArea': {
+                            width: '90%',
+                            height: '80%',
+                            top: 25
+                        }
+                    };
+
+                    // Create chart and add to HTML element
+
+                    const chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+                    chart.draw(google.visualization.arrayToDataTable(chartData), chartOptions);
+                })
+                .catch(error => console.error(error));
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <label class="logo" href="#">Crime Hotspots Prediction & Analysis</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <form style="margin-left:190px">
+        <label for="state">State:</label>
+        <select id="state" name="state">
+        <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+        <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
+        <option value="ASSAM">ASSAM</option>
+        <option value="BIHAR">BIHAR</option>
+        <option value="CHHATTISGARH">CHHATTISGARH</option>
+        <option value="GOA">GOA</option>
+        <option value="GUJARAT">GUJARAT</option>
+        <option value="HARYANA">HARYANA</option>
+        <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+        <option value="JAMMU & KASHMIR">JAMMU & KASHMIR</option>
+        <option value="JHARKHAND">JHARKHAND</option>
+        <option value="KARNATAKA">KARNATAKA</option>
+        <option value="KERALA">KERALA</option>
+        <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+        <option value="MAHARASHTRA">MAHARASHTRA</option>
+        <option value="MANIPUR">MANIPUR</option>
+        <option value="MEGHALAYA">MEGHALAYA</option>
+        <option value="MIZORAM">MIZORAM</option>
+        <option value="NAGALAND">NAGALAND</option>
+        <option value="ODISHA">ODISHA</option>
+        <option value="PUNJAB">PUNJAB</option>
+        <option value="RAJASTHAN">RAJASTHAN</option>
+        <option value="SIKKIM">SIKKIM</option>
+        <option value="TAMIL NADU">TAMIL NADU</option>
+        <option value="TRIPURA">TRIPURA</option>
+        <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+        <option value="UTTARAKHAND">UTTARAKHAND</option>
+        <option value="WEST BENGAL">WEST BENGAL</option>
+        <option value="A & N ISLANDS">A & N ISLANDS</option>
+        <option value="CHANDIGARH">CHANDIGARH</option>
+        <option value="D & N HAVELI">D & N HAVELI</option>
+        <option value="DAMAN & DIU">DAMAN & DIU</option>
+        <option value="LAKSHADWEEP">LAKSHADWEEP</option>
+        <option value="PUDUCHERRY">PUDUCHERRY</option>
+
+      </select>
+
+        <label for="crimeType">Crime:</label>
+        <select id="crimeType" name="crimeType">
+        <option value="MURDER">MURDER</option>
+        <option value="ATTEMPT TO MURDER">ATTEMPT TO MURDER</option>
+        <option value="RAPE">RAPE</option>
+        <option value="KIDNAPPING & ABDUCTION">KIDNAPPING & ABDUCTION</option>
+        <option value="DACOITY">DACOITY</option>
+        <option value="ROBBERY">ROBBERY</option>
+        <option value="THEFT">THEFT</option>
+        <option value="HURT/GREVIOUS HURT">HURT/GREVIOUS HURT</option>
+        
+      </select>
+
+    </form>
+    <button style="position:absolute; margin-top:150px; float:left; margin-left:50px;" class="button" onclick="drawChart1()">BAR CHART</button>
+    <button style="position:absolute; margin-top:230px; float:left; margin-left:50px;" class="button" onclick="drawChart2()">LINE CHART</button>
+    <div class="box" style="margin-left: 250px;">
+        <div id="chart_div" style="width: 900px; margin-top: 40px; margin-left: 30px; height: 550px;"></div>
+    </div>
+
+</body>
+
+</html>

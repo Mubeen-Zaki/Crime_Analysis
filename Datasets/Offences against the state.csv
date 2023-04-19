@@ -1,0 +1,42 @@
+SL,State/UT,2019,2020,2021
+1,Andhra Pradesh,246,115,115
+2,Arunachal Pradesh,33,6,19
+3,Assam,447,333,327
+4,Bihar,96,100,88
+5,Chhattisgarh,12,12,6
+6,Goa,9,7,7
+7,Gujarat,29,28,25
+8,Haryana,572,199,169
+9,Himachal Pradesh,74,64,45
+10,Jharkhand,170,211,97
+11,Karnataka,229,164,214
+12,Kerala,404,171,146
+13,Madhya Pradesh,101,17,28
+14,Maharashtra,537,252,218
+15,Manipur,315,191,171
+16,Meghalaya,17,23,17
+17,Mizoram,1,0,0
+18,Nagaland,19,5,10
+19,Odisha,15,2,13
+20,Punjab,35,70,72
+21,Rajasthan,122,97,65
+22,Sikkim,3,0,2
+23,Tamil Nadu,1311,668,654
+24,Telangana,119,67,125
+25,Tripura,20,13,26
+26,Uttar Pradesh,2107,2217,1862
+27,Uttarakhand,10,2,19
+28,West Bengal,271,235,274
+,TOTAL STATE ( S ),7324,5269,4814
+29,A & N Islands,6,0,2
+30,Chandigarh,1,0,1
+31,"D & N Haveli and
+Daman & Diu *",2,2,4
+32,Delhi,26,18,18
+33,"Jammu & Kashmir
+*",284,317,313
+34,Ladakh,-,0,0
+35,Lakshadweep,6,3,8
+36,Puducherry,7,4,4
+,TOTAL UT ( S ),332,344,350
+,TOTAL ALL INDIA,7656,5613,5164

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        line-height: 25px;
+    }
+</style>
+
+<body>
+    <nav>
+
+        <label class="logo">Crime Hotspots Prediction & Analysis</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a> </li>
+        </ul>
+    </nav>
+    <h2> There isn't much use to this page after we add drop down menus to each section in home page </h2>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1"></h2>
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Cluster Prediction</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2 md:w-full">
+                    <div class="flex border-4 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+                        <div class="w-20h-15 sm:mr-8 sm:mb-0 mb-32 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="100pt" height="100pt" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+                             <path d="m1e3 500c-19.887 0.039062-39.305 6.0078-55.781 17.141s-29.262 26.926-36.719 45.359h-219.5l154-154c28.344 13.352 61.309 12.648 89.059-1.9023 27.746-14.555 47.07-41.27 52.207-72.18 5.1328-30.906-4.5195-62.438-26.074-85.176-21.555-22.742-52.52-34.062-83.66-30.59s-58.852 21.34-74.867 48.27c-16.016 26.93-18.48 59.809-6.6641 88.828l-154.5 154.25v-216.25c18.633-7.5352 34.562-20.512 45.711-37.234 11.148-16.723 17-36.418 16.789-56.516 0.41016-26.645-9.9961-52.32-28.84-71.16-18.84-18.844-44.516-29.25-71.16-28.84-31.129 0.19531-60.391 14.875-79.156 39.711-18.766 24.836-24.898 56.992-16.586 86.988 8.3125 30 30.121 54.414 58.992 66.051v217l-152.5-152.25c12.812-28.547 11.523-61.445-3.4844-88.898-15.004-27.457-41.996-46.309-72.941-50.941-30.941-4.6367-62.273 5.4805-84.66 27.34-22.391 21.855-33.262 52.934-29.375 83.98 3.8906 31.047 22.082 58.484 49.172 74.145 27.086 15.664 59.941 17.746 88.789 5.625l154.75 154.75h-219.5c-11.191-29.516-35.66-52.02-66.012-60.695-30.352-8.6797-63.02-2.5195-88.125 16.621-25.102 19.141-39.695 49.008-39.363 80.574-0.41016 26.645 9.9961 52.32 28.84 71.16 18.84 18.844 44.516 29.25 71.16 28.84 19.941 0.24219 39.496-5.4883 56.16-16.445 16.66-10.961 29.664-26.648 37.34-45.055h215.5l-152.75 152.75c-29.102-11.516-61.918-8.7383-88.676 7.5-26.754 16.238-44.363 44.07-47.582 75.199-3.2188 31.133 8.3203 61.977 31.188 83.348 22.867 21.371 54.422 30.801 85.262 25.488 30.844-5.3164 57.422-24.766 71.816-52.559 14.395-27.789 14.945-60.719 1.4922-88.977l154.25-154.25v221.5c-18.793 7.25-34.957 20.012-46.379 36.605-11.418 16.594-17.562 36.25-17.621 56.395-0.14062 26.43 10.398 51.793 29.227 70.34 18.828 18.543 44.352 28.699 70.773 28.16 26.523 0 51.957-10.535 70.711-29.289 18.754-18.754 29.289-44.188 29.289-70.711 0.12109-19.766-5.8008-39.098-16.969-55.406-11.172-16.309-27.059-28.812-45.531-35.844v-220.75l156.25 156.25c-11.715 29.047-9.1445 61.906 6.9453 88.777 16.09 26.871 43.84 44.652 74.977 48.043 31.141 3.3867 62.066-8.0078 83.559-30.793 21.492-22.781 31.07-54.32 25.875-85.207-5.1953-30.887-24.562-57.555-52.324-72.055s-60.715-15.152-89.031-1.7656l-153-153h216.5c7.3281 18.516 20.141 34.348 36.715 45.383 16.574 11.035 36.125 16.746 56.035 16.367 26.523 0 51.957-10.535 70.711-29.289 18.754-18.754 29.289-44.188 29.289-70.711 0.41016-26.645-9.9961-52.32-28.84-71.16-18.84-18.844-44.516-29.25-71.16-28.84z"/>
+                            </svg>
+
+                        </div>
+                        <div class="px-3 border-l-4 border-gray-200 border-opacity-60">
+                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">K-Means Clustering</h2>
+                            <p class="leading-relaxed text-base mb-3">Use K-Means Algorithm for crime hotspots prediction using latest data.</p>
+                            <button class=button><a class="text-blue-500 inline-flex items-center">Predict Now
+                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                         <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                          </button>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2 md:w-full">
+                    <div class="flex border-4 rounded-lg border-gray-200 border-opacity-100 p-8 sm:flex-row flex-col">
+                        <div class="w-20h-15 sm:mr-8 sm:mb-0 mb-32 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="100pt" height="100pt" version="1.1" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                            <path d="m577.5 490h-367.5v-245h52.5c10.5 0 17.5-7 17.5-17.5v-140c0-5.25-1.75-8.75-5.25-12.25l-35-35c-3.5-3.5-7-5.25-12.25-5.25h-105c-10.5 0-17.5 7-17.5 17.5v175c0 10.5 7 17.5 17.5 17.5h52.5v262.5c0 10.5 7 17.5 17.5 17.5h385c10.5 0 17.5-7 17.5-17.5s-7-17.5-17.5-17.5zm-339.5-402.5h-10.5v-10.5zm-98-17.5h52.5v35c0 10.5 7 17.5 17.5 17.5h35v87.5h-105z"/>
+                            <path d="m472.5 245c68.25 0 122.5-47.25 122.5-105s-54.25-105-122.5-105-122.5 47.25-122.5 105 54.25 105 122.5 105zm0-175c49 0 87.5 31.5 87.5 70s-38.5 70-87.5 70-87.5-31.5-87.5-70 38.5-70 87.5-70z"/>
+                            <path d="m558.25 299.25c-22.75-22.75-54.25-36.75-84-36.75-24.5 0-47.25 8.75-63 26.25-19.25 19.25-28 45.5-24.5 73.5 1.75 28 15.75 54.25 36.75 75.25 22.75 22.75 54.25 36.75 84 36.75 24.5 0 47.25-8.75 63-26.25 19.25-19.25 28-45.5 24.5-73.5s-15.75-54.25-36.75-75.25zm-14 122.5c-10.5 10.5-22.75 15.75-38.5 15.75-21 0-42-8.75-59.5-26.25-15.75-15.75-24.5-33.25-26.25-52.5-1.75-17.5 3.5-33.25 14-45.5 10.5-10.5 22.75-15.75 38.5-15.75 21 0 42 8.75 59.5 26.25 15.75 15.75 24.5 33.25 26.25 52.5 3.5 19.25-1.75 35-14 45.5z"/>
+                            <path d="m472.5 192.5c10.5 0 17.5-7 17.5-17.5s-7-17.5-17.5-17.5-17.5 7-17.5 17.5 7 17.5 17.5 17.5z"/>
+                            <path d="m472.5 122.5c10.5 0 17.5-7 17.5-17.5s-7-17.5-17.5-17.5-17.5 7-17.5 17.5 7 17.5 17.5 17.5z"/>
+                            <path d="m525 157.5c10.5 0 17.5-7 17.5-17.5s-7-17.5-17.5-17.5-17.5 7-17.5 17.5 7 17.5 17.5 17.5z"/>
+                            <path d="m420 157.5c10.5 0 17.5-7 17.5-17.5s-7-17.5-17.5-17.5-17.5 7-17.5 17.5 7 17.5 17.5 17.5z"/>
+                            <path d="m507.5 385h35v35h-35z"/>
+                            <path d="m490 332.5h35v35h-35z"/>
+                            <path d="m437.5 332.5h35v35h-35z"/>
+                            <path d="m227.5 367.5c0 59.5 31.5 105 70 105s70-45.5 70-105-31.5-105-70-105-70 45.5-70 105zm70-70c15.75 0 35 29.75 35 70s-19.25 70-35 70-35-29.75-35-70 19.25-70 35-70z"/>
+                            <path d="m297.5 315-17.5 35h35z"/>
+                            <path d="m297.5 367.5-17.5 35h35z"/>
+                            </g>
+                            </svg>
+
+                        </div>
+                        <div class="px-3 border-l-4 border-gray-200 border-opacity-60">
+                            <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">K-ProtoType Clustering</h2>
+                            <p class="leading-relaxed text-base mb-3">Use K-ProtoType Algorithm for crime hotspots prediction using latest data.</p>
+                            <button class=button><a class="text-blue-500 inline-flex items-center">Predict Now
+                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                         <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                          </button>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Forest Classification</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="{{url_for('static',filename='javascript/linearregression.js')}}"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="http://www.skulpt.org/js/skulpt.min.js" type="text/javascript"></script>
+    <script src="http://www.skulpt.org/js/skulpt-stdlib.js" type="text/javascript"></script>
+
+
+
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <script src="https://kit.fontawesome.com/7bdcd846e8.js" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+</head>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border-radius: 25px;
+        border-color: none;
+    }
+    
+    .state-row {
+        background-color: #222222;
+        color: #ffffff;
+    }
+    
+    th,
+    td {
+        border: #222222;
+        padding: 8px;
+        white-space: nowrap;
+        font-family: monsterrat;
+        text-align: center;
+    }
+    
+    th {
+        background-color: #222222;
+        color: #ffffff;
+    }
+    
+    .table-wrapper {
+        height: 800px;
+        width: 400px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        border: #222222;
+        border-style: solid;
+        border-color: #222222;
+        margin-bottom: 20px;
+        border-radius: 25px;
+        box-shadow: 0px 0px 30px rgba(0.6, 0.8, 0.5, 0.5);
+        transform: perspective(500px);
+        border-radius: 10px;
+        border-collapse: collapse;
+    }
+    
+    .table-wrapper::-webkit-scrollbar {
+        width: 15px;
+        border-radius: 25px;
+        overflow: auto;
+    }
+    
+    .table-wrapper::-webkit-scrollbar-thumb {
+        border-radius: 25px;
+        background-color: #b3b3b3;
+        height: 20px;
+        width: 18px;
+    }
+    
+    .border {
+        overflow: auto;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #bbbb;
+        color: #222222;
+    }
+    
+    label {
+        margin-left: 40px;
+    }
+    
+    select {
+        margin-left: 10px;
+    }
+    
+    nav.prediction {
+        background-color: #bbbbbb;
+        height: 40px;
+    }
+    
+    option.sel {
+        color: #222222;
+        background: #bbbb;
+    }
+    
+    label.log {
+        color: #222222;
+        font-size: 35px;
+        font-family: monsterrat;
+        padding: 0;
+    }
+    
+    .box {
+        border-color: none;
+    }
+    
+    .for-dataset {
+        margin-left: 68%;
+    }
+    
+    input {
+        padding: 2px;
+        border: 1px solid #222222;
+        height: 30px;
+        width: 100px;
+        background-color: #ffffff;
+        color: #222222;
+        font-family: "mosterrat";
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 2px 5px;
+        border-radius: 6px;
+    }
+</style>
+
+<script>
+    function tablefilling(n) {
+        var s = "classfication_data_with_cluster_labels.json";
+
+
+        function readTextFile(file, callback) {
+            var rawFile = new XMLHttpRequest();
+            rawFile.overrideMimeType("application/json");
+            rawFile.open("GET", file, true);
+            rawFile.onreadystatechange = function() {
+                if (rawFile.readyState === 4 && rawFile.status == "200") {
+                    callback(rawFile.responseText);
+                }
+            }
+            rawFile.send(null);
+        }
+        readTextFile(s, function(text) {
+            var data = JSON.parse(text);
+            var tableBody = '<table class="table shadow-soft rounded">'
+            tableBody += '<tr>'
+            console.log(data);
+            tableBody += '<th>CLUSTER</th>';
+            tableBody += '<th>STATE</th>';
+            tableBody += '<th>DISTRICT</th>';
+            tableBody += '<th>YEAR</th>';
+            tableBody += '<th>MURDER</th>';
+            tableBody += '<th>ATTEMPT TO MURDER</th>';
+            tableBody += '<th>RAPE</th>';
+            tableBody += '<th>KIDNAPPING & ABDUCTION</th>';
+            tableBody += '<th>DACOITY</th>';
+            tableBody += '<th>ROBBERY</th>';
+            tableBody += '<th>THEFT</th>';
+            tableBody += '<th>GREVIOUS HURT</th>'
+
+            tableBody += '</tr>';
+
+            data.forEach(function(d) {
+
+
+                tableBody += '<tr><td class="border-0" scope="col">' + d.cluster;
+
+                tableBody += '<td>' + d.STATE.UT;
+                tableBody += '<td>' + d.DISTRICT;
+                tableBody += '<td>' + d.YEAR;
+                tableBody += '<td>' + d.MURDER;
+                tableBody += '<td>' + d["ATTEMPT TO MURDER"];;
+                tableBody += '<td>' + d.RAPE;
+                tableBody += '<td>' + d["KIDNAPPING & ABDUCTION"];
+                tableBody += '<td>' + d.DACOITY;
+                tableBody += '<td>' + d.ROBBERY;
+                tableBody += '<td>' + d.THEFT;
+                tableBody += '<td>' + d.HURT["GREVIOUS HURT"];
+
+
+
+                tableBody += '</td></tr>';
+
+
+
+            });
+
+
+            tableBody += '<table>';
+            // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+
+
+            //        console.log(s, "helloooooo")
+
+            var divContainer = document.getElementById("csv-data");
+            divContainer.innerHTML = tableBody;
+        });
+    }
+</script>
+
+<body onload="tablefilling(1);">
+    <nav style="width: 100%;">
+        <label style="margin-left:0px;" class="logo" href="#sectionId">Crime Hotspots Prediction & Analysis</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div style="position:absolute; padding:2px; margin-top: 10px; margin-left:40%;"><a style="text-decoration: none; color:#222222;" href="#sectionId">Jump To Prediction</a></div>
+
+    <div style="margin-top:30px;">
+        <h2 style="margin-left:65%">Labeled Data Set Used:</h2>
+
+    </div>
+    <div class="table-wrapper" style="margin-top: 20px; margin-left: 68% ;margin-right: auto" id="csv-data"></div>
+
+
+    <!---This is for prediction-->
+    <nav id="sectionId" class="prediction">
+        <label class="log" href="#"> PREDICTION:</label>
+    </nav>
+
+
+    <div class="selects" style="margin-top: 25px; margin-left:100px;" col-md-4>
+        <label style="margin-left:30px;" for="state_input">State:</label>
+        <select id="state_input" name="state_input"></select>
+        <label for="district_input">District:</label>
+        <select name="district_input" id="district_input">
+                <option disabled selected> Select District</option>
+            </select>
+
+        <script language="javascript">
+            populateStates("state_input", "district_input");
+        </script>
+        <label for="year-input">Year:</label>
+        <select name="year" id="year-input" sytle="margin-left:0px;">
+                <option disabled selected> Select Year </option>
+            </select>
+        <script>
+            Addyears("year-input");
+        </script>
+    </div>
+    <form style="display: inline-block; margin-top:30px;">
+        <label for="theft-input">Theft:</label>
+        <input type="number" name="Theft" id="theft-input" value="Default value"></input>
+        <label for="Dacoity-input">Dacoity:</label>
+        <input type="number" name="Dacoity" id="Dacoity-input" value="Default value"></input>
+        <label for="murder-input">Murder:</label>
+        <input type="number" name="Murder" id="murder-input" value="Default value"></input>
+        <label for="crime-against-women-input">Crimes Against Women:</label>
+        <input type="number" name="Crimes Against Women" id="crime-against-women-input" value="Default value"></input>
+        <label for="crime-against-children-input">Crimes Against Children:</label>
+        <input type="number" name="Crimes Against Children" id="crime-against-children-input" value="Default value"></input>
+    </form>
+
+
+
+    <button class="button" style="margin-left:50%; margin-top: 2%;">Submit</button>
+    <br>
+    <div style="margin-left:40%; margin-top: 25px; margin-bottom: 60px; ">
+        <label for="prediction-input">Prediction:</label>
+        <input style="width: 120px;" type="number" name="prediction" id="prediction-output" value="Default value"></input>
+    </div>
+    </section>
+
+
+</body>
+
+</html>

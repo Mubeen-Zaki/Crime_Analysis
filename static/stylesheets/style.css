@@ -1,0 +1,119 @@
+.button {
+    margin-top: 0px;
+    background-color: none;
+    border-color: #333333;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: .5px solid #333333;
+    font-family: "mosterrat";
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 0%;
+    z-index: -1;
+    transition: 0.8s;
+    width: 100%;
+    bottom: 0;
+    background: #222222;
+    border-radius: 50% 50% 0 0;
+}
+
+button:hover {
+    color: #eeeeee;
+    background: #222222;
+}
+
+button:hover::before {
+    height: 180%;
+}
+
+h2 {
+    color: black;
+    font-family: monsterrat;
+    font-size: large;
+}
+
+nav {
+    background: #222222;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+}
+
+iframe {
+    margin-right: 20px;
+    width: 100%;
+}
+
+select {
+    margin-top: 4px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    background-color: none;
+    border-color: #333333;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: .5px solid #333333;
+    font-family: "mosterrat";
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px;
+}
+
+select:hover {
+    color: #eeeeee;
+    background: #222222;
+    border: #bbbbbb;
+}
+
+option:nth-child()child:hover {
+    color: #bbbb;
+    background: #eeeeee;
+}
+
+label.logo {
+    line-height: 80px;
+    color: #eeeeee;
+    font-size: 30px;
+    font-family: monsterrat;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: monsterrat;
+    nav-right: 0;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    color: #eeeeee;
+    text-decoration: none;
+    transition: 0s;
+}
+
+nav ul li a:hover {
+    color: #bbbb;
+    transition: 0.4s;
+}

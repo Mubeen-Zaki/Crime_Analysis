@@ -1,0 +1,248 @@
+[
+ {
+   "FIELD1": 0,
+   "Year": 1981,
+   "Total IPC": 1385757,
+   "Crime rate(IPC per 100k)": 200.8
+ },
+ {
+   "FIELD1": 1,
+   "Year": 1982,
+   "Total IPC": 1353904,
+   "Crime rate(IPC per 100k)": 192
+ },
+ {
+   "FIELD1": 2,
+   "Year": 1983,
+   "Total IPC": 1349866,
+   "Crime rate(IPC per 100k)": 187.4
+ },
+ {
+   "FIELD1": 3,
+   "Year": 1984,
+   "Total IPC": 1358660,
+   "Crime rate(IPC per 100k)": 184.7
+ },
+ {
+   "FIELD1": 4,
+   "Year": 1985,
+   "Total IPC": 1384731,
+   "Crime rate(IPC per 100k)": 184.4
+ },
+ {
+   "FIELD1": 5,
+   "Year": 1986,
+   "Total IPC": 1405835,
+   "Crime rate(IPC per 100k)": 183.5
+ },
+ {
+   "FIELD1": 6,
+   "Year": 1987,
+   "Total IPC": 1406992,
+   "Crime rate(IPC per 100k)": 180.1
+ },
+ {
+   "FIELD1": 7,
+   "Year": 1988,
+   "Total IPC": 1440356,
+   "Crime rate(IPC per 100k)": 180.8
+ },
+ {
+   "FIELD1": 8,
+   "Year": 1989,
+   "Total IPC": 1529844,
+   "Crime rate(IPC per 100k)": 188.5
+ },
+ {
+   "FIELD1": 9,
+   "Year": 1990,
+   "Total IPC": 1604449,
+   "Crime rate(IPC per 100k)": 194
+ },
+ {
+   "FIELD1": 10,
+   "Year": 1991,
+   "Total IPC": 1678375,
+   "Crime rate(IPC per 100k)": 197.5
+ },
+ {
+   "FIELD1": 11,
+   "Year": 1992,
+   "Total IPC": 1689341,
+   "Crime rate(IPC per 100k)": 194.7
+ },
+ {
+   "FIELD1": 12,
+   "Year": 1993,
+   "Total IPC": 1629936,
+   "Crime rate(IPC per 100k)": 184.4
+ },
+ {
+   "FIELD1": 13,
+   "Year": 1994,
+   "Total IPC": 1635251,
+   "Crime rate(IPC per 100k)": 181.7
+ },
+ {
+   "FIELD1": 14,
+   "Year": 1995,
+   "Total IPC": 1695696,
+   "Crime rate(IPC per 100k)": 185.1
+ },
+ {
+   "FIELD1": 15,
+   "Year": 1996,
+   "Total IPC": 1709576,
+   "Crime rate(IPC per 100k)": 183.4
+ },
+ {
+   "FIELD1": 16,
+   "Year": 1997,
+   "Total IPC": 1719820,
+   "Crime rate(IPC per 100k)": 180
+ },
+ {
+   "FIELD1": 17,
+   "Year": 1998,
+   "Total IPC": 1778815,
+   "Crime rate(IPC per 100k)": 183.2
+ },
+ {
+   "FIELD1": 18,
+   "Year": 1999,
+   "Total IPC": 1764629,
+   "Crime rate(IPC per 100k)": 178.9
+ },
+ {
+   "FIELD1": 19,
+   "Year": 2000,
+   "Total IPC": 1771084,
+   "Crime rate(IPC per 100k)": 176.7
+ },
+ {
+   "FIELD1": 20,
+   "Year": 2001,
+   "Total IPC": 1769308,
+   "Crime rate(IPC per 100k)": 172.3
+ },
+ {
+   "FIELD1": 21,
+   "Year": 2002,
+   "Total IPC": 1780330,
+   "Crime rate(IPC per 100k)": 169.5
+ },
+ {
+   "FIELD1": 22,
+   "Year": 2003,
+   "Total IPC": 1716120,
+   "Crime rate(IPC per 100k)": 160.7
+ },
+ {
+   "FIELD1": 23,
+   "Year": 2004,
+   "Total IPC": 1832015,
+   "Crime rate(IPC per 100k)": 168.8
+ },
+ {
+   "FIELD1": 24,
+   "Year": 2005,
+   "Total IPC": 1822602,
+   "Crime rate(IPC per 100k)": 165.3
+ },
+ {
+   "FIELD1": 25,
+   "Year": 2006,
+   "Total IPC": 1878293,
+   "Crime rate(IPC per 100k)": 167.7
+ },
+ {
+   "FIELD1": 26,
+   "Year": 2007,
+   "Total IPC": 1989673,
+   "Crime rate(IPC per 100k)": 175.1
+ },
+ {
+   "FIELD1": 27,
+   "Year": 2008,
+   "Total IPC": 2093379,
+   "Crime rate(IPC per 100k)": 181.5
+ },
+ {
+   "FIELD1": 28,
+   "Year": 2009,
+   "Total IPC": 2121345,
+   "Crime rate(IPC per 100k)": 181.4
+ },
+ {
+   "FIELD1": 29,
+   "Year": 2010,
+   "Total IPC": 2224831,
+   "Crime rate(IPC per 100k)": 187.6
+ },
+ {
+   "FIELD1": 30,
+   "Year": 2011,
+   "Total IPC": 2325575,
+   "Crime rate(IPC per 100k)": 192.2
+ },
+ {
+   "FIELD1": 31,
+   "Year": 2012,
+   "Total IPC": 2387188,
+   "Crime rate(IPC per 100k)": 196.7
+ },
+ {
+   "FIELD1": 32,
+   "Year": 2013,
+   "Total IPC": 2647722,
+   "Crime rate(IPC per 100k)": 215.5
+ },
+ {
+   "FIELD1": 33,
+   "Year": 2014,
+   "Total IPC": 2851563,
+   "Crime rate(IPC per 100k)": 229.2
+ },
+ {
+   "FIELD1": 34,
+   "Year": 2015,
+   "Total IPC": 2949400,
+   "Crime rate(IPC per 100k)": 234.2
+ },
+ {
+   "FIELD1": 35,
+   "Year": 2016,
+   "Total IPC": 2975711,
+   "Crime rate(IPC per 100k)": 233.6
+ },
+ {
+   "FIELD1": 36,
+   "Year": 2017,
+   "Total IPC": 3062579,
+   "Crime rate(IPC per 100k)": 237.7
+ },
+ {
+   "FIELD1": 37,
+   "Year": 2018,
+   "Total IPC": 3132955,
+   "Crime rate(IPC per 100k)": 236.7
+ },
+ {
+   "FIELD1": 38,
+   "Year": 2019,
+   "Total IPC": 3225597,
+   "Crime rate(IPC per 100k)": 241.2
+ },
+ {
+   "FIELD1": 39,
+   "Year": 2020,
+   "Total IPC": 4254356,
+   "Crime rate(IPC per 100k)": 314.3
+ },
+ {
+   "FIELD1": 40,
+   "Year": 2021,
+   "Total IPC": 3663360,
+   "Crime rate(IPC per 100k)": 268
+ }
+]
