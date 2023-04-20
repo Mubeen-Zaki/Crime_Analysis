@@ -4,77 +4,78 @@ var district_arr = new Array();
 
 district_arr[0] = "";
 
-district_arr[1] = "Anantapur|Chittoor|Cuddapah|East Godavari|Guntur|Krishna|Kurnool|Nellore|Prakasam|Srikakulam|Vishakapatnam|Vizianagaram|West Godavari";
+district_arr[1] = "ADILABAD|ANANTAPUR|CHITTOOR|CUDDAPAH|EAST GODAVARI|GUNTAKAL RLY.|GUNTUR|HYDERABAD CITY|KARIMNAGAR|KHAMMAM|KRISHNA|KURNOOL|MAHABOOBNAGAR|MEDAK|NALGONDA|NELLORE|NIZAMABAD|PRAKASHAM|RANGA REDDY|SECUNDERABAD RLY.|SRIKAKULAM|VIJAYAWADA|VIJAYAWADA RLY|VISAKHA RURAL|VISAKHAPATNAM|VIZIANAGARAM|WARANGAL|WEST GODAVARI";
 
-district_arr[2] = "Anjaw|Changlang|Dibang Valley|East Kameng|East Siang|Kra Daadi|Kurung Kumey|Lohit|Longding|Lower Dibang Valley|Lower Subansiri|Namsai|Papum Pare|Siang|Tawang|Tirap|Upper Siang|Upper Subansiri|West Kameng|West Siang";
+district_arr[2] = "CHANGLANG|DIBANG VALLEY|KAMENG EAST|KAMENG WEST|LOHIT|PAPUM PARE|SIANG EAST|SIANG UPPER|SIANG WEST|SUBANSIRI LOWER|SUBANSIRI UPPER|TAWANG|TIRAP";
 
-district_arr[3] = "Baksa|Barpeta|Bongaigaon|Cachar|Chirang|Darrang|Dhemaji|Dhubri|Dibrugarh|Dima Hasao|Goalpara|Golaghat|Hailakandi|Jorhat|Kamrup M|Kamrup R|Karbi Anglong|Karimganj|Kokrajhar|Lakhimpur|Marigaon|Nagaon|Nalbari|Sibsagar|Sonitpur|Tinsukia|Udalguri";
+district_arr[3] = "BARPETA|BONGAIGAON|C.I.D.|CACHAR|DARRANG|DHEMAJI|DHUBRI|DIBRUGARH|G.R.P.|GOALPARA|GOLAGHAT|GUWAHATI CITY|HAILAKANDI|JORHAT|KAMRUP|KARBI ANGLONG|KARIMGANJ|KOKRAJHAR|LAKHIMPUR|MORIGAON|N.C.HILLS|NAGAON|NALBARI|R.P.O.|SIBSAGAR|SONITPUR|TINSUKIA";
 
-district_arr[4] = "Araria|Arwal|Aurangabad|Banka|Begusarai|Bhagalpur|Bhojpur|Buxar|Darbhanga|East Champaran|Gaya|Gopalganj|Jamui|Jehanabad|Kaimur Bhabua|Katihar|Khagaria|Kishanganj|Lakhisarai|Madhepura|Madhubani|Munger|Muzaffarpur|Nalanda|Nawada|Patna|Purnia|Rohtas|Saharsa|Samastipur|Saran|Sheikhpura|Sheohar|Sitamarhi|Siwan|Supaul|Vaishali|West Champaran";
+district_arr[4] = "ARARIA|ARWAL|AURANGABAD|BAGAHA|BANKA|BEGUSARAI|BETTIAH|BHABHUA|BHAGALPUR|BHOJPUR|BUXAR|DARBHANGA|GAYA|GOPALGANJ|JAMALPUR RLY.|JAMUI|JEHANABAD|KATIHAR|KATIHAR RLY.|KHAGARIA|KISHANGANJ|LAKHISARAI|MADHEPURA|MADHUBANI|MOTIHARI|MUNGER|MUZAFFARPUR|MUZAFFARPUR RLY.|NALANDA|NAUGACHIA|NAWADAH|PATNA|PATNA RLY.|PURNEA|ROHTAS|SAHARSA|SAMASTIPUR|SARAN|SHEIKHPURA|SHEOHAR|SITAMARHI|SIWAN|SUPAUL|VAISHALI";
 
-district_arr[5] = "Balod|Baloda Bazar|Balrampur|Bastar|Bemetra|Bijapur|Bilaspur|Dantewada|Dhamtari|Durg|Gariyaband|Janjgir Champa|Jashpur|Kanker|Kawardha|Kondagaon|Korba|Koriya|Mahasamund|Mungeli|Narayanpur|Raigarh|Raipur|Rajnandgaon|Sukma|Surajpur|Surguja";
+district_arr[5] = "BALRAMPUR|BILASPUR|BIZAPUR|DANTEWARA|DHAMTARI|DURG|GRP RAIPUR|JAGDALPUR|JANJGIR|JASHPUR|KANKER|KAWARDHA|KORBA|KORIYA|MAHASAMUND|RAIGARH|RAIPUR|RAJNANDGAON|SARGUJA";
 
-district_arr[6] = "North Goa|South Goa";
+district_arr[6] = "NORTH GOA|SOUTH GOA";
 
-district_arr[7] = "Ahmedabad|Amreli|Anand|Aravalli|Banas Kantha|Bharuch|Bhavnagar|Botad|Chhotaudepur|Dahod|Devbhumi Dwarka|Gandhinagar|Gir Somnath|Jamnagar|Junagadh|Kachchh|Kheda|Mahesana|Mahisagar|Morbi|Narmada|Navsari|Panch Mahals|Patan|Porbandar|Rajkot|Sabar Kantha|Surat|Surendranagar|Tapi|The Dangs|Vadodara|Valsad";
+district_arr[7] = "AHMEDABAD COMMR.|AHMEDABAD RURAL|AHWA-DANG|AMRELI|ANAND|BHARUCH|BHAVNAGAR|DAHOD|GANDHINAGAR|HIMATNAGAR|JAMNAGAR|JUNAGADH|KHEDA NORTH|KUTCH|MEHSANA|NARMADA|NAVSARI|PALANPUR|PANCHMAHAL|PATAN|PORBANDAR|RAJKOT COMMR.|RAJKOT RURAL|SURAT COMMR.|SURAT RURAL|SURENDRANAGAR|VADODARA COMMR.|VADODARA RURAL|VALSAD|W.RLY";
 
-district_arr[8] = "Ambala|Bhiwani|Faridabad|Fatehabad|Gurgaon|Hisar|Jhajjar|Jind|Kaithal|Karnal|Kurukshetra|Mahendragarh|Mewat|Palwal|Panchkula|Panipat|Rewari|Rohtak|Sirsa|Sonipat|Yamunanagar";
+district_arr[8] = "AMBALA|BHIWANI|FARIDABAD|FATEHABAD|GRP|GURGAON|HISSAR|JHAJJAR|JIND|KAITHAL|KARNAL|KURUKSHETRA|MAHENDRAGARH|PANCHKULA|PANIPAT|REWARI|ROHTAK|SIRSA|SONIPAT|YAMUNANAGAR";
 
-district_arr[9] = "Bilaspur|Chamba|Hamirpur|Kangra|Kinnaur|Kullu|Lahul Spiti|Mandi|Shimla|Sirmaur|Solan|Una";
+district_arr[9] = "BILASPUR|CHAMBA|G.R.P.|HAMIRPUR|KANGRA|KINNAUR|KULLU|LAHAUL-SPITI|MANDI|SHIMLA|SIRMAUR|SOLAN|UNA";
 
-district_arr[10] = "Anantnag|Badgam|Bandipora|Baramula|Doda|Ganderbal|Jammu|Kargil|Kathua|Kishtwar|Kulgam|Kupwara|Leh Ladakh|Poonch|Pulwama|Rajouri|Ramban|Reasi|Samba|Shopian|Srinagar|Udhampur";
+district_arr[10] = "ANANTNAG|AWANTIPORA|BARAMULLA|BORDER|BUDGAM|CRIME JAMMU|CRIME SRINAGAR|DODA|GANDERBAL|JAMMU|KARGIL|KATHUA|KULGAM|KUPWARA|LEH|POONCH|PULWAMA|RAILWAYS|RAJOURI|RAMBAN|REASI|SRINAGAR|UDHAMPUR";
 
-district_arr[11] = "Bokaro|Chatra|Deoghar|Dhanbad|Dumka|Garhwa|Giridih|Godda|Gumla|Hazaribagh|Jamtara|Khunti|Kodarma|Latehar|Lohardaga|Pakaur|Palamu|Pashchimi Singhbhum|Purbi Singhbhum|Ramgarh|Ranchi|Sahibganj|Saraikela|Simdega";
+district_arr[11] = "BOKARO|CHAIBASA|CHATRA|DEOGHAR|DHANBAD|DHANBAD RLY.|DUMKA|GARHWA|GIRIDIH|GODDA|GUMLA|HAZARIBAGH|JAMSHEDPUR|JAMSHEDPUR RLY.|JAMTARA|KODERMA|LATEHAR|LOHARDAGGA|PAKUR|PALAMU|RANCHI|SAHEBGANJ|SARAIKELA|SIMDEGA";
 
-district_arr[12] = "Bagalkote|Bangalore Rural|Bangalore Urban|Belgaum|Bellary|Bidar|Bijapur|Chamrajnagar|Chikkaballapur|Chikmagalur|Chitradurga|Dakshina Kannada|Davanagere|Dharwad|Gadag|Gulbarga|Hassan|Haveri|Kodagu|Kolar|Koppal|Mandya|Mysore|Raichur|Ramanagar|Shimoga|Tumkur|Udupi|Uttara Kannada|Yadgir";
+district_arr[12] = "BAGALKOT|BANGALORE COMMR.|BANGALORE RURAL|BELGAUM|BELLARY|BIDAR|BIJAPUR|CHAMARAJNAGAR|CHICKMAGALUR|CHITRADURGA|DAKSHIN KANNADA|DAVANAGERE|DHARWAD COMMR.|DHARWAD RURAL|GADAG|GULBARGA|HASSAN|HAVERI|K.G.F.|KODAGU|KOLAR|KOPPAL|MANDYA|MYSORE COMMR.|MYSORE RURAL|RAICHUR|RAILWAYS|SHIMOGA|TUMKUR|UDUPI|UTTAR KANNADA";
 
-district_arr[13] = "Alappuzha|Ernakulam|Idukki|Kannur|Kasaragod|Kollam|Kottayam|KOZHIKKODE|Malappuram|Palakkad|Pathanamthitta|Thiruvananthapuram|Thrissur|Wayanad";
+district_arr[13] = "ALAPUZHA|CBCID|ERNAKULAM|IDUKKI|KANNUR|KASARGOD|KOLLAM|KOTTAYAM|KOZHIKODE|MALAPPURAM|PALAKKAD|PATHANAMTHITTA|RAILWAYS|THRISSUR|TRIVANDRUM|WAYANADU";
 
-district_arr[14] = "Agar Malwa|Alirajpur|Anuppur|Ashok Nagar|Balaghat|Barwani|Betul|Bhind|Bhopal|Burhanpur|Chhatarpur|Chhindwada|Damoh|Datia|Dewas|Dhar|Dindori|Guna|Gwalior|Harda|Hoshangabad|Indore|Jabalpur|Jhabua|Katni|Khandwa|Khargone|Mandla|Mandsaur|Morena|Narsinghpur|Neemuch|Panna|Raisen|Rajgarh|Ratlam|Rewa|Sagar|Satna|Sehore|Seoni|Shahdol|Shajapur|Sheopur|Shivpuri|Sidhi|Singroli|Tikamgarh|Ujjain|Umaria|Vidisha";
+district_arr[14] = "BALAGHAT|BARWANI|BETUL|BHIND|BHOPAL|BHOPAL RLY.|CHHATARPUR|CHHINDWARA|DAMOH|DATIYA|DEWAS|DHAR|DINDORI|GUNA|GWALIOR|HARDA|HOSHANGABAD|INDORE|INDORE RLY.|JABALPUR|JABALPUR RLY.|JHABUA|KATNI|KHANDWA|KHARGON|MANDLA|MANDSAUR|MORENA|NARSINGHPUR|NEEMUCH|PANNA|RAISEN|RAJGARH|RATLAM|REWA|SAGAR|SATNA|SEONI|SHAHDOL|SHAJAPUR|SHEOPUR|SHIVPURI|SIDHI|SIHORE|TIKAMGARH|UJJAIN|UMARIYA|VIDISHA";
 
-district_arr[15] = "Ahmednagar|Akola|Amravati|Aurangabad|Bhandara|Bid|Brihan Mumbai|Buldana|Chandrapur|Dhule|Gadchiroli|Gondiya|Hingoli|Jalgaon|Jalna|Kolhapur|Latur|Nagpur|Nanded|Nandurbar|Nashik|Osmanabad|Palghar|Parbhani|Pune|Raigarh|Ratnagiri|Sangli|Satara|Sindhudurg|Solapur|Thane|Wardha|Washim|Yavatmal";
+district_arr[15] = "AHMEDNAGAR|AKOLA|AMRAVATI COMMR.|AMRAVATI RURAL|AURANGABAD COMMR.|AURANGABAD RURAL|BEED|BHANDARA|BULDHANA|CHANDRAPUR|DHULE|GADCHIROLI|GONDIA|HINGOLI|JALGAON|JALNA|KOLHAPUR|LATUR|MUMBAI|MUMBAI RLY.|NAGPUR COMMR.|NAGPUR RLY.|NAGPUR RURAL|NANDED|NANDURBAR|NASIK COMMR.|NASIK RURAL|NAVI MUMBAI|OSMANABAD|PARBHANI|PUNE COMMR.|PUNE RLY.|PUNE RURAL|RAIGAD|RATNAGIRI|SANGLI|SATARA|SINDHUDURG|SOLAPUR COMMR.|SOLAPUR RURAL|THANE COMMR.|THANE RURAL|WARDHA|WASHIM|YAVATMAL";
 
-district_arr[16] = "Bishnupur|Chandel|Churachandpur|Imphal East|Imphal West|Senapati|Tamenglong|Thoubal|Ukhrul";
+district_arr[16] = "BISHNUPUR|CHANDEL|CHURACHANDPUR|IMPHAL(EAST)|IMPHAL(WEST)|SENAPATI|TAMENGLONG|THOUBAL|UKHRUL";
 
-district_arr[17] = "East Garo Hills|East Jaintia Hills|East Khasi Hills|North Garo Hills|Ri Bhoi|South Garo Hills|South West Garo Hills|South West Khasi Hills|West Garo Hills|West Jaintia Hills|West Khasi Hills";
+district_arr[17] = "GARO HILLS EAST|GARO HILLS SOUTH|GARO HILLS WEST|JAINTIA HILLS|KHASI HILLS EAST|KHASI HILLS WEST|RI-BHOI";
 
-district_arr[18] = "Aizawl East|Aizawl West|Champhai|Kolasib|Lawngtlai|Lunglei|Mamit|Saiha|Serchhip";
+district_arr[18] = "AIZAWL|CHAMPHAI|KOLASIB|LAWNGTLAI|LUNGLEI|MAMIT|SAIHA|SERCHHIP";
 
-district_arr[19] = "Dimapur|Kiphire|Kohima|Longleng|Mokokchung|Mon|Peren|Phek|Tuensang|Wokha|Zunheboto";
+district_arr[19] = "DIMAPUR|KIPHIRE|KOHIMA|MOKOKCHUNG|MON|PEREN|PHEK|TUENSANG|WOKHA|ZUNHEBOTO";
 
-district_arr[20] = "Anugul|Balangir|Baleshwar|Bargarh|Baudh|Bhadrak|Cuttack|Deogarh|Dhenkanal|Gajapati|Ganjam|Jagatsinghpur|Jajapur|Jharsuguda|Kalahandi|Kandhamal|Kendrapara|Keonjhar|Khordha|Koraput|Malkangiri|Mayurbhanj|Nabarangapur|Nayagarh|Nuapada|Puri|Rayagada|Sambalpur|Sonapur|Sundargarh";
+district_arr[20] = "ANGUL|BALASORE|BARAGARH|BERHAMPUR|BHADRAK|BOLANGIR|BOUDH|CUTTACK|DEOGARH|DHENKANAL|GAJAPATI|GANJAM|JAGATSINGHPUR|JAJPUR|JHARSUGUDA|KALAHANDI|KANDHAMAL|KENDRAPARA|KEONJHAR|KHURDA|KORAPUT|MALKANGIR|MAYURBHANJ|NAYAGARH|NOWRANGPUR|NUAPADA|PURI|RAYAGADA|ROURKELA|SAMBALPUR|SONEPUR|SRP(CUTTACK)|SRP(ROURKELA)|SUNDARGARH";
 
-district_arr[21] = "Amritsar|Barnala|Bathinda|Faridkot|Fatehgarh Sahib|Fazilka|Firozpur|Gurdaspur|Hoshiarpur|Jalandhar|Kapurthala|Ludhiana|Mansa|Moga|Mohali SAS Nagar|Muktsar|Nawanshahr|Pathankot|Patiala|Rupnagar|Sangrur|Tarn Taran";
 
-district_arr[22] = "Ajmer|Alwar|Banswara|Baran|Barmer|Bharatpur|Bhilwara|Bikaner|Bundi|Chittaurgarh|Churu|Dausa|Dhaulpur|Dungarpur|Ganganagar|Hanumangarh|Jaipur|Jaisalmer|Jalor|Jhalawar|Jhunjhunun|Jodhpur|Karauli|Kota|Nagaur|Pali|Pratapgarh|Rajsamand|Sawai Madhopur|Sikar|Sirohi|Tonk|Udaipur";
+district_arr[21] = "AMRITSAR|BARNALA|BATALA|BHATINDA|FARIDKOT|FATEHGARH SAHIB|FEROZEPUR|G.R.P|GURDASPUR|HOSHIARPUR|JAGRAON|JALANDHAR|KAPURTHALA|KHANNA|LUDHIANA|MAJITHA|MANSA|MOGA|MUKTSAR|NAWAN SHAHR|PATIALA|ROPAR|SANGRUR|TARN TARAN";
 
-district_arr[23] = "East|North|South|West";
+district_arr[22] = "AJMER|ALWAR|BANSWARA|BARAN|BARMER|BHARATPUR|BHILWARA|BIKANER|BUNDI|CHITTORGARH|CHURU|DAUSA|DHOLPUR|DUNGARPUR|G.R.P.|GANGANAGAR|HANUMANGARH|JAIPUR|JAISALMER|JALORE|JHALAWAR|JHUNJHUNU|JODHPUR|KARAULI|KOTA|NAGAUR|PALI|RAJSAMAND|SAWAI MADHOPUR|SIKAR|SIROHI|TONK|UDAIPUR";
 
-district_arr[24] = "Ariyalur|Chennai|Coimbatore|Cuddalore|Dharmapuri|Dindigul|Erode|Kancheepuram|Kanniyakumari|Karur|Krishnagiri|Madurai|Nagapattinam|Namakkal|Nilgiris|Perambalur|Pudukkottai|Ramanathapuram|Salem|Sivaganga|Thanjavur|Theni|Thiruvallur|Thiruvarur|Tiruchirappalli|Tirunelveli|Tirupur|Tiruvanamalai|Toothukudi|Vellore|Viluppuram|Virudhunagar";
+district_arr[23] = "EAST|NORTH|SOUTH|WEST";
+
+district_arr[24] = "ARIYALUR|CHENGAI|CHENNAI|CHENNAI RLY.|COIMBATORE RURAL|COIMBATORE URBAN|CUDDALORE|DHARMAPURI|DINDIGUL|ERODE|KANCHIPURAM|KANYAKUMARI|KARUR|MADURAI RURAL|MADURAI URBAN|NAGAPATTINAM|NAMAKKAL|NILGIRIS|PERAMBALUR|PUDUKOTTAI|RAMNATHAPURAM|SALEM RURAL|SALEM URBAN|SIVAGANGAI|THANJAVUR|THENI|THIRUNELVELI RURAL|THIRUNELVELI URBAN|THIRUVALLUR|THIRUVANNAMALAI|THIRUVARUR|THOOTHUGUDI|TRICHY RLY.|TRICHY RURAL|TRICHY URBAN|VELLORE|VILLUPURAM|VIRUDHUNAGAR";
 
 district_arr[25] = "Adilabad|Hyderabad|Karim Nagar|Khammam|Mahbubnagar|Medak|Nalgonda|Nizamabad|Ranga Reddy|Warangal Urban";
 
-district_arr[26] = "Dhalai|Gomati|Khowai|North Tripura|Sipahijala|South Tripura|Unakoti|West Tripura";
+district_arr[26] = "DHALAI|NORTH|SOUTH|WEST";
 
-district_arr[27] = "Agra|Aligarh|Allahabad|Ambedkar Nagar|Auraiya|Azamgarh|Bagpat|Bahraich|Ballia|Balrampur|Banda|Barabanki|Bareilly|Basti|Bijnor|Budaun|Bulandshahar|C S M Nagar|Chandauli|Chitrakoot|Deoria|Etah|Etawah|Faizabad|Farrukhabad|Fatehpur|Firozabad|Gautam Buddha Nagar|Ghaziabad|Ghazipur|Gonda|Gorakhpur|Hamirpur|Hapur|Hardoi|Hathras|Jalaun|Jaunpur|Jhansi|Jyotiba Phule Nagar|Kannauj|Kanpur Dehat|Kanpur Nagar|Kashi Ram Nagar|Kaushambi|Kushinagar|Lakhimpur Kheri|Lalitpur|Lucknow|Maharajganj|Mahoba|Mainpuri|Mathura|Maunathbhanjan|Meerut|Mirzapur|Moradabad|Muzaffarnagar|Pilibhit|Pratapgarh|Rae Bareli|Rampur|Saharanpur|Sambhal|Sant Kabir Nagar|Sant Ravidas Nagar|Shahjahanpur|Shamli|Shrawasti|Siddharth Nagar|Sitapur|Sonbhadra|Sultanpur|Unnav|Varanasi";
+district_arr[27] = "AGRA|ALIGARH|ALLAHABAD|AMBEDKAR NAGAR|AURAIYA|AZAMGARH|BADAUN|BAGHPAT|BAHRAICH|BALLIA|BALRAMPUR|BANDA|BARABANKI|BAREILLY|BASTI|BIJNOR|BULANDSHAHAR|CHANDOLI|CHITRAKOOT DHAM|DEORIA|ETAH|ETAWAH|FAIZABAD|FATEHGARH|FATEHPUR|FIROZABAD|G.R.P.|GAUTAMBUDH NAGAR|GHAZIABAD|GHAZIPUR|GONDA|GORAKHPUR|HAMIRPUR|HARDOI|HATHRAS|J.P.NAGAR|JALAUN|JAUNPUR|JHANSI|KANNAUJ|KANPUR DEHAT|KANPUR NAGAR|KAUSHAMBI|KHIRI|KUSHI NAGAR|LALITPUR|LUCKNOW|MAHARAJGANJ|MAHOBA|MAINPURI|MATHURA|MAU|MEERUT|MIRZAPUR|MORADABAD|MUZAFFARNAGAR|PILIBHIT|PRATAPGARH|RAIBAREILLY|RAMPUR|SAHARANPUR|SANT KABIRNAGAR|SHAHJAHANPUR|SHRAWASTI|SIDHARTHNAGAR|SITAPUR|SONBHADRA|ST.RAVIDASNAGAR|SULTANPUR|UNNAO|VARANASI|";
 
-district_arr[28] = "Almora|Bageshwar|Chamoli|Champawat|Dehradun|Garhwal|Hardwar|Nainital|Pithoragarh|Rudraprayag|Tehri Garhwal|Udham Singh Nagar|Uttarkashi";
+district_arr[28] = "ALMORA|BAGESHWAR|CHAMOLI|CHAMPAWAT|DEHRADUN|HARIDWAR|NAINITAL|PAURI GARHWAL|PITHORAGARH|RUDRA PRAYAG|TEHRI GARHWAL|UDHAMSINGH NAGAR|UTTARKASHI";
 
-district_arr[29] = "Alipurduar|Bankura|Barddhaman|Birbhum|Dakshin Dinajpur|Darjiling|Haora|Hugli|Jalpaiguri|Koch Bihar|Maldah|Murshidabad|Nadia|North Twenty Four Parganas|Paschim Medinipur|Purba Medinipur|Puruliya|South Twenty Four Parganas|Uttar Dinajpur";
+district_arr[29] = "24 PARGANAS NORTH|24 PARGANAS SOUTH|ASANSOL|BANKURA|BIRBHUM|BURDWAN|COOCHBEHAR|DAKSHIN DINAJPUR|DARJEELING|HOOGHLY|HOWRAH|HOWRAH CITY|HOWRAH G.R.P.|JALPAIGURI|KOLKATA|MALDA|MIDNAPUR|MURSHIDABAD|NADIA|PURULIA|SEALDAH G.R.P.|SILIGURI G.R.P.|UTTAR DINAJPUR";
 
-district_arr[30] = "Nicobar|North and Middle Andaman|South Andaman";
+district_arr[30] = "ANDAMAN|NICOBAR|";
 
-district_arr[31] = "Chandigarh";
+district_arr[31] = "CHANDIGARH";
 
-district_arr[32] = "Dadra and Nagar Haveli";
+district_arr[32] = "D and N HAVELI";
 
-district_arr[33] = "Daman|Diu";
+district_arr[33] = "DAMAN|DIU";
 
-district_arr[34] = "Central|East|New Delhi|North|North East|North West|Shahdara|South|South East|South West|West";
+district_arr[34] = "CENTRAL|DELHI UT TOTAL|EAST|G.R.P.(RLY)|I.G.I. AIRPORT|NEW DELHI|NORTH|NORTH EAST|NORTH WEST|S.T.F.|SOUTH|SOUTH WEST|WEST";
 
-district_arr[35] = "Lakshadweep";
+district_arr[35] = "LAKSHADWEEP";
 
-district_arr[36] = "Karaikal|Mahe|Pondicherry|Yanam";
+district_arr[36] = "PUDUCHERRY|KARAIKAL";
 
 
 function populateDistricts(stateElementId, districtElementId) {
