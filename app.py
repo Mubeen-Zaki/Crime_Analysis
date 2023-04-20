@@ -551,7 +551,7 @@ def g102():
 def g103():
     return render_template('plots/Grouped_Bar_Charts/D & N Haveli and Daman & Diu_grbar.html')
 
- @app.route('/plots/Grouped_Bar_Charts/Delhi_grbar.html')
+@app.route('/plots/Grouped_Bar_Charts/Delhi_grbar.html')
 def g104():
     return render_template('plots/Grouped_Bar_Charts/Delhi_grbar.html')
     
