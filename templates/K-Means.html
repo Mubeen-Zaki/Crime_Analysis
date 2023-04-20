@@ -45,6 +45,20 @@
         color: #ffffff;
     }
     
+    .pagename {
+        color: black;
+        font-family: monsterrat;
+        font-size: auto;
+        text-align: center;
+        justify-content: center;
+        font-size: 35px;
+    }
+    
+    .subnav {
+        background-color: #bbbbbb;
+        height: 40px;
+    }
+    
     th,
     td {
         border: #222222;
@@ -143,80 +157,41 @@
         box-shadow: 0 2px 5px;
         border-radius: 6px;
     }
+    
+    footer {
+        background-color: #222222;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 5;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center
+    }
+    
+    .form-input {
+        padding: 30px 0px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .for-select {
+        display: inline-block;
+    }
+    
+    .input-container select {
+        flex: 1 0 auto;
+        margin: 10px;
+    }
 </style>
 
-<script>
-    function tablefilling(n) {
-        var s = "k-means-clustering-data.json";
 
-
-        function readTextFile(file, callback) {
-            var rawFile = new XMLHttpRequest();
-            rawFile.overrideMimeType("application/json");
-            rawFile.open("GET", file, true);
-            rawFile.onreadystatechange = function() {
-                if (rawFile.readyState === 4 && rawFile.status == "200") {
-                    callback(rawFile.responseText);
-                }
-            }
-            rawFile.send(null);
-        }
-        readTextFile(s, function(text) {
-            var data = JSON.parse(text);
-            var tableBody = '<table class="table shadow-soft rounded">'
-            tableBody += '<tr>'
-            console.log(data);
-
-            tableBody += '<th>STATE</th>';
-            tableBody += '<th>DISTRICT</th>';
-            tableBody += '<th>YEAR</th>';
-            tableBody += '<th>MURDER</th>';
-            tableBody += '<th>ATTEMPT TO MURDER</th>';
-            tableBody += '<th>RAPE</th>';
-            tableBody += '<th>KIDNAPPING & ABDUCTION</th>';
-            tableBody += '<th>DACOITY</th>';
-            tableBody += '<th>ROBBERY</th>';
-            tableBody += '<th>THEFT</th>';
-            tableBody += '<th>GREVIOUS HURT</th>'
-
-            tableBody += '</tr>';
-
-            data.forEach(function(d) {
-
-
-                tableBody += '<tr><td class="border-0" scope="col">' + d.STATE.UT;
-
-                tableBody += '<td>' + d.DISTRICT;
-                tableBody += '<td>' + d.YEAR;
-                tableBody += '<td>' + d.MURDER;
-                tableBody += '<td>' + d["ATTEMPT TO MURDER"];;
-                tableBody += '<td>' + d.RAPE;
-                tableBody += '<td>' + d["KIDNAPPING & ABDUCTION"];
-                tableBody += '<td>' + d.DACOITY;
-                tableBody += '<td>' + d.ROBBERY;
-                tableBody += '<td>' + d.THEFT;
-                tableBody += '<td>' + d.HURT["GREVIOUS HURT"];
-
-
-
-                tableBody += '</td></tr>';
-
-
-
-            });
-
-
-            tableBody += '<table>';
-            // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-
-
-            //        console.log(s, "helloooooo")
-
-            var divContainer = document.getElementById("csv-data");
-            divContainer.innerHTML = tableBody;
-        });
-    }
-</script>
 
 <body onload="tablefilling(1);">
     <nav style="width: 100%;">
@@ -229,74 +204,111 @@
         </ul>
     </nav>
 
-    <div style="position:absolute; padding:2px; margin-top: 10px; margin-left:40%;"><a style="text-decoration: none; color:#222222;" href="#sectionId">Jump To Prediction</a></div>
-    <h1 style="margin-left:100px; margin-top: 100px; position: absolute;">FILLER AREA</h1>
-    <img src="static/images/kmeans_elb.png" style=" border-radius:10px; position: absolute; margin-top: 200px; margin-left: 200px;height: 300px; border: 1px solid black;">
-    <img src="static/images/kmeans_clusters.png" style=" border-radius:10px;  position: absolute; margin-top: 700px; margin-left: 200px;height: 300px; border: 1px solid black;">
-    <div style="margin-top:30px;">
-        <h2 style="margin-left:65%">Datasets Used:</h2>
-        <select style=" margin-top:10px; margin-left:72%;" id="dataset">
-    </div> 
-    
-    <option value="Crimes Against Children">Crimes Against Children</option>
-    <option value="Crimes Against Children">Crimes Against Women</option>
-    <option value="Crimes Against Children">Crimes Against Senior Citizens</option>
-    <option value="Crimes Against Children">Crimes Against Children</option>
-    <option value="Crimes Against Children">Crimes Against Children</option>
-    </select>
-        <div class="table-wrapper" style=" margin-top: 20px; margin-left: 68% ;margin-right: auto; margin-bottom: 50px;" id="csv-data"></div>
+    <nav style="text-align: center;" class="subnav">
+
+        <label class="pagename">K-MEANS CLUSTERING</label>
+
+    </nav>
 
 
-        <!---This is for prediction-->
-        <div class="predictions" style="position:absolute; margin-top:40px;">
-            <nav id="sectionId" class="prediction">
-                <label class="log" href="#"> PREDICTION:</label>
-            </nav>
+    <div style=" position:absolute; padding:2px; margin-top: 10px; margin-left:40%;">
+        <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
+    </div>
+
+    <div class="info-area" style="margin-top:30px;">
 
 
-            <div class="selects" style="margin-top: 25px; margin-left:100px;" col-md-4>
-                <label style="margin-left:30px;" for="state_input">State:</label>
-                <select id="state_input" name="state_input"></select>
-                <label for="district_input">District:</label>
-                <select name="district_input" id="district_input">
+
+        <img src="static/images/kmeans_elb.png" style=" border-radius:10px;border: 1px solid black; ">
+        <img src="static/images/kmeans_clusters.png" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+
+    </div>
+    <div style="clear:both;">
+    </div>
+    <!---This is for prediction-->
+    <div class="predictions">
+        <nav id="sectionId" class="prediction">
+            <label class="log" href="#"> PREDICTION:</label>
+        </nav>
+
+        <form action="{{url_for('/K-Means.html')}}" method="post">
+            <div class="selects" style="display:inline-block; margin-top: 25px; margin-left:100px; display:flex; justify-content: center; align-items: center;" col-md-4>
+                <div class="for-select" style="margin-left:30px;">
+                    <label for="state_input">State:</label>
+                    <select id="state_input" name="state_input"></select>
+                </div>
+                <div class="for-select">
+                    <label for="district_input">District:</label>
+                    <select name="district_input" id="district_input">
                 <option disabled selected> Select District</option>
             </select>
-
+                </div>
                 <script language="javascript">
                     populateStates("state_input", "district_input");
                 </script>
-                <label for="year-input">Year:</label>
-                <select name="year" id="year-input" sytle="margin-left:0px;">
+                <div class="for-select">
+                    <label for="year-input">Year:</label>
+                    <select name="year" id="year-input" style=" padding :10px 0px;">
                 <option disabled selected> Select Year </option>
             </select>
+                </div>
                 <script>
                     Addyears("year-input");
                 </script>
             </div>
-            <form style="display: inline-block; margin-top:30px;">
-                <label for="theft-input">Theft:</label>
-                <input type="number" name="Theft" id="theft-input" value="Default value"></input>
-                <label for="Dacoity-input">Dacoity:</label>
-                <input type="number" name="Dacoity" id="Dacoity-input" value="Default value"></input>
-                <label for="murder-input">Murder:</label>
-                <input type="number" name="Murder" id="murder-input" value="Default value"></input>
-                <label for="crime-against-women-input">Crimes Against Women:</label>
-                <input type="number" name="Crimes Against Women" id="crime-against-women-input" value="Default value"></input>
-                <label for="crime-against-children-input">Crimes Against Children:</label>
-                <input type="number" name="Crimes Against Children" id="crime-against-children-input" value="Default value"></input>
-            </form>
 
-
-
-            <button class="button" style="margin-left:50%; margin-top: 2%;">Submit</button>
-            <br>
-            <div style="margin-left:40%; margin-top: 25px; margin-bottom: 60px; ">
-                <label for="prediction-input">Prediction:</label>
-                <input style="width: 120px;" type="number" name="prediction" id="prediction-output" value="Default value"></input>
+            <div class="input-container;" style="align-items:center; display:flex; flex-wrap:wrap; justify-content: center; height:100%">
+                <div class="form-input">
+                    <label for="murder-input">MURDER:</label>
+                    <input type="number" name="Murder" id="murder-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="attemp-to-murder-input">ATTEMPT TO MURDER:</label>
+                    <input type="number" name="Attempt To Murder" id="attemp-to-murder-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="rape-input">RAPE:</label>
+                    <input type="number" name="Rape" id="rape-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="kidnapping-and-abduction">KIDNAPPING & ABDUCTION:</label>
+                    <input type="number" name="Kidnapping and abduction" id="kidnapping-and-abduction" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="dacoity-input">DACOITY:</label>
+                    <input type="number" name="dacoity" id="dacoity-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="robbery-input">ROBBERY:</label>
+                    <input type="number" name="Robbery" id="robbery-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="theft-input">THEFT:</label>
+                    <input type="number" name="theft-input" id="theft-input" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="hurt/grevious-hurt-input">HURT/GREVIOUS HURT:</label>
+                    <input type="number" name="Hurt/Grevious-Hurt" id="hurt/grevious-hurt-input" value="Default value"></input>
+                </div>
             </div>
-        </div>
-        </section>
+        </form>
 
+
+
+        <button class="button" style="margin-left:50%; margin-top: 2%;">Submit</button>
+        <br>
+        <div style="margin-left:40%; margin-top: 25px; margin-bottom: 60px; ">
+            <label for="prediction-input">Prediction:</label>
+            <p>{{ prediction_text }} </p>
+        </div>
+    </div>
+    </section>
+
+
+    <footer>
+        <p> Copyright &copy; 2023. All rights reserved.</p>
+
+    </footer>
 
 </body>
 
