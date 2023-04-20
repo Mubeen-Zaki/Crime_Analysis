@@ -217,10 +217,9 @@
 
     <div class="info-area" style="margin-top:30px;">
 
-
-
-        <img src="static/images/kmeans_elb.png" style=" border-radius:10px;border: 1px solid black; ">
-        <img src="static/images/kmeans_clusters.png" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+        
+        <img src="{{url_for('static',filename='images/kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
+        <img src="{{url_for('static',filename='images/kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
 
     </div>
     <div style="clear:both;">
@@ -231,7 +230,7 @@
             <label class="log" href="#"> PREDICTION:</label>
         </nav>
 
-        <form action="{{url_for('/K-Means.html')}}" method="post">
+        <form action="{{url_for('KMeansclu')}}" method="post">
             <div class="selects" style="display:inline-block; margin-top: 25px; margin-left:100px; display:flex; justify-content: center; align-items: center;" col-md-4>
                 <div class="for-select" style="margin-left:30px;">
                     <label for="state_input">State:</label>
@@ -291,11 +290,12 @@
                     <input type="number" name="Hurt/Grevious-Hurt" id="hurt/grevious-hurt-input" value="Default value"></input>
                 </div>
             </div>
+            <button class="button" style="margin-left:50%; margin-top: 2%;">Submit</button>
         </form>
 
 
 
-        <button class="button" style="margin-left:50%; margin-top: 2%;">Submit</button>
+        
         <br>
         <div style="margin-left:40%; margin-top: 25px; margin-bottom: 60px; ">
             <label for="prediction-input">Prediction:</label>
