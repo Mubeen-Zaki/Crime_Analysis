@@ -137,6 +137,7 @@ def analysis3():
 
 # heat maps / crime locator / nothing
 
+
 # defining paths to plotly graphs
 
 @app.route('/plots/Multi_linear/Andhra Pradesh_linear.html')
@@ -195,7 +196,7 @@ def g13():
 def g14():
     return render_template('plots/Multi_linear/Madhya Pradesh_linear.html')
     
-@app.route('/plots/Multi_linear/Maharastra_linear.html')
+@app.route('/plots/Multi_linear/Maharashtra_linear.html')
 def g15():
     return render_template('plots/Multi_linear/Maharashtra_linear.html')
     
@@ -339,7 +340,7 @@ def g49():
 def g50():
     return render_template('plots/Stacked_Bar_Charts/Madhya Pradesh_stbar.html')
     
-@app.route('/plots/Stacked_Bar_Charts/Maharastra_stbar.html')
+@app.route('/plots/Stacked_Bar_Charts/Maharashtra_stbar.html')
 def g51():
     return render_template('plots/Stacked_Bar_Charts/Maharashtra_stbar.html')
     
@@ -483,7 +484,7 @@ def g85():
 def g86():
     return render_template('plots/Grouped_Bar_Charts/Madhya Pradesh_grbar.html')
     
-@app.route('/plots/Grouped_Bar_Charts/Maharastra_grbar.html')
+@app.route('/plots/Grouped_Bar_Charts/Maharashtra_grbar.html')
 def g87():
     return render_template('plots/Grouped_Bar_Charts/Maharashtra_grbar.html')
     
@@ -573,26 +574,6 @@ def g108():
     
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   
 if __name__ == "__main__":
     app.run(debug=True)
