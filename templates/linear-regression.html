@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K-Means Clustering</title>
+    <title>LINEAR REGRESSION</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="graphanalysis.css">
     <link rel="stylesheet" href="K-means.css">
@@ -48,7 +48,7 @@
             <li><a href="feedback.html">Feedback</a></li>
         </ul>
         <nav class="secondnav">
-            <label class="log" href="#"> K-MEANS CLUSTERING</label>
+            <label class="log" href="#"> LINEAR REGRESSION</label>
         </nav>
 
     </nav>
@@ -73,63 +73,23 @@
         </nav>
 
         <form action="{{url_for('KMeansclu')}}" method="post">
-            <div class="selects" style="display:inline-block; margin-top: 25px; margin-left:100px; display:flex; justify-content: center; align-items: center;" col-md-4>
-                <div class="for-select" style="margin-left:30px;">
-                    <label for="state_input">State:</label>
-                    <select id="state_input" name="state_input"></select>
-                </div>
-                <div class="for-select">
-                    <label for="district_input">District:</label>
-                    <select name="district_input" id="district_input">
-                <option disabled selected> Select District</option>
-            </select>
-                </div>
-                <script language="javascript">
-                    populateStates("state_input", "district_input");
-                </script>
-                <div class="for-select">
-                    <label for="year-input">Year:</label>
-                    <select name="year" id="year-input" style=" padding :10px 0px;">
-                <option disabled selected> Select Year </option>
-            </select>
-                </div>
-                <script>
-                    Addyears("year-input");
-                </script>
-            </div>
-
+            <h2 style="margin:auto; width:20%; margin-top:20px; margin-bottom:20px;"> Enter the Following Details</h2>
             <div class="input-container;" style="align-items:center; display:flex; flex-wrap:wrap; justify-content: center; height:100%">
                 <div class="form-input">
-                    <label for="murder-input">MURDER:</label>
-                    <input type="number" name="Murder" id="murder-input" value="Default value"></input>
+                    <label for="murder-input">UMEMPLOYEMENT-RATE(%):</label>
+                    <input type="number" name="Murder" id="percentage-input" min="0" max="100" step="0.01" value="Default value"></input>
                 </div>
                 <div class="form-input">
-                    <label for="attemp-to-murder-input">ATTEMPT TO MURDER:</label>
-                    <input type="number" name="Attempt To Murder" id="attemp-to-murder-input" value="Default value"></input>
+                    <label for="attemp-to-murder-input">POPULATION(IN CR.):</label>
+                    <input type="number" name="Attempt To Murder" id="attemp-to-murder-input" min="0" value="Default value"></input>
                 </div>
                 <div class="form-input">
-                    <label for="rape-input">RAPE:</label>
-                    <input type="number" name="Rape" id="rape-input" value="Default value"></input>
+                    <label for="rape-input">LITERACY RATE:</label>
+                    <input type="number" name="Rape" id="rape-input" min="0" value="Default value"></input>
                 </div>
                 <div class="form-input">
-                    <label for="kidnapping-and-abduction">KIDNAPPING & ABDUCTION:</label>
-                    <input type="number" name="Kidnapping and abduction" id="kidnapping-and-abduction" value="Default value"></input>
-                </div>
-                <div class="form-input">
-                    <label for="dacoity-input">DACOITY:</label>
-                    <input type="number" name="dacoity" id="dacoity-input" value="Default value"></input>
-                </div>
-                <div class="form-input">
-                    <label for="robbery-input">ROBBERY:</label>
-                    <input type="number" name="Robbery" id="robbery-input" value="Default value"></input>
-                </div>
-                <div class="form-input">
-                    <label for="theft-input">THEFT:</label>
-                    <input type="number" name="theft-input" id="theft-input" value="Default value"></input>
-                </div>
-                <div class="form-input">
-                    <label for="hurt/grevious-hurt-input">HURT/GREVIOUS HURT:</label>
-                    <input type="number" name="Hurt/Grevious-Hurt" id="hurt/grevious-hurt-input" value="Default value"></input>
+                    <label for="kidnapping-and-abduction">GDP(PER CAPITA):</label>
+                    <input type="number" name="Kidnapping and abduction" min="0" id="kidnapping-and-abduction" value="Default value"></input>
                 </div>
             </div>
 
