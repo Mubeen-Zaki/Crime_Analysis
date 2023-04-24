@@ -109,6 +109,12 @@ def timeseriescr():
 def analysis():
     return render_template('Analysis.html') #google charts
 
+#crimefeed:
+@app.route('/crimefeed')
+def crimefeed():
+ 	return render_template('crimefeed.html')
+
+
 #Plotly charts:
 @app.route('/analysis2')
 def analysis2():
@@ -123,6 +129,10 @@ def analysis3():
 @app.route('/datadisp')
 def datadisp():
     return render_template('datadisplay.html')
+#Heat Map:
+@app.route('/heatmap1')
+def heatmap1():
+ 	return render_template("heatmap_final1.html")
 
 
 # defining paths to plotly graphs

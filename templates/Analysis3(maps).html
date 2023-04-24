@@ -209,13 +209,14 @@
             <li><a href="#">Contact</a></li>
             <li><a href="#">Feedback</a></li>
         </ul>
-    </nav>
-    <nav class="secondnav">
-        <label class="log"> ANALYSIS 2</label>
+
+        <nav class="secondnav">
+            <label class="log"> CHOROPLETH</label>
+        </nav>
     </nav>
 
-    <div style="margin-left:40px; margin-top:150px;" for="state_input">
-        <div style="margin-left:250px">
+    <div style="margin-left:40px; margin-top:130px;" for="state_input">
+        <div style="margin-left:180px">
             <label style="margin-left:0px">Year:</label>
             <select id="year_input" name="state_input">
         <option value="disabled selected">Select Year</option>
@@ -245,15 +246,10 @@
     
 
     </select>
-        </div>
-        <div style="margin-top:50px; position: absolute;">
-            <div style=" margin-top: 50px;"><button class="button" onclick="changeChoropleth('year_input','crime_input')">Cloropleth</button></div>
-            <div style=" margin-top: 40px;"><button class="button" onclick="changeGeopandas('year_input','crime_input')">Geopandas</button></div>
+            <button class="button" style="margin-left:30px;" onclick="changeChoropleth('year_input','crime_input')">Submit</button></div>
 
 
-        </div>
-        <p style="margin-top:50px; position:absolute; margin-left:1200px;"> And a datset here</p>
-        <div class="box" style="margin-left:180px;">
+        <div class="box" style="margin-left:120px;">
             <div class="tab-pane fade show active" id="v-pills-area-chart" role="tabpanel" aria-labelledby="v-pills-area-chart-tab">
 
                 <iframe style="margin-top: 2px; align-self: center; margin-bottom: 5px; border-radius: 25px;" src="plots/Choropleth/2021/2021_Murders.html" frameborder="0" width="1200" height="600" id="iframeID3"></iframe>

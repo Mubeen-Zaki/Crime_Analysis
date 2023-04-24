@@ -1,26 +1,26 @@
 function kmeans() {
-    var s = "{{url_for('static',filename='javascript/k-means-clustering-data.json')}}";
+    var s = "static/javascript/k-means-clustering-data.json";
 
     tablefilling(1, s);
 }
 
 function linearr() {
-    var s = "{{url_for('static',filename='javascript/linear_regression.json')}}";
+    var s = "static/javascript/economic.json";
     tablefilling(1, s);
 }
 
 function classification() {
-    var s = "{{url_for('static',filename='javascript/classfication_data_with_cluster_labels.json')}}";
+    var s = "static/javascript/classfication_data_with_cluster_labels.json";
     tablefilling(1, s);
 }
 
 function analysis() {
-    var s = "{{url_for('static',filename='javascript/visualization(2014-21).json')}}";
+    var s = "static/javascript/visualization(2014-21).json";
     tablefilling(1, s);
 }
 
 function timeseries1() {
-    s = "{{url_for('static',filename='javascript/timeseries1.json')}}";
+    s = "static/javascript/timeseries1.json";
     tablefilling(1, s);
 }
 
@@ -43,7 +43,7 @@ function tablefilling(n, s) {
         var tableBody = '<table class="table shadow-soft rounded">'
         tableBody += '<tr>'
         console.log(data);
-        if (s == "k-means-clustering-data.json") {
+        if (s == "static/javascript/k-means-clustering-data.json") {
             tableBody += '<th>STATE</th>';
             tableBody += '<th>DISTRICT</th>';
             tableBody += '<th>YEAR</th>';
@@ -81,22 +81,27 @@ function tablefilling(n, s) {
 
 
             });
-        } else if (s == "linear_regression.json") {
-            tableBody += '<th>YEAR</th>';
-            tableBody += '<th>TOTAL IPC</th>';
-            tableBody += '<th>Crime rate(IPC per 100k)</th>';
+        } else if (s == "static/javascript/economic.json") {
+            tableBody += '<th>DATE</th>';
+            tableBody += '<th>Unemployment Rate (%)</th>';
+            tableBody += '<th>LITERACY RATE</th>';
+            tableBody += '<th>GDP PER CAPITA</th>';
+            tableBody += '<th>Crime rate(total ipc per 100k)</th>';
+
 
             tableBody += '</tr>';
 
             data.forEach(function(d) {
 
 
-                tableBody += '<tr><td class="border-0" scope="col">' + d.Year;
-                tableBody += '<td>' + d["Total IPC"];
-                tableBody += '<td>' + d["Crime rate(IPC per 100k)"];;
+                tableBody += '<tr><td class="border-0" scope="col">' + d.date;
+                tableBody += '<td>' + d["Unemployment Rate (%)"];
+                tableBody += '<td>' + d["Population(in cr)"];
+                tableBody += '<td>' + d["Literacy rate"];
+                tableBody += '<td>' + d["Crime rate(total ipc per 100k)"];
                 tableBody += '</td></tr>';
             });
-        } else if (s == "classfication_data_with_cluster_labels.json") {
+        } else if (s == "static/javascript/classfication_data_with_cluster_labels.json") {
             tableBody += '<th>CLUSTER</th>';
             tableBody += '<th>STATE</th>';
             tableBody += '<th>DISTRICT</th>';
@@ -131,7 +136,7 @@ function tablefilling(n, s) {
 
 
             });
-        } else if (s == "visualization(2014-21).json") {
+        } else if (s == "static/javascript/visualization(2014-21).json") {
             tableBody += '<th>STATE/UT</th>';
             tableBody += '<th>YEAR</th>';
             tableBody += '<th>MURDERS</th>';
@@ -162,7 +167,7 @@ function tablefilling(n, s) {
 
 
             });
-        } else if (s == "timeseries1.json") {
+        } else if (s == "static/javascript/timeseries1.json") {
             tableBody += '<th>S. NO.</th>';
             tableBody += '<th>DS</th>';
             tableBody += '<th>Y</th>';
