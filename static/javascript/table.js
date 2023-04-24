@@ -1,26 +1,26 @@
 function kmeans() {
-    var s = "{{url_for('static/javascript',filename='k-means-clustering-data.json')}}";
+    var s = "{{url_for('static',filename='javascript/k-means-clustering-data.json')}}";
 
     tablefilling(1, s);
 }
 
 function linearr() {
-    var s = "{{url_for('static/javascript',filename='linear_regression.json')}}";
+    var s = "{{url_for('static',filename='javascript/linear_regression.json')}}";
     tablefilling(1, s);
 }
 
 function classification() {
-    var s = "{{url_for('static/javascript',filename='classfication_data_with_cluster_labels.json')}}";
+    var s = "{{url_for('static',filename='javascript/classfication_data_with_cluster_labels.json')}}";
     tablefilling(1, s);
 }
 
 function analysis() {
-    var s = "{{url_for('static/javascript',filename='visualization(2014-21).json')}}";
+    var s = "{{url_for('static',filename='javascript/visualization(2014-21).json')}}";
     tablefilling(1, s);
 }
 
 function timeseries1() {
-    s = "{{url_for('static/javascript',filename='timeseries1.json')}}";
+    s = "{{url_for('static',filename='javascript/timeseries1.json')}}";
     tablefilling(1, s);
 }
 
