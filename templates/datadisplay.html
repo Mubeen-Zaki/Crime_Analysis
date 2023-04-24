@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data display</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/table.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/K-means.css')}}">
+
+
+    <script src="{{url_for('static',filename='javascript/linearregression.js')}}"></script>
+    <script src="{{url_for('static',filename='javascript/table.js')}}"></script>
+
+
+</head>
+
+<body>
+    <nav class="main">
+        <label style="margin-left:0px;" class="logo" href="{{url_for('templates',filename='index.html')}}">Crime Hotspots Prediction & Analysis</label>
+        <ul>
+            <li>
+                <a href="{{url_for('templates',filename='index.html')}}"></a>Home</a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-button" style="margin-top:100px; display: inline-block;">
+        <button class="button" onclick="kmeans()">K-Means</button>
+        <button class="button" onclick="linearr()">Linear Regression</button>
+        <button class="button" onclick="classification()">Classification</button>
+        <button class="button" onclick="timeseries1()">Time-Series</button>
+        <button class="button" onclick="analysis()">Analysis</button>
+
+
+
+    </div>
+
+
+    <div class="info-area" style="margin-top:30px;">
+        <div class="right" style="margin-top: 40px; margin:0px 30px;">
+            <h2 style="margin-bottom:20px;">Datasets Used:</h2>
+            <div class="table-wrapper" id="csv-data"></div>
+        </div>
+    </div>
+
+
+
+
+
+</html>

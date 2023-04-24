@@ -9,6 +9,7 @@
     <title>Crime Data Visualization</title>
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/K-means.css')}}">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript">
@@ -97,16 +98,19 @@
 </head>
 
 <body>
-    <nav>
-        <label class="logo" href="#">Crime Hotspots Prediction & Analysis</label>
+    <nav class="main">
+        <label class="logo" href="{{url_for('templates',filename='index.html')}}">Crime Hotspots Prediction & Analysis</label>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li><a href="{{url_for('templates',filename='index.html')}}">Home</a></li>
+            <li><a href="{{url_for('templates',filename='about.html')}}">About</a></li>
+            <li><a href="{{url_for('templates',filename='contact.html')}}">Contact</a></li>
+            <li><a href="{{url_for('templates',filename='feedback.html')}}">Feedback</a></li>
         </ul>
     </nav>
-    <form style="margin-left:190px">
+    <nav class="secondnav">
+        <label class="log" href="#"> ANALYSIS</label>
+    </nav>
+    <form style="margin-left:190px; margin-top:120px;">
         <label for="state">State:</label>
         <select id="state" name="state">
         <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
@@ -166,6 +170,11 @@
         <div id="chart_div" style="width: 900px; margin-top: 40px; margin-left: 30px; height: 550px;"></div>
     </div>
 
+    <footer>
+        <p> Copyright &copy; 2023. All rights reserved.</p>
+
+    </footer>
 </body>
+
 
 </html>

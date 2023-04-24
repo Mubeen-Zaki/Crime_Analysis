@@ -1,0 +1,96 @@
+label.pagename {
+    color: #222222;
+    font-size: 35px;
+    font-family: monsterrat;
+    padding: 0;
+}
+
+.subnav {
+    background-color: #bbbbbb;
+    height: 40px;
+}
+
+.border {
+    overflow: auto;
+}
+
+label {
+    margin-left: 40px;
+}
+
+select {
+    margin-left: 10px;
+}
+
+nav.prediction {
+    background-color: #bbbbbb;
+    height: 40px;
+}
+
+nav.secondnav {
+    background-color: #bbbbbb;
+    height: 40px;
+    text-align: center;
+}
+
+option.sel {
+    color: #222222;
+    background: #bbbb;
+}
+
+label.log {
+    color: #222222;
+    font-size: 35px;
+    font-family: monsterrat;
+    padding: 0;
+}
+
+.box {
+    border-color: none;
+}
+
+input {
+    padding: 2px;
+    border: 1px solid #222222;
+    height: 30px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #222222;
+    font-family: "mosterrat";
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 5px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 5;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
+
+.form-input {
+    padding: 30px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.for-select {
+    display: inline-block;
+}
+
+.input-container select {
+    flex: 1 0 auto;
+    margin: 10px;
+}

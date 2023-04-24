@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINEAR REGRESSION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="graphanalysis.css">
+    <link rel="stylesheet" href="K-means.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="linearregression.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script src="http://www.skulpt.org/js/skulpt.min.js" type="text/javascript"></script>
+    <script src="http://www.skulpt.org/js/skulpt-stdlib.js" type="text/javascript"></script>
+
+
+
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <script src="https://kit.fontawesome.com/7bdcd846e8.js" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+
+</head>
+
+
+
+
+
+<body onload="tablefilling(1);">
+    <nav class="main" style="width: 100%;">
+        <label style="margin-left:0px;" class="logo" href="#sectionId">Crime Hotspots Prediction & Analysis</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+        <nav class="secondnav">
+            <label class="log" href="#"> LINEAR REGRESSION</label>
+        </nav>
+
+    </nav>
+    <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
+        <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
+    </div>
+
+    <div class="info-area" style="margin-top:30px;">
+
+
+
+        <img src="static/images/kmeans_elb.png" style=" border-radius:10px;border: 1px solid black; ">
+        <img src="static/images/kmeans_clusters.png" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+
+    </div>
+    <div style="clear:both;">
+    </div>
+    <!---This is for prediction-->
+    <div class="predictions">
+        <nav id="sectionId" class="prediction">
+            <label class="log" href="#"> PREDICTION:</label>
+        </nav>
+
+        <form action="{{url_for('KMeansclu')}}" method="post">
+            <h2 style="margin:auto; width:20%; margin-top:20px; margin-bottom:20px;"> Enter the Following Details</h2>
+            <div class="input-container;" style="align-items:center; display:flex; flex-wrap:wrap; justify-content: center; height:100%">
+                <div class="form-input">
+                    <label for="murder-input">UMEMPLOYEMENT-RATE(%):</label>
+                    <input type="number" name="Murder" id="percentage-input" min="0" max="100" step="0.01" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="attemp-to-murder-input">POPULATION(IN CR.):</label>
+                    <input type="number" name="Attempt To Murder" id="attemp-to-murder-input" min="0" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="rape-input">LITERACY RATE:</label>
+                    <input type="number" name="Rape" id="rape-input" min="0" value="Default value"></input>
+                </div>
+                <div class="form-input">
+                    <label for="kidnapping-and-abduction">GDP(PER CAPITA):</label>
+                    <input type="number" name="Kidnapping and abduction" min="0" id="kidnapping-and-abduction" value="Default value"></input>
+                </div>
+            </div>
+
+
+            <button class="button" style="margin-left:50%; margin-top: 2%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
+
+
+        </form>
+        <br>
+
+        <div id="prediction-input" style="margin-left:43%; margin-top: 25px; margin-bottom: 60px; display:none;">
+            <label>Prediction:</label>{{ prediction_text }}
+        </div>
+    </div>
+    </section>
+
+    </div>
+    <footer>
+        <p> Copyright &copy; 2023. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
