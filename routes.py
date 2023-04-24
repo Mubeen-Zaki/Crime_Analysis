@@ -15,9 +15,9 @@ mlr = joblib.load('./Prediction/crime_factors.pkl')
 @app.route('/')
 
 #home:
-@app.route('/index.html')
+@app.route('/index')
 def index():
-   return render_template('index.html')
+    return render_template('index.html')
 
 #kmeans:
 @app.route('/Kmeans')
@@ -45,14 +45,12 @@ def KMeansclu():
 #K-Prototypes:
 @app.route('/Kproto')
 def Kproto():
- 	return render_template("K-Proto.html")
+ 	return render_template("K-PrototypeClustering.html")
 
 @app.route('/KProtoclu',methods=['POST'])
 def KProtoclu():
     features = [[x for x in request.form.values()]]
     features[0][0] = features[0][0].upper()
-    for i in range(2,12):
-        features[0][i] = float(features[0][i])
     features = pd.DataFrame(features)
     features = features.values
     y_pred = kprotoclus.predict(features, categorical=[0,1,2])
@@ -62,19 +60,20 @@ def KProtoclu():
         label="Low Crime Rate Area"
     elif y_pred[0] == 2:
         label = "High Crime Rate Area"
-    return render_template('K-Proto.html',prediction_text = label)
+    return render_template("K-PrototypeClustering.html",prediction_text = label)
 
 #RandomForest:
 @app.route('/Randomfrstcls')
 def Randomfrstcls():
- 	return render_template("Randomforestclassifier.html")
+ 	return render_template("RandomForestClassifer.html")
 
 @app.route('/randomfrstcls',methods=['POST'])
 def randomfrstcls():
     features = [[x for x in request.form.values()]]
-    features[0][0] = features[0][0].upper()
-    for i in range(2,12):
-        features[0][i] = float(features[0][i])
+    df = pd.read_csv("Datasets/encoded.csv")
+    arr = df.loc[df["STATE/UT"] == features[0][0].upper()].loc[df["DISTRICT"] == features[0][1]].values
+    features[0][0] = arr[0][2]
+    features[0][1] = arr[0][3]
     features = pd.DataFrame(features)
     y_pred = rdcls.predict(features)
     if y_pred[0] == 0:         
@@ -83,18 +82,18 @@ def randomfrstcls():
         label="Low Crime Rate Area"
     elif y_pred[0] == 2:
         label = "High Crime Rate Area"
-    return render_template('Randomforestclassifier.html',prediction_text = label)
+    return render_template("RandomForestClassifer.html",prediction_text = label)
 
 #LinearRegression:
 @app.route('/LinearReg')
 def LinearReg():
- 	return render_template("linearregression.html")
+ 	return render_template("linear-regression.html")
 
 @app.route('/linearreg',methods=["POST"])
 def linearreg():
     test = pd.DataFrame([[float(x) for x in request.form.values()]])
     y_pred = mlr.predict(test)
-    return render_template('linearregression.html',y_pred)
+    return render_template("linear-regression.html",prediction_text = y_pred[0][0])
 
 # time series forecasting pages missing for crime rate, ipc
 @app.route('/timeseriesipc')
@@ -120,7 +119,10 @@ def analysis2():
 def analysis3():
     return render_template('Analysis3(maps).html') #geospatial analysis
 
-
+#Data display:
+@app.route('/datadisp')
+def datadisp():
+    return render_template('datadisplay.html')
 
 
 # defining paths to plotly graphs
@@ -507,7 +509,7 @@ def g95():
     
 @app.route('/plots/Grouped_Bar_Charts/Telangana_grbar.html')
 def g96():
-    return render_template('plots//Telangana_grbar.html')
+    return render_template('plots/Grouped_Bar_Charts/Telangana_grbar.html')
     
 @app.route('/plots/Grouped_Bar_Charts/Tripura_grbar.html')
 def g97():

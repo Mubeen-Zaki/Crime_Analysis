@@ -43,12 +43,12 @@
 
 <body onload="tablefilling(1);">
     <nav class="main" style="width: 100%;">
-        <label style="margin-left:0px;" class="logo" href="{{url_for('templates',filename='index.html')}}">Crime Hotspots Prediction & Analysis</label>
+        <label style="margin-left:0px;" class="logo" href="{{url_for('index')}}">Crime Hotspots Prediction & Analysis</label>
         <ul>
-            <li><a href="{{url_for('templates',filename='index.html')}}">Home</a></li>
-            <li><a href="{{url_for('templates',filename='about.html')}}">About</a></li>
-            <li><a href="{{url_for('templates',filename='contact.html')}}">Contact</a></li>
-            <li><a href="{{url_for('templates',filename='feedback.html')}}">Feedback</a></li>
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
         </ul>
         <nav class="secondnav">
             <label class="log" href="#"> K-MEANS CLUSTERING</label>
@@ -63,8 +63,8 @@
 
 
 
-        <img src="{{url_for('static/images',filename='kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
-        <img src="{{url_for('static/images',filename='kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+        <img src="{{url_for('static',filename='images/kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
+        <img src="{{url_for('static',filename='images/kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
     </div>
     <div style="clear:both;">
     </div>
@@ -142,8 +142,9 @@
         </form>
         <br>
 
-        <div id="prediction-input" style="margin-left:43%; margin-top: 25px; margin-bottom: 60px; display:none;">
-            <label>Prediction:</label>{{ prediction_text }}
+        <div style="margin-left:40%; margin-top: 25px; margin-bottom: 60px; ">
+            <label for="prediction-input">Prediction:</label>
+            <p>{{ prediction_text }} </p>
         </div>
     </div>
     </section>
