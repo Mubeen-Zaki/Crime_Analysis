@@ -98,11 +98,11 @@ def linearreg():
 # time series forecasting pages missing for crime rate, ipc
 @app.route('/timeseriesipc')
 def timeseriesipc():
-    return render_template('timeseries.html')
+    return render_template('total-ipc-forecasting.html')
 
 @app.route('/timeseriescr')
 def timeseriescr():
-    return render_template('timeseries1.html')
+    return render_template('time-series-forcasting.html')
 
 #Google charts:
 @app.route('/analysis')
@@ -753,3 +753,16 @@ def m63():
 def m64():
     return render_template('plots/Choropleth/2021/2021_Total_Crimes.html')
 
+# time series forecasting:
+@app.route('/prediction/forecast.html')
+def t1():
+    return render_template('prediction/forecast.html')
+@app.route('/prediction/forecast_cmp.html')
+def t2():
+    return render_template('prediction/forecast_cmp.html')
+@app.route('/prediction/forecast(total_ipc).html')
+def t3():
+    return render_template('prediction/forecast(total_ipc).html')
+@app.route('/prediction/forecast_cmp_total_ipc.html')
+def t4():
+    return render_template('prediction/forecast_cmp_total_ipc.html')
