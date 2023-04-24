@@ -57,12 +57,38 @@
         <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
     </div>
 
-    <div class="info-area" style="margin-top:30px;">
+    <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique.It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the
+            performance of the model.</p>
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.</p>
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Here we have used cluster labels from K-prototype clustering as pseudo labels for the unlabelled dataset for classification.</p>
+        </div>
 
 
+        <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
+            <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
+        </div>
 
-        <img src="{{url_for('static',filename='images/kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
-        <img src="{{url_for('static',filename='images/kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; align-items: center; display: flex; justify-content: center;  flex-direction: column;">
+            <p> <b> Test Size = 0.2</b></p>
+            <p> <b> Accuracy = 99.3604651163%</b></p>
+
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            <p> <b> Classification Report:</b></p>
+        </div>
+
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;
+"> <img src="{{url_for('static',filename='images/classification_report.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 200px; width:500px;border: 1px solid black;"></div>
+
+
 
     </div>
     <div style="clear:both;">

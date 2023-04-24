@@ -1,0 +1,250 @@
+[
+  {
+    "date": "31-12-1991",
+    "Unemployment Rate (%)": 5.599,
+    "Population(in cr)": 88.89,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 303.850438,
+    "Crime rate(total ipc per 100k)": 197.5
+  },
+  {
+    "date": "31-12-1992",
+    "Unemployment Rate (%)": 5.727,
+    "Population(in cr)": 90.76,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 317.5591355,
+    "Crime rate(total ipc per 100k)": 194.7
+  },
+  {
+    "date": "31-12-1993",
+    "Unemployment Rate (%)": 5.691,
+    "Population(in cr)": 92.64,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 301.5011949,
+    "Crime rate(total ipc per 100k)": 184.4
+  },
+  {
+    "date": "31-12-1994",
+    "Unemployment Rate (%)": 5.739,
+    "Population(in cr)": 94.53,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 346.2273931,
+    "Crime rate(total ipc per 100k)": 181.7
+  },
+  {
+    "date": "31-12-1995",
+    "Unemployment Rate (%)": 5.755,
+    "Population(in cr)": 96.43,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 373.6282803,
+    "Crime rate(total ipc per 100k)": 185.1
+  },
+  {
+    "date": "31-12-1996",
+    "Unemployment Rate (%)": 5.74,
+    "Population(in cr)": 98.33,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 399.5775035,
+    "Crime rate(total ipc per 100k)": 183.4
+  },
+  {
+    "date": "31-12-1997",
+    "Unemployment Rate (%)": 5.613,
+    "Population(in cr)": 100.23,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 414.8988696,
+    "Crime rate(total ipc per 100k)": 180
+  },
+  {
+    "date": "31-12-1998",
+    "Unemployment Rate (%)": 5.666,
+    "Population(in cr)": 102.14,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 412.509511,
+    "Crime rate(total ipc per 100k)": 183.2
+  },
+  {
+    "date": "31-12-1999",
+    "Unemployment Rate (%)": 5.736,
+    "Population(in cr)": 104.05,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 440.9614546,
+    "Crime rate(total ipc per 100k)": 178.9
+  },
+  {
+    "date": "31-12-2000",
+    "Unemployment Rate (%)": 5.561,
+    "Population(in cr)": 105.96,
+    "Literacy rate": 48.22,
+    "GDP(per capita)": 442.0347789,
+    "Crime rate(total ipc per 100k)": 176.7
+  },
+  {
+    "date": "31-12-2001",
+    "Unemployment Rate (%)": 5.576,
+    "Population(in cr)": 107.9,
+    "Literacy rate": 61.01,
+    "GDP(per capita)": 449.9111249,
+    "Crime rate(total ipc per 100k)": 172.3
+  },
+  {
+    "date": "31-12-2002",
+    "Unemployment Rate (%)": 5.53,
+    "Population(in cr)": 109.83,
+    "Literacy rate": 61.01,
+    "GDP(per capita)": 468.8444283,
+    "Crime rate(total ipc per 100k)": 169.5
+  },
+  {
+    "date": "31-12-2003",
+    "Unemployment Rate (%)": 5.643,
+    "Population(in cr)": 111.74,
+    "Literacy rate": 61.01,
+    "GDP(per capita)": 543.8437989,
+    "Crime rate(total ipc per 100k)": 160.7
+  },
+  {
+    "date": "31-12-2004",
+    "Unemployment Rate (%)": 5.629,
+    "Population(in cr)": 113.63,
+    "Literacy rate": 61.01,
+    "GDP(per capita)": 624.1050944,
+    "Crime rate(total ipc per 100k)": 168.8
+  },
+  {
+    "date": "31-12-2005",
+    "Unemployment Rate (%)": 5.613,
+    "Population(in cr)": 115.46,
+    "Literacy rate": 61.01,
+    "GDP(per capita)": 710.5093449,
+    "Crime rate(total ipc per 100k)": 165.3
+  },
+  {
+    "date": "31-12-2006",
+    "Unemployment Rate (%)": 5.601,
+    "Population(in cr)": 117.24,
+    "Literacy rate": 62.75,
+    "GDP(per capita)": 802.013742,
+    "Crime rate(total ipc per 100k)": 167.7
+  },
+  {
+    "date": "31-12-2007",
+    "Unemployment Rate (%)": 5.572,
+    "Population(in cr)": 118.97,
+    "Literacy rate": 62.75,
+    "GDP(per capita)": 1022.731629,
+    "Crime rate(total ipc per 100k)": 175.1
+  },
+  {
+    "date": "31-12-2008",
+    "Unemployment Rate (%)": 5.414,
+    "Population(in cr)": 120.67,
+    "Literacy rate": 62.75,
+    "GDP(per capita)": 993.5037725,
+    "Crime rate(total ipc per 100k)": 181.5
+  },
+  {
+    "date": "31-12-2009",
+    "Unemployment Rate (%)": 5.544,
+    "Population(in cr)": 122.36,
+    "Literacy rate": 62.75,
+    "GDP(per capita)": 1096.63498,
+    "Crime rate(total ipc per 100k)": 181.4
+  },
+  {
+    "date": "31-12-2010",
+    "Unemployment Rate (%)": 5.546,
+    "Population(in cr)": 124.06,
+    "Literacy rate": 62.75,
+    "GDP(per capita)": 1350.634322,
+    "Crime rate(total ipc per 100k)": 187.6
+  },
+  {
+    "date": "31-12-2011",
+    "Unemployment Rate (%)": 5.426,
+    "Population(in cr)": 125.76,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1449.601789,
+    "Crime rate(total ipc per 100k)": 192.2
+  },
+  {
+    "date": "31-12-2012",
+    "Unemployment Rate (%)": 5.414,
+    "Population(in cr)": 127.44,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1434.018198,
+    "Crime rate(total ipc per 100k)": 196.7
+  },
+  {
+    "date": "31-12-2013",
+    "Unemployment Rate (%)": 5.424,
+    "Population(in cr)": 129.11,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1438.05748,
+    "Crime rate(total ipc per 100k)": 215.5
+  },
+  {
+    "date": "31-12-2014",
+    "Unemployment Rate (%)": 5.436,
+    "Population(in cr)": 130.72,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1559.864518,
+    "Crime rate(total ipc per 100k)": 229.2
+  },
+  {
+    "date": "31-12-2015",
+    "Unemployment Rate (%)": 5.435,
+    "Population(in cr)": 132.28,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1590.173918,
+    "Crime rate(total ipc per 100k)": 234.2
+  },
+  {
+    "date": "31-12-2016",
+    "Unemployment Rate (%)": 5.423,
+    "Population(in cr)": 133.86,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1714.280355,
+    "Crime rate(total ipc per 100k)": 233.6
+  },
+  {
+    "date": "31-12-2017",
+    "Unemployment Rate (%)": 5.358,
+    "Population(in cr)": 135.41,
+    "Literacy rate": 69.3,
+    "GDP(per capita)": 1957.968841,
+    "Crime rate(total ipc per 100k)": 237.7
+  },
+  {
+    "date": "31-12-2018",
+    "Unemployment Rate (%)": 5.33,
+    "Population(in cr)": 136.9,
+    "Literacy rate": 74.37,
+    "GDP(per capita)": 1974.377788,
+    "Crime rate(total ipc per 100k)": 236.7
+  },
+  {
+    "date": "31-12-2019",
+    "Unemployment Rate (%)": 5.27,
+    "Population(in cr)": 138.31,
+    "Literacy rate": 69.1,
+    "GDP(per capita)": 2047.232704,
+    "Crime rate(total ipc per 100k)": 241.2
+  },
+  {
+    "date": "31-12-2020",
+    "Unemployment Rate (%)": 7.997,
+    "Population(in cr)": 139.63,
+    "Literacy rate": 77.7,
+    "GDP(per capita)": 1910.421473,
+    "Crime rate(total ipc per 100k)": 314.3
+  },
+  {
+    "date": "31-12-2021",
+    "Unemployment Rate (%)": 5.978,
+    "Population(in cr)": 140.75,
+    "Literacy rate": 77.7,
+    "GDP(per capita)": 2256.590409,
+    "Crime rate(total ipc per 100k)": 268
+  }
+]

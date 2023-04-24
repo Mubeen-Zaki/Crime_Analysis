@@ -56,12 +56,52 @@
         <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
     </div>
 
-    <div class="info-area" style="margin-top:30px;">
+    <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Multiple linear regression is used to estimate the relationship between two or more independent variables and one dependent variable.</p>
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            <h2>Crime Rate:</h2>
+            <br>
+            <p>Crime Rate is defined as the Crime reported per 100k population of States/UTs which have been arrived at using the Mid-Year Projected Population of respective States/UTs of 2021 based on 2011 census (Report of the Technical Group on Population
+                Projections, July, 2020, National Commission on Population, Ministry of Health & Family Welfare).</p>
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            <p>Crime Rate is a result of socio-economic factors.</p>
+        </div>
+
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            <p>Here we are using Multiple Linear Regression for predicting the crime rate of India (Dependent Variable) as a factor of socio-economic parameters (independent variables ) such as :</p>
+            <br>
+            <br>
+            <ul>
+                <li><b>Unemployment Rate (%):</b> The unemployment rate is the percentage of the total labor force that is unemployed but actively seeking employment and willing to work.</li>
+                <br>
+                <li style="text-align: left;"><b>Population(in cr):</b> Population projections from World Bank.</li>
+                <br>
+                <li><b>Literacy rate :</b> The literacy rate refers to the percentage of the population of a certain age group who can read and write.</li>
+                <br>
+                <li><b>GDP(per capita) :</b> Gross domestic product (GDP) per capita is an economic metric that breaks down a country's economic output per person.</li>
+
+            </ul>
+        </div>
 
 
+        <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
+            <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
+        </div>
 
-        <img src="{{url_for('static',filename='images/kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
-        <img src="{{url_for('static',filename='images/kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
+        <p style="margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb;  padding:4px;"><b>Correlation Matrix:</b></p>
+
+        <img src="{{url_for('static',filename='images/ind_crime_factors_corr.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 300px; width:95%;border: 1px solid black; margin-bottom: 30px;;">
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;"><img src="{{url_for('static',filename='images/india_crime_socioeco_corr.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 300px; width:50%;border: 1px solid black; margin-bottom: 30px;">
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            <p><b>Accuracy = 91.17740523172617%</b>
+            </p>
+        </div>
 
     </div>
     <div style="clear:both;">

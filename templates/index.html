@@ -81,12 +81,18 @@
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Time-series Forcasting</h2>
                     <p class="leading-relaxed text-base mb-4">Use of time-series data for prediction and visualization</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
+                    <div class="drop-down">
+                        <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-                </button>
-                    </svg>
-                    </a>
+            </a>
+                        <div class="dd-content">
+                            <a href="{{url_for('timeseriescr')}}"> Crime Rate Forecast</a>
+                            <a href="{{url_for('timeseriesipc')}}"> Total IPC Forecast</a>
+                        </div>
+                    </button>
+
+                    </div>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Analysis</h2>
@@ -97,8 +103,8 @@
                 </svg>
               </a>
               <div class="dd-content">
-                <a href="{{url_for('analysis')}}">Graphs</a>
-                <a href="{{url_for('analysis2')}}"> Maps</a>
+                <a href="{{url_for('analysis')}}">Charts</a>
+                <a href="{{url_for('analysis2')}}"> Graphs</a>
                
               </div>
             
@@ -126,7 +132,7 @@
                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                <div class="dd-content">
-                <a href="{{url_for('analysis3')}}">Maps</a>
+                <a href="{{url_for('analysis3')}}">Choropleth</a>
 
                </div>
                 </button>
@@ -138,7 +144,7 @@
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Crime Feed</h2>
                     <p class="leading-relaxed text-base mb-4">Stay Updated with the latest news with the help of the live crime feed.</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
+                    <button class=button><a href="{{url_for('crimefeed')}}" class="text-blue-500 inline-flex items-center">Try Now  
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                  <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                   </button>

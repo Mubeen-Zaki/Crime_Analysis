@@ -56,13 +56,40 @@
         <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
     </div>
 
-    <div class="info-area" style="margin-top:30px;">
+    <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
 
+        <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
+            <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
+        </div>
 
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Timeseries forecasting in simple words means to forecast or to predict the future value(eg-stock price) over a period of time.</p>
+        </div>
 
-        <img src="{{url_for('static',filename='images/kmeans_elb.png')}}" style=" border-radius:10px;border: 1px solid black; ">
-        <img src="{{url_for('static',filename='images/kmeans_clusters.png')}}" style=" border-radius:10px; height: 200px; width:300px;border: 1px solid black;">
-    </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px;">
+            <p><b>There are some key concepts associated with time series forecasting :</b></p>
+            <br>
+            <br>
+            <li><b>Seasonality:</b> In simple terms, Seasonality means repetition over time. For example, while predicting electricity bills will be higher every year in the summer season.
+            </li>
+            <br>
+            <li style="text-align: left;"><b>Trend :</b> It tells increasing or decreasing trends over time in the data.</li>
+
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Fb Prophet library was launched by Facebook now meta, and it was built for time series analysis. It can automatically manage parameters related to seasonality and data stationarity.</p>
+        </div>
+
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Here we are using fbprophet library to predict total ipc crimes reported in India for the next 5 years : 2022, 2023, 2024, 2025 & 2026.
+
+        </div>
+        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+            Accuracy = 96.66452019469203%
+
+            </p>
+        </div>
+
 
     </div>
     <div style="clear:both;">
