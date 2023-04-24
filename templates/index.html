@@ -6,17 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crime Hotpots Home Page</title>
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
 
+
 </head>
+<style>
+    button a {
+        text-decoration: none;
+    }
+</style>
 
 
 <body>
-    <nav>
-        <label class="logo" href="#">Crime Hotspots Prediction & Analysis</label>
+    <nav class="main">
+        <label class="logo" href="index.html">Crime Hotspots Prediction & Analysis</label>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li>
+                <a href='index.html'>Home</a>
+            </li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Feedback</a></li>
@@ -24,32 +33,45 @@
     </nav>
 
     <section class="text-gray-600 body-font">
-        <div class="container px-5 py-12 mx-auto">
+        <div style="margin-top: 100px " class="container px-5 py-12 mx-auto">
             <div class="flex flex-wrap">
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Clustering</h2>
                     <p class="leading-relaxed text-base mb-4">Predict the crime rates using the latest criminal data</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
+                    <div class="drop-down">
+                        <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                     </a>
+                    <div class="dd-content">
+                        <a href="{{url_for('static',filename='templates/K-means.html')}}">K-Means</a>
+                        <a href="{{url_for('static',filename='templates/K-Prottype-Clustering.html')}}">K-Prototype</a>
+
+                    </div>
                   </button>
+                    </div>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Classification</h2>
                     <p class="leading-relaxed text-base mb-4">Classification of criminal data using various models.</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
+                    <div class="drop-down">
+                        <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    
                 </svg>
               </a>
+              <div class="dd-content">
+                       <a href="{{url_for('static ',filename='templates/Randomforestclassifier.html')}}"> Random Forest Classifier</a> 
+              </div>
               </button>
+                    </div>
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Linear Regression</h2>
                     <p class="leading-relaxed text-base mb-4">using Linear Regression for Prediction</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
+                    <button class=button><a class="text-blue-500 inline-flex items-center" href="{{url_for('static',filename='templates/linear-regression.html')}}">Try Now  
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                  <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                   </button>
@@ -69,21 +91,27 @@
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Analysis</h2>
                     <p class="leading-relaxed text-base mb-4">Using Charts, heatmaps and plots for analysis of criminal dataset.</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
+                    <div class="drop-down"> <button class=button><a class="text-blue-500 inline-flex items-center">Try Now
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a>
+              <div class="dd-content">
+                <a href="{{url_for('static',filename='templates/Analysis.html')}}">Graphs</a>
+                <a href="{{url_for('static',filename='templates/Analysis2.html')}}"> Maps</a>
+               
+              </div>
+            
               </button>
+                    </div>
                 </div>
-
 
 
 
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Data</h2>
                     <p class="leading-relaxed text-base mb-4">Check out the multiple datasets that were used for in this project</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
+                    <button class=button><a class="text-blue-500 inline-flex items-center" href="{{url_for('static',filename='templates/datadisplay.html')}}">Try Now  
                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                  <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
                   </button>
@@ -92,12 +120,17 @@
                 </div>
 
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Crime Locator</h2>
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Geo-Spatial Analysis</h2>
                     <p class="leading-relaxed text-base mb-4">Identify your location's threat levels by using your adress' pincode.</p>
-                    <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
+                    <div class="drop-down"> <button class=button><a class="text-blue-500 inline-flex items-center">Try Now  
                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                <path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+               <div class="dd-content">
+                <a href="{{url_for('static',filename='templates/Analysis3(maps).html')}}">Maps</a>
+
+               </div>
                 </button>
+                    </div>
                     </svg>
                     </a>
                 </div>
@@ -117,7 +150,18 @@
             </div>
 
         </div>
+
     </section>
+    <div style="clear:both;">
+
+    </div>
+    <div style="margin-bottom:100px;">
+
+    </div>
+    <footer style="height:13%;">
+        <p> Copyright &copy; 2023. All rights reserved.</p>
+
+    </footer>
 
 </body>
 
