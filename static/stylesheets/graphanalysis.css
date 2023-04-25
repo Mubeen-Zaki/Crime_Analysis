@@ -1,24 +1,5 @@
 label {
     font-family: monsterrat;
-    margin-left: 40px;
-}
-
-select {
-    margin-top: 40px;
-    margin-left: 10px;
-}
-
-.pagename {
-    color: black;
-    font-family: monsterrat;
-    line-height: 60px;
-    font-size: 30px;
-    margin: 10px;
-}
-
-.subnav {
-    background-color: #bbbbbb;
-    height: 40px;
 }
 
 .box {

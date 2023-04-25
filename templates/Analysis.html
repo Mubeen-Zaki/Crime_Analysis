@@ -9,7 +9,7 @@
     <title>Crime Data Visualization</title>
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
-    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/K-means.css')}}">
+
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript">
@@ -96,6 +96,12 @@
         }
     </script>
 </head>
+<style>
+    .select-container {
+        display: inline-block;
+        margin-right: 60px;
+    }
+</style>
 
 <body>
     <nav class="main">
@@ -111,9 +117,11 @@
             <label class="log" href="#"> CHARTS</label>
         </nav>
     </nav>
-    <form style="margin-left:220px; margin-top:150px;">
-        <label for="state">State:</label>
-        <select id="state" name="state">
+    <div style="margin-left:270px; margin-top:150px;">
+        <div class="select-container">
+
+            <label for="state">State:</label>
+            <select id="state" name="state">
         <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
         <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
         <option value="ASSAM">ASSAM</option>
@@ -150,9 +158,11 @@
         <option value="PUDUCHERRY">PUDUCHERRY</option>
 
       </select>
+        </div>
+        <div class="select-container">
 
-        <label for="crimeType">Crime:</label>
-        <select id="crimeType" name="crimeType">
+            <label for="crimeType">Crime:</label>
+            <select id="crimeType" name="crimeType">
         <option value="MURDER">MURDER</option>
         <option value="ATTEMPT TO MURDER">ATTEMPT TO MURDER</option>
         <option value="RAPE">RAPE</option>
@@ -163,8 +173,8 @@
         <option value="HURT/GREVIOUS HURT">HURT/GREVIOUS HURT</option>
         
       </select>
-
-    </form>
+        </div>
+    </div>
     <button style="position:absolute; margin-top:150px; float:left; margin-left:50px;" class="button" onclick="drawChart1()">BAR CHART</button>
     <button style="position:absolute; margin-top:230px; float:left; margin-left:50px;" class="button" onclick="drawChart2()">LINE CHART</button>
     <div class="box" style="margin-left: 250px; overflow: hidden;">

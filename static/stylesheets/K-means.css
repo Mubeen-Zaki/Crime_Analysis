@@ -27,22 +27,9 @@ nav.prediction {
     height: 40px;
 }
 
-nav.secondnav {
-    background-color: #bbbbbb;
-    height: 40px;
-    text-align: center;
-}
-
 option.sel {
     color: #222222;
     background: #bbbb;
-}
-
-label.log {
-    color: #222222;
-    font-size: 35px;
-    font-family: monsterrat;
-    padding: 0;
 }
 
 .box {
@@ -61,23 +48,6 @@ input {
     overflow: hidden;
     box-shadow: 0 2px 5px;
     border-radius: 6px;
-}
-
-footer {
-    background-color: #222222;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    position: absolute;
-    bottom: 5;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center
 }
 
 .form-input {

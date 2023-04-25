@@ -197,7 +197,9 @@
 </script>
 
 <style>
-
+    .state-input {
+        display: inline-block;
+    }
 </style>
 
 <body>
@@ -215,7 +217,7 @@
         </nav>
     </nav>
 
-    <div style="margin-left:40px; margin-top:130px;" for="state_input">
+    <div style="margin-left:40px; margin-top:130px;" class="state_input">
         <div style="margin-left:180px">
             <label style="margin-left:0px">Year:</label>
             <select id="year_input" name="state_input">
@@ -231,9 +233,9 @@
 
         
     </select>
-
-            <label> Crime:</label>
-            <select id="crime_input" name="crime_input">
+            <div class="state-input">
+                <label> Crime:</label>
+                <select id="crime_input" name="crime_input">
     <Option value="disabled selected">Select Crime</Option>
     <Option>Corruption</Option>
     <Option>Crimes Against Children</Option>
@@ -243,10 +245,14 @@
     <Option>Kidnapping</Option>
     <Option>Murders</Option>
     <Option>Total Crimes</Option>
-    
+</div>
 
     </select>
-            <button class="button" style="margin-left:30px;" onclick="changeChoropleth('year_input','crime_input')">Submit</button></div>
+            </div>
+            <button class="button" style="margin-left:30px;" onclick="changeChoropleth('year_input','crime_input')">Submit</button>
+
+
+        </div>
 
 
         <div class="box" style="margin-left:120px; overflow: hidden;">

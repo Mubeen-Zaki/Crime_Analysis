@@ -67,7 +67,7 @@
 
 
         <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
-            <p href="{{url_for('datadisp')}}">Click Here to view the data set.</p>
+            <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
         </div>
 
         <p style="margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;"> Distance Metric Used (For Numerical Values):</p>
@@ -150,7 +150,10 @@ fill="#000000" stroke="none">
             For categorical values like, State, Distrcit & Year, K-modes algorithm paradigm is used.</p>
         </div>
         <p style="margin-top: 30px; margin-left: 20px;  border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">Number of Clusters:</p>
-        <img src="{{url_for('static',filename='images/kproto_elb.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 400px; width:500px;border: 1px solid black;">
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;
+"> <img src="{{url_for('static',filename='images/kproto_elb.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 400px; width:500px;border: 1px solid black;"></div>
         <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
             <h2 style="margin-bottom: 10px;">Cluster Centroids:</h2>
             <ul style="text-align: left;">
