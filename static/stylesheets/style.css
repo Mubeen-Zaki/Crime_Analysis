@@ -53,15 +53,12 @@ nav.main {
 }
 
 iframe {
-    margin-right: 20px;
     width: 100%;
 }
 
 select {
     margin-top: 4px;
-    margin-left: 100px;
     margin-bottom: 10px;
-    margin-right: 40px;
     background-color: none;
     border-color: #333333;
     border-radius: 6px;
@@ -139,6 +136,36 @@ nav ul li a:hover {
 
 .drop-down:hover .dd-content {
     display: block;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 5;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
+
+nav.secondnav {
+    background-color: #bbbbbb;
+    height: 40px;
+    text-align: center;
+}
+
+label.log {
+    color: #222222;
+    font-size: 35px;
+    font-family: monsterrat;
+    padding: 0;
 }
 
 footer {
