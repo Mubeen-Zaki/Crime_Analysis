@@ -100,12 +100,15 @@
         <div>
             <p style="margin-left:10%; margin-top: 2%; height: 30px; "><b>FORE-CAST:</b></p>
             <div class="box" style="overflow:hidden; width: 900px; margin:auto; margin-top :30px;">
-                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="url_for('/prediction/forecast_cmp_total_ipc.html')">
+                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast.html')}}"></iframe>
             </div>
             <p style="margin-left:10%; margin-top: 7%; height: 30px; "><b>FORE-CAST CMP:</b></p>
             <div class="box" style="overflow:hidden; width: 900px; margin:auto; margin-top :30px;">
-                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="prediction/forecast_cmp.html"></iframe>
-                </section>
+                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast_cmp.html')}}"></iframe>
+            </div>
+        </div>
+    </div>
+    </section>
 
             </div>
             <footer style="margin-top:13%">

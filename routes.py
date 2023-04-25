@@ -763,16 +763,3 @@ def m63():
 def m64():
     return render_template('plots/Choropleth/2021/2021_Total_Crimes.html')
 
-# time series forecasting:
-@app.route('/prediction/forecast.html')
-def t1():
-    return render_template('prediction/forecast.html')
-@app.route('/prediction/forecast_cmp.html')
-def t2():
-    return render_template('prediction/forecast_cmp.html')
-@app.route('/prediction/forecast(total_ipc).html')
-def t3():
-    return render_template('prediction/forecast(total_ipc).html')
-@app.route('/prediction/forecast_cmp_total_ipc.html')
-def t4():
-    return render_template('prediction/forecast_cmp_total_ipc.html')
