@@ -35,11 +35,11 @@ def KMeansclu():
     final_features = [np.array(features)]
     y_pred = kmeanclus.predict(final_features)
     if y_pred[0] == 0:         
-        label="Moderate Crime Rate Area"
+        label="Low Crime Rate Area"
     elif y_pred[0] == 1:
         label="High Crime Rate Area"
     elif y_pred[0] == 2:
-        label = "Low Crime Rate Area"
+        label = "Moderate Crime Rate Area"
     return render_template('K-Means.html',prediction_text = label)
 
 #K-Prototypes:
@@ -55,11 +55,11 @@ def KProtoclu():
     features = features.values
     y_pred = kprotoclus.predict(features, categorical=[0,1,2])
     if y_pred[0] == 0:         
-        label = "Moderate Crime Rate Area"
-    elif y_pred[0] == 1:
-        label="Low Crime Rate Area"
-    elif y_pred[0] == 2:
         label = "High Crime Rate Area"
+    elif y_pred[0] == 1:
+        label="Moderate Crime Rate Area"
+    elif y_pred[0] == 2:
+        label = "Low Crime Rate Area"
     return render_template("K-PrototypeClustering.html",prediction_text = label)
 
 #RandomForest:
@@ -77,11 +77,11 @@ def randomfrstcls():
     features = pd.DataFrame(features)
     y_pred = rdcls.predict(features)
     if y_pred[0] == 0:         
-        label="Moderate Crime Rate Area"
+        label="High Crime Rate Area"
     elif y_pred[0] == 1:
-        label="Low Crime Rate Area"
+        label="Moderate Crime Rate Area"
     elif y_pred[0] == 2:
-        label = "High Crime Rate Area"
+        label = "Low Crime Rate Area"
     return render_template("RandomForestClassifer.html",prediction_text = label)
 
 #LinearRegression:
