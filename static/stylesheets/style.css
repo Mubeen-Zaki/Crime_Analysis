@@ -94,6 +94,10 @@ label.logo {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav ul {
     float: right;
     margin-right: 20px;

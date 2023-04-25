@@ -271,7 +271,7 @@
 
 <body>
     <nav class="main">
-        <label class="logo" href="{{url_for('index')}}" style="margin-left:0;">Crime Hotspots Prediction & Analysis</label>
+        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">Crime Hotspots Prediction & Analysis</label></a>
         <ul>
             <li><a href="{{url_for('index')}}">Home</a></li>
             <li><a href="#">About</a></li>
@@ -302,7 +302,7 @@
         <div style="margin-left: 20px; margin-top: 40px;"><button class="button" onclick="changeGBar('state_input')">Grouped Bar Chart</button></div>
 
     </div>
-    <div class="box" style="margin-left:220px;">
+    <div class="box" style="margin-left:220px; overflow: hidden;">
         <div class="tab-pane fade show active" id="v-pills-area-chart" role="tabpanel" aria-labelledby="v-pills-area-chart-tab">
 
             <iframe src="plots/Multi_linear/Assam_linear.html" frameborder="0" width="1200" height="600" id="iframeID3"></iframe>
