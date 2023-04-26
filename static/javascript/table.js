@@ -84,6 +84,7 @@ function tablefilling(n, s) {
         } else if (s == "static/javascript/economic.json") {
             tableBody += '<th>DATE</th>';
             tableBody += '<th>Unemployment Rate (%)</th>';
+            tableBody += '<th>Population in Cr (%)</th>';
             tableBody += '<th>LITERACY RATE</th>';
             tableBody += '<th>GDP PER CAPITA</th>';
             tableBody += '<th>Crime rate(total ipc per 100k)</th>';
@@ -98,6 +99,7 @@ function tablefilling(n, s) {
                 tableBody += '<td>' + d["Unemployment Rate (%)"];
                 tableBody += '<td>' + d["Population(in cr)"];
                 tableBody += '<td>' + d["Literacy rate"];
+                tableBody+='<td>'+d["GDP(per capita)"];
                 tableBody += '<td>' + d["Crime rate(total ipc per 100k)"];
                 tableBody += '</td></tr>';
             });
