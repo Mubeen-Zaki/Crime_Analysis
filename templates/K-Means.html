@@ -37,7 +37,21 @@
 
 </head>
 
+<style>
+   .box::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 25px;
+    overflow: auto;
+}
 
+.box::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background-color: #b3b3b3;
+    height: 20px;
+    width: 18px;
+   
+}
+</style>
 
 
 
@@ -59,13 +73,14 @@
     <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
         <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
     </div>
-    <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
-        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
+
+    <div class="box" style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; overflow-x:hidden; overflow-y: scroll; padding-right:20px; ">
+        <div class="component-element" style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
             K-Means Clustering is an Unsupervised Machine Learning algorithm, which groups the unlabeled dataset into different clusters. K-means is a centroid-based algorithm or a distance-based algorithm, where we calculate the distances to assign a point to a
             cluster. In K-Means, each cluster is associated with a centroid.</p>
         </div>
 
-
+        
         <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
             <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
         </div>
