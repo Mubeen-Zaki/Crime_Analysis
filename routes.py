@@ -28,7 +28,7 @@ def Kmeans():
 def KMeansanalysis():
     features = [x for x in request.form.values()]
     #Reading labelled and scaled data :
-    df = pd.read_csv("F:\\Final Year Project\\Datasets\\kmeansflask2.csv")
+    df = pd.read_csv("Datasets/kmeansflask2.csv")
     clusters = []
     for i in range(2001,2013):
         l = df.loc[df["STATE/UT"]==features[0].upper()].loc[df["DISTRICT"]==features[1]].loc[df["YEAR"]==i].values
@@ -49,11 +49,19 @@ def KMeansanalysis():
     if high > low and high > moderate:         
         label="Red Zone"
     elif low > high and low > moderate:
-        label="Orange Zone"
+        label="Green Zone"
     elif moderate > high and moderate > low:
-        label = "Green Zone"
+        label = "Orange Zone"
     else:
-        label = "Mode has 2 or 3 vals"
+        if high == moderate == low:
+            label = ""
+        elif high == moderate:
+            label = "Red-Orange Zone(Lies between Orange Zone and Red Zone)"
+        elif low == moderate:
+            label = "Yellow(Lies between Green Zone and Orange Zone)"
+        else:
+            label = ""
+
     return render_template('K-Means.html',prediction_text0 = label)
 
 
