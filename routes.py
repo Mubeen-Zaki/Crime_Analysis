@@ -24,23 +24,38 @@ def index():
 def Kmeans():
  	return render_template("K-Means.html")
 
-@app.route('/KMeansclu',methods=['POST'])
-def KMeansclu():
+@app.route('/KMeansanalysis',methods=['POST'])
+def KMeansanalysis():
     features = [x for x in request.form.values()]
-    df = pd.read_csv("Datasets/encoded.csv")
-    arr = df.loc[df["STATE/UT"] == features[0].upper()].loc[df["DISTRICT"] == features[1]].values
-    features[0] = arr[0][2]
-    features[1] = arr[0][3]
-    features = [float(x) for x in features]
-    final_features = [np.array(features)]
-    y_pred = kmeanclus.predict(final_features)
-    if y_pred[0] == 0:         
-        label="Low Crime Rate Area"
-    elif y_pred[0] == 1:
-        label="High Crime Rate Area"
-    elif y_pred[0] == 2:
-        label = "Moderate Crime Rate Area"
-    return render_template('K-Means.html',prediction_text = label)
+    #Reading labelled and scaled data :
+    df = pd.read_csv("F:\\Final Year Project\\Datasets\\kmeansflask2.csv")
+    clusters = []
+    for i in range(2001,2013):
+        l = df.loc[df["STATE/UT"]==features[0].upper()].loc[df["DISTRICT"]==features[1]].loc[df["YEAR"]==i].values
+        final_features = [[x for x in l[0] if type(x) == float]]
+        y_pred = kmeanclus.predict(final_features)
+        clusters.append(y_pred[0]) # 0-high,1-low,2-moderate
+    #Finding Mode :
+    high = 0
+    low = 0
+    moderate = 0
+    for i in clusters:
+        if i == 0:
+            high += 1
+        elif i == 1:
+            low += 1
+        else:
+            moderate += 1
+    if high > low and high > moderate:         
+        label="Red Zone"
+    elif low > high and low > moderate:
+        label="Orange Zone"
+    elif moderate > high and moderate > low:
+        label = "Green Zone"
+    else:
+        label = "Mode has 2 or 3 vals"
+    return render_template('K-Means.html',prediction_text0 = label)
+
 
 #K-Prototypes:
 @app.route('/Kproto')
