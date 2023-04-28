@@ -29,8 +29,9 @@ def KMeansanalysis():
     features = [x for x in request.form.values()]
     #Reading labelled and scaled data :
     df = pd.read_csv("Datasets/kmeansflask2.csv")
+    years = df.loc[df["STATE/UT"]==features[0].upper()].loc[df["DISTRICT"]==features[1]]['YEAR'].values
     clusters = []
-    for i in range(2001,2013):
+    for i in years:
         l = df.loc[df["STATE/UT"]==features[0].upper()].loc[df["DISTRICT"]==features[1]].loc[df["YEAR"]==i].values
         final_features = [[x for x in l[0] if type(x) == float]]
         y_pred = kmeanclus.predict(final_features)
@@ -58,7 +59,7 @@ def KMeansanalysis():
         elif high == moderate:
             label = "Red-Orange Zone(Lies between Orange Zone and Red Zone)"
         elif low == moderate:
-            label = "Yellow(Lies between Green Zone and Orange Zone)"
+            label = "Yellow Zone(Lies between Green Zone and Orange Zone)"
         else:
             label = ""
 
