@@ -48,11 +48,11 @@ def KMeansanalysis():
         else:
             moderate += 1
     if high > low and high > moderate:         
-        label="Red Zone"
+        label="RED ZONE"
     elif low > high and low > moderate:
-        label="Green Zone"
+        label="GREEN ZONE"
     elif moderate > high and moderate > low:
-        label = "Orange Zone"
+        label = "ORANGE ZONE"
     else:
         if high == moderate == low:
             label = ""
