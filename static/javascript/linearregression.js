@@ -1,4 +1,4 @@
-var states_arr = new Array("ANDHRA PRADESH", "ARUNACHAL PRADESH", "ASSAM", "BIHAR", "CHHATTISGARH", "GOA", "GUJARAT" , "HARYANA", "HIMACHAL PRADESH",  "JAMMU & KASHMIR",  "JHARKHAND",  "KARNATAKA",  "KERALA",  "MADHYA PRADESH",  "MAHARASHTRA",  "MANIPUR",  "MEGHALAYA",  "MIZORAM", "NAGALAND",  "ODISHA",  "PUNJAB",  "RAJASTHAN",  "SIKKIM",  "TAMIL NADU",  "TRIPURA", "UTTAR PRADESH",  "UTTARAKHAND" , "WEST BENGAL", "A & N ISLANDS",  "CHANDIGARH", "D & N HAVELI", "DAMAN & DIU",  "DELHI UT",  "LAKSHADWEEP", "PUDUCHERRY");
+var states_arr = new Array("ANDHRA PRADESH", "ARUNACHAL PRADESH", "ASSAM", "BIHAR", "CHHATTISGARH", "GOA", "GUJARAT", "HARYANA", "HIMACHAL PRADESH", "JAMMU & KASHMIR", "JHARKHAND", "KARNATAKA", "KERALA", "MADHYA PRADESH", "MAHARASHTRA", "MANIPUR", "MEGHALAYA", "MIZORAM", "NAGALAND", "ODISHA", "PUNJAB", "RAJASTHAN", "SIKKIM", "TAMIL NADU", "TRIPURA", "UTTAR PRADESH", "UTTARAKHAND", "WEST BENGAL", "A & N ISLANDS", "CHANDIGARH", "D & N HAVELI", "DAMAN & DIU", "DELHI UT", "LAKSHADWEEP", "PUDUCHERRY");
 var year_arr = new Array("2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012");
 var district_arr = new Array();
 
@@ -70,7 +70,7 @@ district_arr[31] = "D and N HAVELI";
 
 district_arr[32] = "DAMAN|DIU";
 
-district_arr[33] = "CENTRAL|DELHI UT TOTAL|EAST|G.R.P.(RLY)|I.G.I. AIRPORT|NEW DELHI|NORTH|NORTH EAST|NORTH WEST|S.T.F.|SOUTH|SOUTH WEST|WEST";
+district_arr[33] = "CENTRAL|EAST|G.R.P.(RLY)|I.G.I. AIRPORT|NEW DELHI|NORTH|NORTH EAST|NORTH WEST|S.T.F.|SOUTH|SOUTH WEST|WEST";
 
 district_arr[34] = "LAKSHADWEEP";
 
@@ -142,5 +142,24 @@ function handleFileSelect(evt) {
             html += '</tbody></table>';
             document.getElementById('csv-data').innerHTML = html;
         }
+
     });
+}
+
+function changecolor() {
+    const text1 = document.getElementById("cluster-text");
+    const text = text1.textContent;
+    let color = '#ffa500';
+
+
+    if (text === "RED ZONE") {
+        color = "red";
+    } else if (text === "GREEN ZONE") {
+        color = "green"
+    } else {
+        color = "#ffa500";
+    }
+    text1.style.color = color;
+
+
 }
