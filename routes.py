@@ -55,13 +55,13 @@ def KMeansanalysis():
         label = "ORANGE ZONE"
     else:
         if high == moderate == low:
-            label = ""
+            label = "Crime Rate Varies a Lot"
         elif high == moderate:
             label = "Red-Orange Zone(Lies between Orange Zone and Red Zone)"
         elif low == moderate:
             label = "Yellow Zone(Lies between Green Zone and Orange Zone)"
         else:
-            label = ""
+            label = "Crime Rate Varies a Lot"
 
     return render_template('K-Means.html',prediction_text0 = label)
 
@@ -385,9 +385,9 @@ def g55():
 def g56():
     return render_template('plots/Stacked_Bar_Charts/Odisha_stbar.html')
     
-@app.route('/plots/Stacked_Bar_Charts/Punjab_.html')
+@app.route('/plots/Stacked_Bar_Charts/Punjab_stbar.html')
 def g57():
-    return render_template('plots/Stacked_Bar_Charts/Punjab_.html')
+    return render_template('plots/Stacked_Bar_Charts/Punjab_stbar.html')
     
 @app.route('/plots/Stacked_Bar_Charts/Sikkim_stbar.html')
 def g58():
