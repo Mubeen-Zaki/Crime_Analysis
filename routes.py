@@ -12,6 +12,29 @@ kprotoclus = joblib.load('./Prediction/kproto.pkl')
 rdcls = joblib.load('./Prediction/cls.pkl')
 mlr = joblib.load('./Prediction/crime_factors.pkl')
 
+#Exponential Smoothing
+class ExponentialSmoothing:
+    def __init__(self, alpha):
+        self.alpha = alpha
+        
+    def fit(self, data):
+        self.data = data
+    
+    def predict(self, year):
+        # Apply exponential smoothing to the data
+        smoothed_data = [self.data[0]]
+        for i in range(1, len(self.data)):
+            smoothed_data.append(self.alpha * self.data[i] + (1 - self.alpha) * smoothed_data[i-1])
+        
+        # Predict the value for the specified year using the smoothed data
+        if year < len(self.data):
+            return smoothed_data[year]
+        else:
+            last_value = smoothed_data[-1]
+            for i in range(len(self.data), year):
+                last_value = self.alpha * self.data[-1] + (1 - self.alpha) * last_value
+            return last_value
+
 @app.route('/')
 
 #home:
@@ -96,17 +119,29 @@ def randomfrstcls():
     features = [[x for x in request.form.values()]]
     df = pd.read_csv("Datasets/encoded.csv")
     arr = df.loc[df["STATE/UT"] == features[0][0].upper()].loc[df["DISTRICT"] == features[0][1]].values
-    features[0][0] = arr[0][2]
-    features[0][1] = arr[0][3]
-    features = pd.DataFrame(features)
-    y_pred = rdcls.predict(features)
-    if y_pred[0] == 0:         
-        label="High Crime Rate Area"
-    elif y_pred[0] == 1:
-        label="Moderate Crime Rate Area"
+    features[0][0] = arr[0][3]
+    features[0][1] = arr[0][4]
+    features[0][2] = int(features[0][2])
+    df1 = pd.read_csv("Datasets/classfication_data_with_cluster_labels.csv")
+    df1.drop(["Unnamed: 0"],axis=1,inplace=True)
+    crimes = df1.columns[3:11]
+    t = features[0][2] - df1.loc[df1["STATE/UT"]==features[0][0]].loc[df1["DISTRICT"]==features[0][1]]['YEAR'].values[-1]
+    obj = ExponentialSmoothing(0.3)
+    final_features = []
+    final_features += features[0]
+    for i in crimes:
+        l = df1.loc[df1["STATE/UT"]==features[0][0]].loc[df1["DISTRICT"]==features[0][1]][i].values
+        obj.fit(l)
+        final_features.append(int(obj.predict(t)))
+    final_features = pd.DataFrame([final_features])
+    y_pred = rdcls.predict(final_features)
+    if y_pred[0] == 1:         
+        label="RED ZONE"
     elif y_pred[0] == 2:
-        label = "Low Crime Rate Area"
-    return render_template("RandomForestClassifer.html",prediction_text = label)
+        label="GREEN ZONE"
+    elif y_pred[0] == 3:
+        label = "ORANGE ZONE"
+    return render_template("RandomForestClassifer.html",prediction_text = label + ' ' + str(list(final_features.values)))
 
 #LinearRegression:
 @app.route('/LinearReg')
@@ -523,7 +558,7 @@ def g90():
     
 @app.route('/plots/Grouped_Bar_Charts/Nagaland_grbar.html')
 def g91():
-    return render_template('plots/Grouped_Bar_Charts/Nagaland_.html')
+    return render_template('plots/Grouped_Bar_Charts/Nagaland_grbar.html')
     
 @app.route('/plots/Grouped_Bar_Charts/Odisha_grbar.html')
 def g92():
