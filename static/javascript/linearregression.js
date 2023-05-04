@@ -1,6 +1,7 @@
 var states_arr = new Array("ANDHRA PRADESH", "ARUNACHAL PRADESH", "ASSAM", "BIHAR", "CHHATTISGARH", "GOA", "GUJARAT", "HARYANA", "HIMACHAL PRADESH", "JAMMU & KASHMIR", "JHARKHAND", "KARNATAKA", "KERALA", "MADHYA PRADESH", "MAHARASHTRA", "MANIPUR", "MEGHALAYA", "MIZORAM", "NAGALAND", "ODISHA", "PUNJAB", "RAJASTHAN", "SIKKIM", "TAMIL NADU", "TRIPURA", "UTTAR PRADESH", "UTTARAKHAND", "WEST BENGAL", "A & N ISLANDS", "CHANDIGARH", "D & N HAVELI", "DAMAN & DIU", "DELHI UT", "LAKSHADWEEP", "PUDUCHERRY");
 var year_arr = new Array(2023,2024,2025,2026,2027);
 var district_arr = new Array();
+var states = new Array('A & N Islands','Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chandigarh','Chhattisgarh','D & N Haveli','Daman & Diu','Delhi','Goa','Gujarat','Haryana','Himachal Pradesh','Jammu & Kashmir','Jharkhand','Karnataka','Kerala','Lakshadweep','Madhya Pradesh','Maharashtra','Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Puducherry','Punjab','Rajasthan','Sikkim','Tamil Nadu','Tripura','Uttar Pradesh','Uttarakhand','West Bengal');
 
 district_arr[0] = "";
 
@@ -106,6 +107,18 @@ function populateStates(stateElementId, districtElementId) {
         stateElement.onchange = function() {
             populateDistricts(stateElementId, districtElementId);
         };
+    }
+}
+
+function populatestates(stateElementId){
+
+    // given the id of the <select> tag as function argument, it inserts <option> tags
+    var stateElement = document.getElementById(stateElementId);
+    stateElement.length = 0;
+    stateElement.options[0] = new Option('Select state', '-1');
+    stateElement.selectedIndex = 0;
+    for (var i = 0; i < states.length; i++) {
+        stateElement.options[stateElement.length] = new Option(states[i], states[i]);
     }
 }
 

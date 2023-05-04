@@ -10,7 +10,7 @@ from app import app
 kmeanclus = pickle.load(open('./Prediction/kmean.pkl','rb'))
 kprotoclus = joblib.load('./Prediction/kproto.pkl')
 rdcls = joblib.load('./Prediction/cls.pkl')
-mlr = joblib.load('./Prediction/crime_factors.pkl')
+lr = joblib.load('./Prediction/models.pkl')
 
 #Exponential Smoothing
 class ExponentialSmoothing:
@@ -34,6 +34,15 @@ class ExponentialSmoothing:
             for i in range(len(self.data), year):
                 last_value = self.alpha * self.data[-1] + (1 - self.alpha) * last_value
             return last_value
+
+#Population Projection Formula using Geometric Growth Method(Assump : Const Growth rate):
+import math
+def projection(v1,v2,yr1,yr2,year):
+    t = yr2 - yr1
+    n = year - yr2
+    r = math.pow(v2/v1,1/t) - 1
+    P = v2 * math.pow(1 + r,n)
+    return P
 
 @app.route('/')
 
@@ -89,26 +98,6 @@ def KMeansanalysis():
     return render_template('K-Means.html',prediction_text0 = label)
 
 
-#K-Prototypes:
-@app.route('/Kproto')
-def Kproto():
- 	return render_template("K-PrototypeClustering.html")
-
-@app.route('/KProtoclu',methods=['POST'])
-def KProtoclu():
-    features = [[x for x in request.form.values()]]
-    features[0][0] = features[0][0].upper()
-    features = pd.DataFrame(features)
-    features = features.values
-    y_pred = kprotoclus.predict(features, categorical=[0,1,2])
-    if y_pred[0] == 0:         
-        label = "High Crime Rate Area"
-    elif y_pred[0] == 1:
-        label="Moderate Crime Rate Area"
-    elif y_pred[0] == 2:
-        label = "Low Crime Rate Area"
-    return render_template("K-PrototypeClustering.html",prediction_text = label)
-
 #RandomForest:
 @app.route('/Randomfrstcls')
 def Randomfrstcls():
@@ -150,9 +139,15 @@ def LinearReg():
 
 @app.route('/linearreg',methods=["POST"])
 def linearreg():
-    test = pd.DataFrame([[float(x) for x in request.form.values()]])
-    y_pred = mlr.predict(test)
-    return render_template("linear-regression.html",prediction_text = y_pred[0][0])
+    features = [x for x in request.form.values()]
+    df = pd.read_csv("Datasets/data.csv")
+    a1 = list(df.loc[df["State/UT"]==features[0]]['Population (in lakhs)'].values)[0]
+    a2 = list(df.loc[df["State/UT"]==features[0]]['Population (in lakhs)'].values)[-1]
+    y1 = list(df.loc[df["State/UT"]==features[0]]['Year'].values)[0]
+    y2 = list(df.loc[df["State/UT"]==features[0]]['Year'].values)[-1]
+    estimated_population = projection(a1,a2,y1,y2,int(features[1]))
+    y_pred = lr[features[0]].predict(pd.DataFrame([[int(estimated_population)]]))
+    return render_template("linear-regression.html",prediction_text = 'Total IPC Crimes Y: ' + str(int(y_pred[0][0])) + ', Estimated Population(in Lakhs) X: ' + str(int(estimated_population)) + ', Crime Rate: ' + str(int(y_pred[0][0] / estimated_population)))
 
 # time series forecasting pages missing for crime rate, ipc
 @app.route('/timeseriesipc')
