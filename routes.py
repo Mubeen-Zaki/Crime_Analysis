@@ -184,9 +184,9 @@ def analysis3():
 def datadisp():
     return render_template('datadisplay.html')
 #Heat Map:
-@app.route('/heatmap1')
-def heatmap1():
- 	return render_template("heatmap_final1.html")
+@app.route('/foliummap')
+def foliummap():
+ 	return render_template("final.html")
 
 
 # defining paths to plotly graphs
