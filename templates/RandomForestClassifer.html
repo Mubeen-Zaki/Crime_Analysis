@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/K-means.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/table.css')}}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="{{url_for('static',filename='javascript/linearregression.js')}}"></script>
     <script src="{{url_for('static',filename='javascript/random-forest-classifier.js')}}"></script>
@@ -93,9 +94,9 @@
 
 
             <br>
-            <div style=" margin-left:30%; margin-top: 25px; margin-bottom: 60px; ">
-                <label for="prediction-input"><b>PREDICTION:</b></label>
-                <p id="prediction-text" class="prediction-text">{{ prediction_text }} </p>
+            <div style=" margin-top: 25px; margin-bottom: 60px; ">
+                <label style="margin-left:40%; margin-bottom: 20px;"for="prediction-input"><b>PREDICTION:</b></label>
+                <p id="prediction-text" style="text-align: center; margin-bottom: 20px;" class="prediction-text">{{ prediction_text }} </p>
             </div>
             <script>
                 ChangeLabel();
@@ -111,14 +112,6 @@
             <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
         </div>
 
-        <div style="margin-top: 30px; margin-left: 20px; border-radius:10px; width:auto; text-align:center; background-color:#bbbb; padding:4px; ">
-            <p> <b> Classification Report:</b></p>
-        </div>
-
-        <div style="display: flex;
-        justify-content: center;
-        align-items: center;
-"> <img src="{{url_for('static',filename='images/classification_report.png')}}" style=" margin-left: 30px;margin-top: 20px; border-radius:10px; height: 200px; width:500px;border: 1px solid black;"></div>
 
 
 
