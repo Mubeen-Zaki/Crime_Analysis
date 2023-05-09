@@ -106,6 +106,7 @@ def Randomfrstcls():
 @app.route('/randomfrstcls',methods=['POST'])
 def randomfrstcls():
     features = [[x for x in request.form.values()]]
+    unlabelled = [features[0][0],features[0][1]]
     df = pd.read_csv("Datasets/encoded.csv")
     arr = df.loc[df["STATE/UT"] == features[0][0].upper()].loc[df["DISTRICT"] == features[0][1]].values
     features[0][0] = arr[0][3]
@@ -130,6 +131,8 @@ def randomfrstcls():
         label="GREEN ZONE"
     elif y_pred[0] == 3:
         label = "ORANGE ZONE"
+    final_features[0] = unlabelled[0]
+    final_features[1] = unlabelled[1]
     return render_template("RandomForestClassifer.html",prediction_text = label + ' ' + str(list(final_features.values)))
 
 #LinearRegression:
@@ -147,7 +150,7 @@ def linearreg():
     y2 = list(df.loc[df["State/UT"]==features[0]]['Year'].values)[-1]
     estimated_population = projection(a1,a2,y1,y2,int(features[1]))
     y_pred = lr[features[0]].predict(pd.DataFrame([[int(estimated_population)]]))
-    return render_template("linear-regression.html",prediction_text = 'Total IPC Crimes Y: ' + str(int(y_pred[0][0])) + ', Estimated Population(in Lakhs) X: ' + str(int(estimated_population)) + ', Crime Rate: ' + str(int(y_pred[0][0] / estimated_population)))
+    return render_template("linear-regression.html",prediction_text = 'Total IPC Crimes Y: ' + str(int(y_pred[0][0])) + ', Projected Population(in Lakhs) X: ' + str(int(estimated_population)) + ', Crime Rate: ' + str(int(y_pred[0][0] / estimated_population)))
 
 # time series forecasting pages missing for crime rate, ipc
 @app.route('/timeseriesipc')
