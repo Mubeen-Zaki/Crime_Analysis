@@ -5,7 +5,7 @@ function kmeans() {
 }
 
 function linearr() {
-    var s = "static/javascript/economic.json";
+    var s = "static/javascript/lrdata.json";
     tablefilling(1, s);
 }
 
@@ -81,27 +81,30 @@ function tablefilling(n, s) {
 
 
             });
-        } else if (s == "static/javascript/economic.json") {
-            tableBody += '<th>DATE</th>';
-            tableBody += '<th>Unemployment Rate (%)</th>';
-            tableBody += '<th>Population in Cr (%)</th>';
-            tableBody += '<th>LITERACY RATE</th>';
-            tableBody += '<th>GDP PER CAPITA</th>';
-            tableBody += '<th>Crime rate(total ipc per 100k)</th>';
-
+        } else if (s == "static/javascript/lrdata.json") {
+            tableBody += '<th>STATE</th>';
+            tableBody += '<th>YEAR</th>';
+            tableBody += '<th>CRIME COUNT</th>';
+            tableBody += '<th>POPULATION(IN LAKH)</th>';
+            tableBody += '<th>CRIME RATE</th>'
 
             tableBody += '</tr>';
 
             data.forEach(function(d) {
 
 
-                tableBody += '<tr><td class="border-0" scope="col">' + d.date;
-                tableBody += '<td>' + d["Unemployment Rate (%)"];
-                tableBody += '<td>' + d["Population(in cr)"];
-                tableBody += '<td>' + d["Literacy rate"];
-                tableBody+='<td>'+d["GDP(per capita)"];
-                tableBody += '<td>' + d["Crime rate(total ipc per 100k)"];
+                tableBody += '<tr><td class="border-0" scope="col">' + d["State/UT"];
+                tableBody += '<td>' + d.Year;
+                tableBody += '<td>' + d["Crime Count"];;
+                tableBody += '<td>' + d["Population (in lakhs)"];
+                tableBody += '<td>' + d["Crime Rate"];
+
+
+
                 tableBody += '</td></tr>';
+
+
+
             });
         } else if (s == "static/javascript/classfication_data_with_cluster_labels.json") {
             tableBody += '<th>CLUSTER</th>';

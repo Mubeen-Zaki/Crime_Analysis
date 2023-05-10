@@ -40,7 +40,7 @@
 
 <body onload="tablefilling(1);">
     <nav class="main" style="width: 100%;">
-        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">Crime Analysis</label></a>
+        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">CRIME ANALYSIS</label></a>
         <ul>
             <li><a href="{{url_for('index')}}">Home</a></li>
             <li><a href="#">About</a></li>
@@ -53,11 +53,16 @@
 
     </nav>
     <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
-        <a style=" color:#222222; text-decoration: none; " href="#sectionId">Jump To Prediction</a>
     </div>
-
     <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
-
+        <p style=" margin-top: 2%; height: 30px; text-align: center; padding: 5px; background-color: #bbbb; border-radius: 10px;"><b>FORE-CAST:</b></p>
+        <div class="box" style="overflow:hidden; width: 900px; margin:auto; margin-top :30px;">
+            <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast(total_ipc).html')}}"></iframe>
+        </div>
+        <p style=" margin-top: 2%; height: 30px; text-align: center; padding: 5px; background-color: #bbbb; border-radius: 10px;"><b>FORE-CAST CMP:</b></p>
+        <div class="box" style="overflow:hidden; width: 900px; height: 400px; margin:auto; margin-top :30px;">
+            <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast_cmp_total_ipc.html')}}"></iframe>
+        </div>
         <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
             <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
         </div>
@@ -95,21 +100,7 @@
     <div style="clear:both;">
     </div>
     <!---This is for prediction-->
-    <div class="predictions">
-        <nav id="sectionId" class="prediction">
-            <label class="log" href="#"> PREDICTION:</label>
-        </nav>
-        <div>
-            <p style="margin-left:10%; margin-top: 2%; height: 30px; "><b>FORE-CAST:</b></p>
-            <div class="box" style="overflow:hidden; width: 900px; margin:auto; margin-top :30px;">
-                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast(total_ipc).html')}}"></iframe>
-            </div>
-            <p style="margin-left:10%; margin-top: 7%; height: 30px; "><b>FORE-CAST CMP:</b></p>
-            <div class="box" style="overflow:hidden; width: 900px; margin:auto; margin-top :30px;">
-                <iframe class="iframe1" style=" overflow:hidden; height: 100%; width: 100%;" src="{{url_for('static',filename='images/forecast_cmp_total_ipc.html')}}"></iframe>
-            </div>
-        </div>
-    </div>
+
     </section>
 
     </div>
