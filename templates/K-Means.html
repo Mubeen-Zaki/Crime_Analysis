@@ -62,6 +62,21 @@
     <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
 
     </div>
+    <div style="border:1px solid black; border-radius: 10px; display:flex; padding: 10px; font-family: monsterrat; flex-direction: column; align-items: flex-start; position: absolute; margin-top:100px; margin-left: 63%; font-size: 20px">
+        <div style="display: flex; justify-content: center; align-items: baseline;">
+            <div style="width: 9px; height: 9px; background-color: red; border-radius: 2px; border-color: black; margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">High Crime Rate Area</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: baseline; ">
+            <div style="width: 9px; height: 9px; background-color: orange;border-radius: 2px; border-color: black;  margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">Medium Crime Rate Area</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: baseline;">
+            <div style="width: 9px; height: 9px; background-color: green;border-radius: 2px; border-color: black; margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">Low Crime Rate Area</p>
+        </div>
+
+    </div>
 
     <div class="predictions" style="margin-bottom: 30px;">
 
@@ -72,7 +87,7 @@
                     <label for="state_input1">State:</label>
                     <select id="state_input1" name="state_input"></select>
                 </div>
-                <div class="for-select">
+                <div class="for-select" style="margin-left: 50px;">
                     <label for="district_input1">District:</label>
                     <select name="district_input" id="district_input1">
                 <option disabled selected> Select District</option>
@@ -83,11 +98,12 @@
                     document.getElementById("state_input1").option = 'select state';
                 </script>
             </div>
-            <div style="margin-left:40%; margin-top: 25px; margin-bottom: 30px; ">
-                <label for="cluster-text"><b>CLUSTER:</b> :
-                <p id="cluster-text" class="cluster-text" style="font-size: 50px;"><b>{{ prediction_text0 }}</p> </span></label>
-
+            <div style="margin-left:26%; margin-top: 25px; margin-bottom: 60px; display: flex; ">
+                <label for="cluster-text"><b>CLUSTER:</b> 
+                <p id="cluster-text" class="cluster-text" style=" font-size: 50px;"><b>{{ prediction_text0 }}</p> </span></label>
             </div>
+
+
             <script>
                 changecolor()
             </script>

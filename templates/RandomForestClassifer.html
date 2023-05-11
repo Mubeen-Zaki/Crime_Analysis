@@ -43,7 +43,7 @@
 
 <body onload="tablefilling(1);">
     <nav class="main" style="width: 100%;">
-        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">Crime Analysis</label></a>
+        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">CRIME ANALYSIS</label></a>
         <ul>
             <li><a href="{{url_for('index')}}">Home</a></li>
             <li><a href="#">About</a></li>
@@ -58,13 +58,30 @@
     <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
 
     </div>
+    <div style="border:1px solid black; border-radius: 10px; display:flex; padding: 10px; font-family: monsterrat; flex-direction: column; align-items: flex-start; position: absolute; margin-top:270px; margin-left: 63%; font-size: 20px">
+        <div style="display: flex; justify-content: center; align-items: baseline;">
+            <div style="width: 9px; height: 9px; background-color: red; border-radius: 2px; border-color: black; margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">High Crime Rate Area</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: baseline; ">
+            <div style="width: 9px; height: 9px; background-color: orange;border-radius: 2px; border-color: black;  margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">Medium Crime Rate Area</p>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: baseline;">
+            <div style="width: 9px; height: 9px; background-color: green;border-radius: 2px; border-color: black; margin-top: 15px;"></div>
+            <p style="margin-left: 5px;">Low Crime Rate Area</p>
+        </div>
+
+    </div>
+    <div style='margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px;margin-top:400px; position: absolute; background-color:#bbbb; font-family:monsterrat; border:1px solid black; border-radius:10px; padding:5px'>FUTURE CRIMES ESTIMATED USING <b>EXPONENTIAL SMOOTHING</b>.</div>
+
     <div style="display: flex; margin-top: 40px; justify-content: center;">
         <p style="padding: 8px; background-color: #bbbb; border-radius: 10px; border: 1px solid black;"><b>Enter the Following Details:</b></p>
     </div>
     <div class="predictions">
         <form action="{{url_for('randomfrstcls')}}" method="post">
             <div class="selects" style=" margin-top: 50px; display:flex; justify-content: center;" col-md-4>
-                <div class="for-select" style="margin-left:30px;">
+                <div class="for-select">
                     <label style="margin-left: 0;" for="state_input">State:</label>
                     <select id="state_input" name="state_input"></select>
                 </div>
@@ -89,14 +106,15 @@
             </div>
 
 
-            <button class="button" style="margin-left:45%; margin-top: 6%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
+            <button class="button" style="margin-left:45%; margin-top: 2%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
 
 
 
             <br>
+
             <div style=" margin-top: 25px; margin-bottom: 60px; ">
-                <label style="margin-left:40%; margin-bottom: 20px;"for="prediction-input"><b>PREDICTION:</b></label>
-                <p id="prediction-text" style="text-align: center; margin-bottom: 20px;" class="prediction-text">{{ prediction_text }} </p>
+                <label style="margin-left:25%; margin-bottom: 20px; font-size: 25px;" for="prediction-input"><b>PROJECTION:</b></label>
+                <p id="prediction-text" style=" margin-bottom: 20px;" class="prediction-text">{{ prediction_text }} </p>
             </div>
             <script>
                 ChangeLabel();

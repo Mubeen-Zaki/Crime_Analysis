@@ -97,22 +97,39 @@
 
             <button class="button" style=" margin-left:50%; margin-top: 8%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
 
-        </form>
-        <br>
 
-
+            <br>
     </div>
     <div style=" display: flex; justify-content:center ; margin-top: 40px; margin-bottom: 60px; ">
         <label class="prediction-label" style="margin-right: 15px;" for="prediction-input"><b>PREDICTION:</b></label>
-        <p class="prediction-input">{{ prediction_text }}
+        <p class="prediction-input" id="prediction-input">{{ prediction_text }}
     </div>
+    <script>
+        labelchanges();
+    </script>
+    </form>
 
+
+
+    <div style="margin-left:12%; width: 70%; margin-right:12%; margin-bottom:30px; ">
+
+
+        <div style=" margin-top: 30px; margin-left: 20px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb; padding:4px;">
+            <a href="{{url_for('datadisp')}}">CLICK HERE TO VIEW THE DATA SET</a>
+        </div>
+
+
+
+
+    </div>
+    <div style="clear:both;">
+    </div>
     <!---This is for prediction-->
 
     </section>
 
     </div>
-    <footer style="position: absolute; bottom: 0;">
+    <footer>
         <p> Copyright &copy; 2023. All rights reserved.</p>
 
     </footer>

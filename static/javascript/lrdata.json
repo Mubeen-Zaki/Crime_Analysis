@@ -1,0 +1,5987 @@
+[
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2001,
+    "Crime Count": 658,
+    "Population (in lakhs)": 3.56,
+    "Crime Rate": 184.8314607
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2001,
+    "Crime Count": 130089,
+    "Population (in lakhs)": 757.28,
+    "Crime Rate": 171.7845447
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2001,
+    "Crime Count": 2342,
+    "Population (in lakhs)": 10.91,
+    "Crime Rate": 214.6654445
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2001,
+    "Crime Count": 36877,
+    "Population (in lakhs)": 266.38,
+    "Crime Rate": 138.4375704
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2001,
+    "Crime Count": 88432,
+    "Population (in lakhs)": 828.79,
+    "Crime Rate": 106.7001291
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2001,
+    "Crime Count": 3397,
+    "Population (in lakhs)": 9.01,
+    "Crime Rate": 377.0255272
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2001,
+    "Crime Count": 38460,
+    "Population (in lakhs)": 207.96,
+    "Crime Rate": 184.9394114
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2001,
+    "Crime Count": 350,
+    "Population (in lakhs)": 2.2,
+    "Crime Rate": 159.0909091
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2001,
+    "Crime Count": 239,
+    "Population (in lakhs)": 1.58,
+    "Crime Rate": 151.2658228
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2001,
+    "Crime Count": 54384,
+    "Population (in lakhs)": 137.83,
+    "Crime Rate": 394.5730247
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2001,
+    "Crime Count": 2341,
+    "Population (in lakhs)": 13.44,
+    "Crime Rate": 174.1815476
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2001,
+    "Crime Count": 103419,
+    "Population (in lakhs)": 505.97,
+    "Crime Rate": 204.3974939
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2001,
+    "Crime Count": 38759,
+    "Population (in lakhs)": 210.83,
+    "Crime Rate": 183.8400607
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2001,
+    "Crime Count": 11499,
+    "Population (in lakhs)": 60.77,
+    "Crime Rate": 189.2216554
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2001,
+    "Crime Count": 19505,
+    "Population (in lakhs)": 100.7,
+    "Crime Rate": 193.694141
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2001,
+    "Crime Count": 25447,
+    "Population (in lakhs)": 269.09,
+    "Crime Rate": 94.56687354
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2001,
+    "Crime Count": 109098,
+    "Population (in lakhs)": 527.34,
+    "Crime Rate": 206.8836045
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2001,
+    "Crime Count": 103847,
+    "Population (in lakhs)": 318.39,
+    "Crime Rate": 326.162882
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2001,
+    "Crime Count": 36,
+    "Population (in lakhs)": 0.61,
+    "Crime Rate": 59.01639344
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2001,
+    "Crime Count": 181741,
+    "Population (in lakhs)": 603.85,
+    "Crime Rate": 300.9704397
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2001,
+    "Crime Count": 171233,
+    "Population (in lakhs)": 967.52,
+    "Crime Rate": 176.9813544
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2001,
+    "Crime Count": 2489,
+    "Population (in lakhs)": 23.89,
+    "Crime Rate": 104.1858518
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2001,
+    "Crime Count": 1687,
+    "Population (in lakhs)": 23.06,
+    "Crime Rate": 73.15698179
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2001,
+    "Crime Count": 2246,
+    "Population (in lakhs)": 8.91,
+    "Crime Rate": 252.0763187
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2001,
+    "Crime Count": 1234,
+    "Population (in lakhs)": 19.89,
+    "Crime Rate": 62.04122675
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2001,
+    "Crime Count": 46661,
+    "Population (in lakhs)": 367.07,
+    "Crime Rate": 127.1174435
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2001,
+    "Crime Count": 4068,
+    "Population (in lakhs)": 9.74,
+    "Crime Rate": 417.6591376
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2001,
+    "Crime Count": 27774,
+    "Population (in lakhs)": 242.89,
+    "Crime Rate": 114.3480588
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2001,
+    "Crime Count": 155185,
+    "Population (in lakhs)": 564.73,
+    "Crime Rate": 274.7950348
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2001,
+    "Crime Count": 444,
+    "Population (in lakhs)": 5.4,
+    "Crime Rate": 82.22222222
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2001,
+    "Crime Count": 154801,
+    "Population (in lakhs)": 621.11,
+    "Crime Rate": 249.2328251
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2001,
+    "Crime Count": 2801,
+    "Population (in lakhs)": 31.91,
+    "Crime Rate": 87.77812598
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2001,
+    "Crime Count": 178129,
+    "Population (in lakhs)": 1660.53,
+    "Crime Rate": 107.2723769
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2001,
+    "Crime Count": 8073,
+    "Population (in lakhs)": 84.8,
+    "Crime Rate": 95.2004717
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2001,
+    "Crime Count": 61563,
+    "Population (in lakhs)": 802.21,
+    "Crime Rate": 76.74175091
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2002,
+    "Crime Count": 608,
+    "Population (in lakhs)": 3.65,
+    "Crime Rate": 166.5753425
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2002,
+    "Crime Count": 143610,
+    "Population (in lakhs)": 769.15,
+    "Crime Rate": 186.7126048
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2002,
+    "Crime Count": 2228,
+    "Population (in lakhs)": 11.15,
+    "Crime Rate": 199.8206278
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2002,
+    "Crime Count": 36346,
+    "Population (in lakhs)": 272.47,
+    "Crime Rate": 133.3945021
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2002,
+    "Crime Count": 94040,
+    "Population (in lakhs)": 851.71,
+    "Crime Rate": 110.4131688
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2002,
+    "Crime Count": 3806,
+    "Population (in lakhs)": 9.32,
+    "Crime Rate": 408.3690987
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2002,
+    "Crime Count": 37950,
+    "Population (in lakhs)": 213.03,
+    "Crime Rate": 178.1439234
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2002,
+    "Crime Count": 349,
+    "Population (in lakhs)": 2.28,
+    "Crime Rate": 153.0701754
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2002,
+    "Crime Count": 261,
+    "Population (in lakhs)": 1.64,
+    "Crime Rate": 159.1463415
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2002,
+    "Crime Count": 49137,
+    "Population (in lakhs)": 143.83,
+    "Crime Rate": 341.6324828
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2002,
+    "Crime Count": 2440,
+    "Population (in lakhs)": 13.88,
+    "Crime Rate": 175.7925072
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2002,
+    "Crime Count": 106675,
+    "Population (in lakhs)": 517.89,
+    "Crime Rate": 205.9800344
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2002,
+    "Crime Count": 40152,
+    "Population (in lakhs)": 216.44,
+    "Crime Rate": 185.5109961
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2002,
+    "Crime Count": 12243,
+    "Population (in lakhs)": 61.78,
+    "Crime Rate": 198.1709291
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2002,
+    "Crime Count": 19967,
+    "Population (in lakhs)": 104.4,
+    "Crime Rate": 191.2547893
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2002,
+    "Crime Count": 31439,
+    "Population (in lakhs)": 275.43,
+    "Crime Rate": 114.1451548
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2002,
+    "Crime Count": 113699,
+    "Population (in lakhs)": 536.81,
+    "Crime Rate": 211.8049217
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2002,
+    "Crime Count": 104200,
+    "Population (in lakhs)": 322.7,
+    "Crime Rate": 322.9005268
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2002,
+    "Crime Count": 53,
+    "Population (in lakhs)": 0.62,
+    "Crime Rate": 85.48387097
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2002,
+    "Crime Count": 191799,
+    "Population (in lakhs)": 620.72,
+    "Crime Rate": 308.9943936
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2002,
+    "Crime Count": 165462,
+    "Population (in lakhs)": 988.26,
+    "Crime Rate": 167.4276
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2002,
+    "Crime Count": 2584,
+    "Population (in lakhs)": 24.43,
+    "Crime Rate": 105.7715923
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2002,
+    "Crime Count": 1664,
+    "Population (in lakhs)": 23.58,
+    "Crime Rate": 70.5682782
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2002,
+    "Crime Count": 2820,
+    "Population (in lakhs)": 9.1,
+    "Crime Rate": 309.8901099
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2002,
+    "Crime Count": 1114,
+    "Population (in lakhs)": 20.47,
+    "Crime Rate": 54.42110405
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2002,
+    "Crime Count": 47728,
+    "Population (in lakhs)": 373.43,
+    "Crime Rate": 127.8097635
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2002,
+    "Crime Count": 4437,
+    "Population (in lakhs)": 9.91,
+    "Crime Rate": 447.7295661
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2002,
+    "Crime Count": 28794,
+    "Population (in lakhs)": 247.71,
+    "Crime Rate": 116.2407654
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2002,
+    "Crime Count": 151248,
+    "Population (in lakhs)": 581.25,
+    "Crime Rate": 260.2116129
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2002,
+    "Crime Count": 485,
+    "Population (in lakhs)": 5.53,
+    "Crime Rate": 87.7034358
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2002,
+    "Crime Count": 166942,
+    "Population (in lakhs)": 629.43,
+    "Crime Rate": 265.2272691
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2002,
+    "Crime Count": 3075,
+    "Population (in lakhs)": 32.47,
+    "Crime Rate": 94.70280259
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2002,
+    "Crime Count": 146037,
+    "Population (in lakhs)": 1708.1,
+    "Crime Rate": 85.49675078
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2002,
+    "Crime Count": 7976,
+    "Population (in lakhs)": 86.76,
+    "Crime Rate": 91.93176579
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2002,
+    "Crime Count": 58962,
+    "Population (in lakhs)": 817.07,
+    "Crime Rate": 72.1627278
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2003,
+    "Crime Count": 644,
+    "Population (in lakhs)": 3.73,
+    "Crime Rate": 172.6541555
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2003,
+    "Crime Count": 156951,
+    "Population (in lakhs)": 778.73,
+    "Crime Rate": 201.5473913
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2003,
+    "Crime Count": 2061,
+    "Population (in lakhs)": 11.3,
+    "Crime Rate": 182.3893805
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2003,
+    "Crime Count": 38195,
+    "Population (in lakhs)": 277.25,
+    "Crime Rate": 137.7637511
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2003,
+    "Crime Count": 92263,
+    "Population (in lakhs)": 867.74,
+    "Crime Rate": 106.3256275
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2003,
+    "Crime Count": 2806,
+    "Population (in lakhs)": 9.55,
+    "Crime Rate": 293.8219895
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2003,
+    "Crime Count": 38449,
+    "Population (in lakhs)": 217.21,
+    "Crime Rate": 177.0130289
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2003,
+    "Crime Count": 338,
+    "Population (in lakhs)": 2.33,
+    "Crime Rate": 145.0643777
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2003,
+    "Crime Count": 269,
+    "Population (in lakhs)": 1.68,
+    "Crime Rate": 160.1190476
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2003,
+    "Crime Count": 47404,
+    "Population (in lakhs)": 148.28,
+    "Crime Rate": 319.6924737
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2003,
+    "Crime Count": 2244,
+    "Population (in lakhs)": 14.25,
+    "Crime Rate": 157.4736842
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2003,
+    "Crime Count": 103709,
+    "Population (in lakhs)": 526.39,
+    "Crime Rate": 197.0193203
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2003,
+    "Crime Count": 38612,
+    "Population (in lakhs)": 220.4,
+    "Crime Rate": 175.1905626
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2003,
+    "Crime Count": 12011,
+    "Population (in lakhs)": 62.49,
+    "Crime Rate": 192.2067531
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2003,
+    "Crime Count": 21233,
+    "Population (in lakhs)": 107.33,
+    "Crime Rate": 197.8291251
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2003,
+    "Crime Count": 32203,
+    "Population (in lakhs)": 280.03,
+    "Crime Rate": 114.998393
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2003,
+    "Crime Count": 112405,
+    "Population (in lakhs)": 543.7,
+    "Crime Rate": 206.7408497
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2003,
+    "Crime Count": 98824,
+    "Population (in lakhs)": 326.2,
+    "Crime Rate": 302.9552422
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2003,
+    "Crime Count": 31,
+    "Population (in lakhs)": 0.63,
+    "Crime Rate": 49.20634921
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2003,
+    "Crime Count": 191078,
+    "Population (in lakhs)": 633.66,
+    "Crime Rate": 301.5465707
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2003,
+    "Crime Count": 164306,
+    "Population (in lakhs)": 1003.09,
+    "Crime Rate": 163.7998584
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2003,
+    "Crime Count": 2537,
+    "Population (in lakhs)": 24.78,
+    "Crime Rate": 102.3809524
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2003,
+    "Crime Count": 1669,
+    "Population (in lakhs)": 23.9,
+    "Crime Rate": 69.83263598
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2003,
+    "Crime Count": 3456,
+    "Population (in lakhs)": 9.23,
+    "Crime Rate": 374.4312026
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2003,
+    "Crime Count": 976,
+    "Population (in lakhs)": 20.75,
+    "Crime Rate": 47.03614458
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2003,
+    "Crime Count": 47281,
+    "Population (in lakhs)": 378.21,
+    "Crime Rate": 125.0125592
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2003,
+    "Crime Count": 4517,
+    "Population (in lakhs)": 10.05,
+    "Crime Rate": 449.4527363
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2003,
+    "Crime Count": 28756,
+    "Population (in lakhs)": 251.13,
+    "Crime Rate": 114.5064309
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2003,
+    "Crime Count": 145579,
+    "Population (in lakhs)": 593.32,
+    "Crime Rate": 245.363379
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2003,
+    "Crime Count": 443,
+    "Population (in lakhs)": 5.61,
+    "Crime Rate": 78.96613191
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2003,
+    "Crime Count": 157186,
+    "Population (in lakhs)": 635.87,
+    "Crime Rate": 247.1983267
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2003,
+    "Crime Count": 3514,
+    "Population (in lakhs)": 32.94,
+    "Crime Rate": 106.67881
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2003,
+    "Crime Count": 95073,
+    "Population (in lakhs)": 1743.8,
+    "Crime Rate": 54.52058722
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2003,
+    "Crime Count": 7923,
+    "Population (in lakhs)": 88.25,
+    "Crime Rate": 89.77903683
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2003,
+    "Crime Count": 61174,
+    "Population (in lakhs)": 828.33,
+    "Crime Rate": 73.85220866
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2004,
+    "Crime Count": 748,
+    "Population (in lakhs)": 3.79,
+    "Crime Rate": 197.3614776
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2004,
+    "Crime Count": 158756,
+    "Population (in lakhs)": 788.5,
+    "Crime Rate": 201.3392517
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2004,
+    "Crime Count": 2256,
+    "Population (in lakhs)": 11.44,
+    "Crime Rate": 197.2027972
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2004,
+    "Crime Count": 40675,
+    "Population (in lakhs)": 282.11,
+    "Crime Rate": 144.1813477
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2004,
+    "Crime Count": 108060,
+    "Population (in lakhs)": 883.09,
+    "Crime Rate": 122.3657838
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2004,
+    "Crime Count": 2889,
+    "Population (in lakhs)": 9.76,
+    "Crime Rate": 296.0040984
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2004,
+    "Crime Count": 41927,
+    "Population (in lakhs)": 221.54,
+    "Crime Rate": 189.2525052
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2004,
+    "Crime Count": 409,
+    "Population (in lakhs)": 2.38,
+    "Crime Rate": 171.8487395
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2004,
+    "Crime Count": 198,
+    "Population (in lakhs)": 1.71,
+    "Crime Rate": 115.7894737
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2004,
+    "Crime Count": 53623,
+    "Population (in lakhs)": 152.79,
+    "Crime Rate": 350.9588324
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2004,
+    "Crime Count": 2127,
+    "Population (in lakhs)": 14.65,
+    "Crime Rate": 145.1877133
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2004,
+    "Crime Count": 105469,
+    "Population (in lakhs)": 534.64,
+    "Crime Rate": 197.2710609
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2004,
+    "Crime Count": 39096,
+    "Population (in lakhs)": 224.2,
+    "Crime Rate": 174.3800178
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2004,
+    "Crime Count": 12326,
+    "Population (in lakhs)": 63.16,
+    "Crime Rate": 195.1551615
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2004,
+    "Crime Count": 21191,
+    "Population (in lakhs)": 110.41,
+    "Crime Rate": 191.9300788
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2004,
+    "Crime Count": 31439,
+    "Population (in lakhs)": 284.49,
+    "Crime Rate": 110.5100355
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2004,
+    "Crime Count": 114440,
+    "Population (in lakhs)": 550.44,
+    "Crime Rate": 207.9064022
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2004,
+    "Crime Count": 104025,
+    "Population (in lakhs)": 329.82,
+    "Crime Rate": 315.3993087
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2004,
+    "Crime Count": 70,
+    "Population (in lakhs)": 0.64,
+    "Crime Rate": 109.375
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2004,
+    "Crime Count": 196867,
+    "Population (in lakhs)": 646.65,
+    "Crime Rate": 304.4413516
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2004,
+    "Crime Count": 176302,
+    "Population (in lakhs)": 1017.45,
+    "Crime Rate": 173.2782938
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2004,
+    "Crime Count": 2535,
+    "Population (in lakhs)": 25.09,
+    "Crime Rate": 101.0362694
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2004,
+    "Crime Count": 1752,
+    "Population (in lakhs)": 24.21,
+    "Crime Rate": 72.36679058
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2004,
+    "Crime Count": 1515,
+    "Population (in lakhs)": 9.36,
+    "Crime Rate": 161.8589744
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2004,
+    "Crime Count": 984,
+    "Population (in lakhs)": 20.96,
+    "Crime Rate": 46.94656489
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2004,
+    "Crime Count": 48739,
+    "Population (in lakhs)": 382.94,
+    "Crime Rate": 127.2758134
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2004,
+    "Crime Count": 4620,
+    "Population (in lakhs)": 10.17,
+    "Crime Rate": 454.2772861
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2004,
+    "Crime Count": 25630,
+    "Population (in lakhs)": 254.43,
+    "Crime Rate": 100.7349762
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2004,
+    "Crime Count": 154859,
+    "Population (in lakhs)": 605.11,
+    "Crime Rate": 255.9187586
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2004,
+    "Crime Count": 631,
+    "Population (in lakhs)": 5.68,
+    "Crime Rate": 111.0915493
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2004,
+    "Crime Count": 166606,
+    "Population (in lakhs)": 642.3,
+    "Crime Rate": 259.3896933
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2004,
+    "Crime Count": 3081,
+    "Population (in lakhs)": 33.42,
+    "Crime Rate": 92.19030521
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2004,
+    "Crime Count": 130181,
+    "Population (in lakhs)": 1779.41,
+    "Crime Rate": 73.1596428
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2004,
+    "Crime Count": 8634,
+    "Population (in lakhs)": 89.73,
+    "Crime Rate": 96.22199933
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2004,
+    "Crime Count": 69350,
+    "Population (in lakhs)": 839.53,
+    "Crime Rate": 82.60574369
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2005,
+    "Crime Count": 682,
+    "Population (in lakhs)": 3.88,
+    "Crime Rate": 175.7731959
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2005,
+    "Crime Count": 157123,
+    "Population (in lakhs)": 798.09,
+    "Crime Rate": 196.8737862
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2005,
+    "Crime Count": 2304,
+    "Population (in lakhs)": 11.59,
+    "Crime Rate": 198.7920621
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2005,
+    "Crime Count": 42006,
+    "Population (in lakhs)": 286.92,
+    "Crime Rate": 146.4031786
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2005,
+    "Crime Count": 97850,
+    "Population (in lakhs)": 898.2,
+    "Crime Rate": 108.9401024
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2005,
+    "Crime Count": 3133,
+    "Population (in lakhs)": 9.98,
+    "Crime Rate": 313.9278557
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2005,
+    "Crime Count": 43633,
+    "Population (in lakhs)": 225.82,
+    "Crime Rate": 193.2202639
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2005,
+    "Crime Count": 434,
+    "Population (in lakhs)": 2.44,
+    "Crime Rate": 177.8688525
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2005,
+    "Crime Count": 243,
+    "Population (in lakhs)": 1.75,
+    "Crime Rate": 138.8571429
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2005,
+    "Crime Count": 56065,
+    "Population (in lakhs)": 157.43,
+    "Crime Rate": 356.1265324
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2005,
+    "Crime Count": 2119,
+    "Population (in lakhs)": 15.07,
+    "Crime Rate": 140.6104844
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2005,
+    "Crime Count": 113414,
+    "Population (in lakhs)": 542.74,
+    "Crime Rate": 208.9656189
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2005,
+    "Crime Count": 42664,
+    "Population (in lakhs)": 227.92,
+    "Crime Rate": 187.1884872
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2005,
+    "Crime Count": 12345,
+    "Population (in lakhs)": 63.81,
+    "Crime Rate": 193.4649741
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2005,
+    "Crime Count": 20115,
+    "Population (in lakhs)": 113.71,
+    "Crime Rate": 176.8973705
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2005,
+    "Crime Count": 35175,
+    "Population (in lakhs)": 288.85,
+    "Crime Rate": 121.7760083
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2005,
+    "Crime Count": 117580,
+    "Population (in lakhs)": 557.02,
+    "Crime Rate": 211.0875732
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2005,
+    "Crime Count": 104350,
+    "Population (in lakhs)": 333.38,
+    "Crime Rate": 313.0061791
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2005,
+    "Crime Count": 42,
+    "Population (in lakhs)": 0.65,
+    "Crime Rate": 64.61538462
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2005,
+    "Crime Count": 189172,
+    "Population (in lakhs)": 659.52,
+    "Crime Rate": 286.8328481
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2005,
+    "Crime Count": 187027,
+    "Population (in lakhs)": 1031.59,
+    "Crime Rate": 181.2997412
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2005,
+    "Crime Count": 2913,
+    "Population (in lakhs)": 25.39,
+    "Crime Rate": 114.7302087
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2005,
+    "Crime Count": 1880,
+    "Population (in lakhs)": 24.52,
+    "Crime Rate": 76.6721044
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2005,
+    "Crime Count": 2156,
+    "Population (in lakhs)": 9.47,
+    "Crime Rate": 227.6663147
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2005,
+    "Crime Count": 1049,
+    "Population (in lakhs)": 21.17,
+    "Crime Rate": 49.55125177
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2005,
+    "Crime Count": 51685,
+    "Population (in lakhs)": 387.53,
+    "Crime Rate": 133.3703197
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2005,
+    "Crime Count": 4575,
+    "Population (in lakhs)": 10.32,
+    "Crime Rate": 443.3139535
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2005,
+    "Crime Count": 27136,
+    "Population (in lakhs)": 257.64,
+    "Crime Rate": 105.3252601
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2005,
+    "Crime Count": 140917,
+    "Population (in lakhs)": 616.68,
+    "Crime Rate": 228.5091133
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2005,
+    "Crime Count": 552,
+    "Population (in lakhs)": 5.75,
+    "Crime Rate": 96
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2005,
+    "Crime Count": 162360,
+    "Population (in lakhs)": 648.56,
+    "Crime Rate": 250.339213
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2005,
+    "Crime Count": 3356,
+    "Population (in lakhs)": 33.9,
+    "Crime Rate": 98.99705015
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2005,
+    "Crime Count": 122108,
+    "Population (in lakhs)": 1814.88,
+    "Crime Rate": 67.28158336
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2005,
+    "Crime Count": 8033,
+    "Population (in lakhs)": 91.19,
+    "Crime Rate": 88.09079943
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2005,
+    "Crime Count": 66406,
+    "Population (in lakhs)": 850.55,
+    "Crime Rate": 78.07418729
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2006,
+    "Crime Count": 676,
+    "Population (in lakhs)": 3.96,
+    "Crime Rate": 170.7070707
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2006,
+    "Crime Count": 173909,
+    "Population (in lakhs)": 807.24,
+    "Crime Rate": 215.4365492
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2006,
+    "Crime Count": 2294,
+    "Population (in lakhs)": 11.74,
+    "Crime Rate": 195.4003407
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2006,
+    "Crime Count": 43673,
+    "Population (in lakhs)": 291.62,
+    "Crime Rate": 149.7599616
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2006,
+    "Crime Count": 100665,
+    "Population (in lakhs)": 913.3,
+    "Crime Rate": 110.221176
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2006,
+    "Crime Count": 3126,
+    "Population (in lakhs)": 10.21,
+    "Crime Rate": 306.1704212
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2006,
+    "Crime Count": 45177,
+    "Population (in lakhs)": 229.9,
+    "Crime Rate": 196.507177
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2006,
+    "Crime Count": 435,
+    "Population (in lakhs)": 2.5,
+    "Crime Rate": 174
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2006,
+    "Crime Count": 288,
+    "Population (in lakhs)": 1.8,
+    "Crime Rate": 160
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2006,
+    "Crime Count": 57963,
+    "Population (in lakhs)": 162.29,
+    "Crime Rate": 357.1569413
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2006,
+    "Crime Count": 2204,
+    "Population (in lakhs)": 15.51,
+    "Crime Rate": 142.1018698
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2006,
+    "Crime Count": 120972,
+    "Population (in lakhs)": 550.8,
+    "Crime Rate": 219.6296296
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2006,
+    "Crime Count": 50509,
+    "Population (in lakhs)": 231.63,
+    "Crime Rate": 218.0589734
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2006,
+    "Crime Count": 13093,
+    "Population (in lakhs)": 64.46,
+    "Crime Rate": 203.1182128
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2006,
+    "Crime Count": 20787,
+    "Population (in lakhs)": 117.25,
+    "Crime Rate": 177.2878465
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2006,
+    "Crime Count": 36364,
+    "Population (in lakhs)": 293.14,
+    "Crime Rate": 124.049942
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2006,
+    "Crime Count": 117710,
+    "Population (in lakhs)": 563.49,
+    "Crime Rate": 208.8945678
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2006,
+    "Crime Count": 105255,
+    "Population (in lakhs)": 336.79,
+    "Crime Rate": 312.5241248
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2006,
+    "Crime Count": 80,
+    "Population (in lakhs)": 0.67,
+    "Crime Rate": 119.4029851
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2006,
+    "Crime Count": 194711,
+    "Population (in lakhs)": 672.13,
+    "Crime Rate": 289.6924702
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2006,
+    "Crime Count": 191788,
+    "Population (in lakhs)": 1045.7,
+    "Crime Rate": 183.4063307
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2006,
+    "Crime Count": 2884,
+    "Population (in lakhs)": 25.72,
+    "Crime Rate": 112.1306376
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2006,
+    "Crime Count": 1935,
+    "Population (in lakhs)": 24.83,
+    "Crime Rate": 77.92992348
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2006,
+    "Crime Count": 2073,
+    "Population (in lakhs)": 9.59,
+    "Crime Rate": 216.1626694
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2006,
+    "Crime Count": 1103,
+    "Population (in lakhs)": 21.41,
+    "Crime Rate": 51.51798225
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2006,
+    "Crime Count": 52792,
+    "Population (in lakhs)": 391.96,
+    "Crime Rate": 134.687213
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2006,
+    "Crime Count": 4687,
+    "Population (in lakhs)": 10.47,
+    "Crime Rate": 447.6599809
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2006,
+    "Crime Count": 32068,
+    "Population (in lakhs)": 260.8,
+    "Crime Rate": 122.9601227
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2006,
+    "Crime Count": 141992,
+    "Population (in lakhs)": 628.02,
+    "Crime Rate": 226.0947104
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2006,
+    "Crime Count": 703,
+    "Population (in lakhs)": 5.81,
+    "Crime Rate": 120.9982788
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2006,
+    "Crime Count": 148972,
+    "Population (in lakhs)": 654.52,
+    "Crime Rate": 227.6049624
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2006,
+    "Crime Count": 3940,
+    "Population (in lakhs)": 34.36,
+    "Crime Rate": 114.6682189
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2006,
+    "Crime Count": 127001,
+    "Population (in lakhs)": 1850.21,
+    "Crime Rate": 68.64139746
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2006,
+    "Crime Count": 8412,
+    "Population (in lakhs)": 92.62,
+    "Crime Rate": 90.82271648
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2006,
+    "Crime Count": 68052,
+    "Population (in lakhs)": 861.3,
+    "Crime Rate": 79.01079763
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2007,
+    "Crime Count": 807,
+    "Population (in lakhs)": 4.05,
+    "Crime Rate": 199.2592593
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2007,
+    "Crime Count": 175087,
+    "Population (in lakhs)": 816.02,
+    "Crime Rate": 214.5621431
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2007,
+    "Crime Count": 2286,
+    "Population (in lakhs)": 11.9,
+    "Crime Rate": 192.1008403
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2007,
+    "Crime Count": 45282,
+    "Population (in lakhs)": 296.22,
+    "Crime Rate": 152.866113
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2007,
+    "Crime Count": 109420,
+    "Population (in lakhs)": 928.32,
+    "Crime Rate": 117.8688383
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2007,
+    "Crime Count": 3643,
+    "Population (in lakhs)": 10.46,
+    "Crime Rate": 348.2791587
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2007,
+    "Crime Count": 45845,
+    "Population (in lakhs)": 233.85,
+    "Crime Rate": 196.044473
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2007,
+    "Crime Count": 425,
+    "Population (in lakhs)": 2.57,
+    "Crime Rate": 165.3696498
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2007,
+    "Crime Count": 260,
+    "Population (in lakhs)": 1.84,
+    "Crime Rate": 141.3043478
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2007,
+    "Crime Count": 56065,
+    "Population (in lakhs)": 167.33,
+    "Crime Rate": 335.0564752
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2007,
+    "Crime Count": 2479,
+    "Population (in lakhs)": 15.96,
+    "Crime Rate": 155.3258145
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2007,
+    "Crime Count": 123195,
+    "Population (in lakhs)": 558.79,
+    "Crime Rate": 220.4674386
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2007,
+    "Crime Count": 51597,
+    "Population (in lakhs)": 235.3,
+    "Crime Rate": 219.281768
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2007,
+    "Crime Count": 14222,
+    "Population (in lakhs)": 65.09,
+    "Crime Rate": 218.497465
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2007,
+    "Crime Count": 21443,
+    "Population (in lakhs)": 121.03,
+    "Crime Rate": 177.1709494
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2007,
+    "Crime Count": 38489,
+    "Population (in lakhs)": 297.34,
+    "Crime Rate": 129.4444071
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2007,
+    "Crime Count": 120606,
+    "Population (in lakhs)": 569.82,
+    "Crime Rate": 211.6563125
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2007,
+    "Crime Count": 108530,
+    "Population (in lakhs)": 340.12,
+    "Crime Rate": 319.0932612
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2007,
+    "Crime Count": 56,
+    "Population (in lakhs)": 0.68,
+    "Crime Rate": 82.35294118
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2007,
+    "Crime Count": 202386,
+    "Population (in lakhs)": 684.55,
+    "Crime Rate": 295.6482361
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2007,
+    "Crime Count": 195707,
+    "Population (in lakhs)": 1059.69,
+    "Crime Rate": 184.6832564
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2007,
+    "Crime Count": 3259,
+    "Population (in lakhs)": 26.05,
+    "Crime Rate": 125.1055662
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2007,
+    "Crime Count": 2079,
+    "Population (in lakhs)": 25.15,
+    "Crime Rate": 82.6640159
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2007,
+    "Crime Count": 2083,
+    "Population (in lakhs)": 9.72,
+    "Crime Rate": 214.3004115
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2007,
+    "Crime Count": 1180,
+    "Population (in lakhs)": 21.69,
+    "Crime Rate": 54.40295067
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2007,
+    "Crime Count": 54872,
+    "Population (in lakhs)": 396.21,
+    "Crime Rate": 138.4922137
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2007,
+    "Crime Count": 5054,
+    "Population (in lakhs)": 10.63,
+    "Crime Rate": 475.4468485
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2007,
+    "Crime Count": 35793,
+    "Population (in lakhs)": 263.89,
+    "Crime Rate": 135.6360605
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2007,
+    "Crime Count": 148870,
+    "Population (in lakhs)": 639.1,
+    "Crime Rate": 232.9369426
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2007,
+    "Crime Count": 667,
+    "Population (in lakhs)": 5.89,
+    "Crime Rate": 113.2427844
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2007,
+    "Crime Count": 172754,
+    "Population (in lakhs)": 660.23,
+    "Crime Rate": 261.6573012
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2007,
+    "Crime Count": 4273,
+    "Population (in lakhs)": 34.81,
+    "Crime Rate": 122.7520827
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2007,
+    "Crime Count": 150258,
+    "Population (in lakhs)": 1885.41,
+    "Crime Rate": 79.69513262
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2007,
+    "Crime Count": 9599,
+    "Population (in lakhs)": 94.04,
+    "Crime Rate": 102.0735857
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2007,
+    "Crime Count": 81102,
+    "Population (in lakhs)": 871.78,
+    "Crime Rate": 93.03035169
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2008,
+    "Crime Count": 882,
+    "Population (in lakhs)": 4.15,
+    "Crime Rate": 212.5301205
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2008,
+    "Crime Count": 179275,
+    "Population (in lakhs)": 824.61,
+    "Crime Rate": 217.405804
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2008,
+    "Crime Count": 2374,
+    "Population (in lakhs)": 12.04,
+    "Crime Rate": 197.1760797
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2008,
+    "Crime Count": 53333,
+    "Population (in lakhs)": 300.79,
+    "Crime Rate": 177.309751
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2008,
+    "Crime Count": 122669,
+    "Population (in lakhs)": 943.06,
+    "Crime Rate": 130.0754989
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2008,
+    "Crime Count": 3931,
+    "Population (in lakhs)": 10.71,
+    "Crime Rate": 367.0401494
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2008,
+    "Crime Count": 51442,
+    "Population (in lakhs)": 237.74,
+    "Crime Rate": 216.3792378
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2008,
+    "Crime Count": 401,
+    "Population (in lakhs)": 2.65,
+    "Crime Rate": 151.3207547
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2008,
+    "Crime Count": 248,
+    "Population (in lakhs)": 1.89,
+    "Crime Rate": 131.2169312
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2008,
+    "Crime Count": 49350,
+    "Population (in lakhs)": 172.5,
+    "Crime Rate": 286.0869565
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2008,
+    "Crime Count": 2742,
+    "Population (in lakhs)": 16.44,
+    "Crime Rate": 166.7883212
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2008,
+    "Crime Count": 123808,
+    "Population (in lakhs)": 566.65,
+    "Crime Rate": 218.4911321
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2008,
+    "Crime Count": 55344,
+    "Population (in lakhs)": 238.9,
+    "Crime Rate": 231.6617832
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2008,
+    "Crime Count": 13976,
+    "Population (in lakhs)": 65.71,
+    "Crime Rate": 212.6921321
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2008,
+    "Crime Count": 20604,
+    "Population (in lakhs)": 125.02,
+    "Crime Rate": 164.8056311
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2008,
+    "Crime Count": 38686,
+    "Population (in lakhs)": 301.44,
+    "Crime Rate": 128.3373142
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2008,
+    "Crime Count": 127540,
+    "Population (in lakhs)": 576.02,
+    "Crime Rate": 221.4159231
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2008,
+    "Crime Count": 110620,
+    "Population (in lakhs)": 343.4,
+    "Crime Rate": 322.1316249
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2008,
+    "Crime Count": 95,
+    "Population (in lakhs)": 0.69,
+    "Crime Rate": 137.6811594
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2008,
+    "Crime Count": 206556,
+    "Population (in lakhs)": 696.83,
+    "Crime Rate": 296.4223699
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2008,
+    "Crime Count": 206243,
+    "Population (in lakhs)": 1073.47,
+    "Crime Rate": 192.1273999
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2008,
+    "Crime Count": 3349,
+    "Population (in lakhs)": 26.37,
+    "Crime Rate": 127.0003792
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2008,
+    "Crime Count": 2318,
+    "Population (in lakhs)": 25.47,
+    "Crime Rate": 91.00903023
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2008,
+    "Crime Count": 1989,
+    "Population (in lakhs)": 9.84,
+    "Crime Rate": 202.1341463
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2008,
+    "Crime Count": 1202,
+    "Population (in lakhs)": 21.96,
+    "Crime Rate": 54.73588342
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2008,
+    "Crime Count": 56755,
+    "Population (in lakhs)": 400.33,
+    "Crime Rate": 141.7705393
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2008,
+    "Crime Count": 4989,
+    "Population (in lakhs)": 10.8,
+    "Crime Rate": 461.9444444
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2008,
+    "Crime Count": 35314,
+    "Population (in lakhs)": 266.89,
+    "Crime Rate": 132.3166848
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2008,
+    "Crime Count": 151174,
+    "Population (in lakhs)": 649.94,
+    "Crime Rate": 232.5968551
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2008,
+    "Crime Count": 730,
+    "Population (in lakhs)": 5.96,
+    "Crime Rate": 122.4832215
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2008,
+    "Crime Count": 176833,
+    "Population (in lakhs)": 665.76,
+    "Crime Rate": 265.6107306
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2008,
+    "Crime Count": 5336,
+    "Population (in lakhs)": 35.24,
+    "Crime Rate": 151.4188422
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2008,
+    "Crime Count": 168996,
+    "Population (in lakhs)": 1920.49,
+    "Crime Rate": 87.99629261
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2008,
+    "Crime Count": 8856,
+    "Population (in lakhs)": 95.43,
+    "Crime Rate": 92.80100597
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2008,
+    "Crime Count": 105419,
+    "Population (in lakhs)": 882.07,
+    "Crime Rate": 119.5131906
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2009,
+    "Crime Count": 941,
+    "Population (in lakhs)": 4.23,
+    "Crime Rate": 222.4586288
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2009,
+    "Crime Count": 180441,
+    "Population (in lakhs)": 832.99,
+    "Crime Rate": 216.6184468
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2009,
+    "Crime Count": 2362,
+    "Population (in lakhs)": 12.2,
+    "Crime Rate": 193.6065574
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2009,
+    "Crime Count": 55313,
+    "Population (in lakhs)": 305.28,
+    "Crime Rate": 181.1877621
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2009,
+    "Crime Count": 122931,
+    "Population (in lakhs)": 957.5,
+    "Crime Rate": 128.3874674
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2009,
+    "Crime Count": 3555,
+    "Population (in lakhs)": 10.97,
+    "Crime Rate": 324.0656335
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2009,
+    "Crime Count": 51370,
+    "Population (in lakhs)": 241.6,
+    "Crime Rate": 212.6241722
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2009,
+    "Crime Count": 442,
+    "Population (in lakhs)": 2.75,
+    "Crime Rate": 160.7272727
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2009,
+    "Crime Count": 276,
+    "Population (in lakhs)": 1.94,
+    "Crime Rate": 142.2680412
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2009,
+    "Crime Count": 50251,
+    "Population (in lakhs)": 177.82,
+    "Crime Rate": 282.5947587
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2009,
+    "Crime Count": 3005,
+    "Population (in lakhs)": 16.91,
+    "Crime Rate": 177.7054997
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2009,
+    "Crime Count": 115183,
+    "Population (in lakhs)": 574.37,
+    "Crime Rate": 200.5379807
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2009,
+    "Crime Count": 56229,
+    "Population (in lakhs)": 242.43,
+    "Crime Rate": 231.9391164
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2009,
+    "Crime Count": 13315,
+    "Population (in lakhs)": 66.29,
+    "Crime Rate": 200.8598582
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2009,
+    "Crime Count": 21975,
+    "Population (in lakhs)": 129.09,
+    "Crime Rate": 170.230072
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2009,
+    "Crime Count": 37436,
+    "Population (in lakhs)": 305.44,
+    "Crime Rate": 122.5641697
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2009,
+    "Crime Count": 134042,
+    "Population (in lakhs)": 582.04,
+    "Crime Rate": 230.2968868
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2009,
+    "Crime Count": 118369,
+    "Population (in lakhs)": 346.62,
+    "Crime Rate": 341.4950089
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2009,
+    "Crime Count": 134,
+    "Population (in lakhs)": 0.71,
+    "Crime Rate": 188.7323944
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2009,
+    "Crime Count": 207762,
+    "Population (in lakhs)": 708.98,
+    "Crime Rate": 293.0435273
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2009,
+    "Crime Count": 199598,
+    "Population (in lakhs)": 1087.01,
+    "Crime Rate": 183.6211258
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2009,
+    "Crime Count": 2852,
+    "Population (in lakhs)": 26.71,
+    "Crime Rate": 106.7764882
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2009,
+    "Crime Count": 2448,
+    "Population (in lakhs)": 25.77,
+    "Crime Rate": 94.99417928
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2009,
+    "Crime Count": 2047,
+    "Population (in lakhs)": 9.96,
+    "Crime Rate": 205.5220884
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2009,
+    "Crime Count": 1059,
+    "Population (in lakhs)": 22.23,
+    "Crime Rate": 47.63832659
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2009,
+    "Crime Count": 55740,
+    "Population (in lakhs)": 404.33,
+    "Crime Rate": 137.8576905
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2009,
+    "Crime Count": 4591,
+    "Population (in lakhs)": 10.97,
+    "Crime Rate": 418.5050137
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2009,
+    "Crime Count": 35545,
+    "Population (in lakhs)": 269.81,
+    "Crime Rate": 131.7408547
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2009,
+    "Crime Count": 166565,
+    "Population (in lakhs)": 660.56,
+    "Crime Rate": 252.1572605
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2009,
+    "Crime Count": 669,
+    "Population (in lakhs)": 6.04,
+    "Crime Rate": 110.7615894
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2009,
+    "Crime Count": 174691,
+    "Population (in lakhs)": 671.06,
+    "Crime Rate": 260.3209847
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2009,
+    "Crime Count": 5486,
+    "Population (in lakhs)": 35.67,
+    "Crime Rate": 153.7987104
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2009,
+    "Crime Count": 172884,
+    "Population (in lakhs)": 1955.22,
+    "Crime Rate": 88.42176328
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2009,
+    "Crime Count": 8802,
+    "Population (in lakhs)": 96.81,
+    "Crime Rate": 90.92035947
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2009,
+    "Crime Count": 113036,
+    "Population (in lakhs)": 892.13,
+    "Crime Rate": 126.7035073
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2010,
+    "Crime Count": 980,
+    "Population (in lakhs)": 4.32,
+    "Crime Rate": 226.8518519
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2010,
+    "Crime Count": 181438,
+    "Population (in lakhs)": 841.29,
+    "Crime Rate": 215.6664171
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2010,
+    "Crime Count": 2439,
+    "Population (in lakhs)": 12.35,
+    "Crime Rate": 197.4898785
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2010,
+    "Crime Count": 61668,
+    "Population (in lakhs)": 309.78,
+    "Crime Rate": 199.070308
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2010,
+    "Crime Count": 127453,
+    "Population (in lakhs)": 971.84,
+    "Crime Rate": 131.1460734
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2010,
+    "Crime Count": 3373,
+    "Population (in lakhs)": 11.25,
+    "Crime Rate": 299.8222222
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2010,
+    "Crime Count": 54958,
+    "Population (in lakhs)": 245.38,
+    "Crime Rate": 223.9709838
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2010,
+    "Crime Count": 378,
+    "Population (in lakhs)": 2.83,
+    "Crime Rate": 133.5689046
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2010,
+    "Crime Count": 203,
+    "Population (in lakhs)": 2,
+    "Crime Rate": 101.5
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2010,
+    "Crime Count": 51292,
+    "Population (in lakhs)": 183.33,
+    "Crime Rate": 279.7796324
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2010,
+    "Crime Count": 3293,
+    "Population (in lakhs)": 17.43,
+    "Crime Rate": 188.9271371
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2010,
+    "Crime Count": 116439,
+    "Population (in lakhs)": 581.93,
+    "Crime Rate": 200.0910762
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2010,
+    "Crime Count": 59120,
+    "Population (in lakhs)": 245.9,
+    "Crime Rate": 240.4229362
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2010,
+    "Crime Count": 13049,
+    "Population (in lakhs)": 66.87,
+    "Crime Rate": 195.1398235
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2010,
+    "Crime Count": 23223,
+    "Population (in lakhs)": 133.64,
+    "Crime Rate": 173.7728225
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2010,
+    "Crime Count": 38889,
+    "Population (in lakhs)": 309.37,
+    "Crime Rate": 125.7038498
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2010,
+    "Crime Count": 142322,
+    "Population (in lakhs)": 587.99,
+    "Crime Rate": 242.0483342
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2010,
+    "Crime Count": 148313,
+    "Population (in lakhs)": 349.72,
+    "Crime Rate": 424.0907011
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2010,
+    "Crime Count": 42,
+    "Population (in lakhs)": 0.72,
+    "Crime Rate": 58.33333333
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2010,
+    "Crime Count": 214269,
+    "Population (in lakhs)": 721.06,
+    "Crime Rate": 297.1583502
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2010,
+    "Crime Count": 208168,
+    "Population (in lakhs)": 1100.49,
+    "Crime Rate": 189.1593745
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2010,
+    "Crime Count": 2715,
+    "Population (in lakhs)": 27.02,
+    "Crime Rate": 100.4811251
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2010,
+    "Crime Count": 2505,
+    "Population (in lakhs)": 26.09,
+    "Crime Rate": 96.01379839
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2010,
+    "Crime Count": 2174,
+    "Population (in lakhs)": 10.08,
+    "Crime Rate": 215.6746032
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2010,
+    "Crime Count": 1059,
+    "Population (in lakhs)": 22.5,
+    "Crime Rate": 47.06666667
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2010,
+    "Crime Count": 56459,
+    "Population (in lakhs)": 408.28,
+    "Crime Rate": 138.2850005
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2010,
+    "Crime Count": 3935,
+    "Population (in lakhs)": 11.17,
+    "Crime Rate": 352.2829006
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2010,
+    "Crime Count": 36648,
+    "Population (in lakhs)": 272.68,
+    "Crime Rate": 134.3992959
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2010,
+    "Crime Count": 162957,
+    "Population (in lakhs)": 671.06,
+    "Crime Rate": 242.8352159
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2010,
+    "Crime Count": 552,
+    "Population (in lakhs)": 6.1,
+    "Crime Rate": 90.49180328
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2010,
+    "Crime Count": 185678,
+    "Population (in lakhs)": 676.32,
+    "Crime Rate": 274.5416371
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2010,
+    "Crime Count": 5805,
+    "Population (in lakhs)": 36.1,
+    "Crime Rate": 160.8033241
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2010,
+    "Crime Count": 174179,
+    "Population (in lakhs)": 1990.28,
+    "Crime Rate": 87.51482204
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2010,
+    "Crime Count": 9240,
+    "Population (in lakhs)": 98.17,
+    "Crime Rate": 94.12244066
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2010,
+    "Crime Count": 129616,
+    "Population (in lakhs)": 902.22,
+    "Crime Rate": 143.663408
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2011,
+    "Crime Count": 793,
+    "Population (in lakhs)": 3.8,
+    "Crime Rate": 208.6842105
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2011,
+    "Crime Count": 189780,
+    "Population (in lakhs)": 846.65,
+    "Crime Rate": 224.1540188
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2011,
+    "Crime Count": 2286,
+    "Population (in lakhs)": 13.83,
+    "Crime Rate": 165.2928416
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2011,
+    "Crime Count": 66714,
+    "Population (in lakhs)": 311.69,
+    "Crime Rate": 214.0395906
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2011,
+    "Crime Count": 135896,
+    "Population (in lakhs)": 1038.04,
+    "Crime Rate": 130.915957
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2011,
+    "Crime Count": 3542,
+    "Population (in lakhs)": 10.55,
+    "Crime Rate": 335.7345972
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2011,
+    "Crime Count": 57218,
+    "Population (in lakhs)": 255.4,
+    "Crime Rate": 224.0328896
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2011,
+    "Crime Count": 372,
+    "Population (in lakhs)": 3.43,
+    "Crime Rate": 108.4548105
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2011,
+    "Crime Count": 224,
+    "Population (in lakhs)": 2.43,
+    "Crime Rate": 92.18106996
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2011,
+    "Crime Count": 53353,
+    "Population (in lakhs)": 167.53,
+    "Crime Rate": 318.468334
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2011,
+    "Crime Count": 3449,
+    "Population (in lakhs)": 14.58,
+    "Crime Rate": 236.5569273
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2011,
+    "Crime Count": 123371,
+    "Population (in lakhs)": 603.83,
+    "Crime Rate": 204.3141281
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2011,
+    "Crime Count": 60741,
+    "Population (in lakhs)": 253.53,
+    "Crime Rate": 239.5811147
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2011,
+    "Crime Count": 14312,
+    "Population (in lakhs)": 68.57,
+    "Crime Rate": 208.721015
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2011,
+    "Crime Count": 24504,
+    "Population (in lakhs)": 125.49,
+    "Crime Rate": 195.2665551
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2011,
+    "Crime Count": 35838,
+    "Population (in lakhs)": 329.66,
+    "Crime Rate": 108.7120063
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2011,
+    "Crime Count": 137600,
+    "Population (in lakhs)": 611.31,
+    "Crime Rate": 225.0903797
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2011,
+    "Crime Count": 172137,
+    "Population (in lakhs)": 333.88,
+    "Crime Rate": 515.5654726
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2011,
+    "Crime Count": 44,
+    "Population (in lakhs)": 0.64,
+    "Crime Rate": 68.75
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2011,
+    "Crime Count": 217094,
+    "Population (in lakhs)": 725.98,
+    "Crime Rate": 299.0357861
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2011,
+    "Crime Count": 204902,
+    "Population (in lakhs)": 1123.73,
+    "Crime Rate": 182.3409538
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2011,
+    "Crime Count": 3218,
+    "Population (in lakhs)": 27.22,
+    "Crime Rate": 118.2218957
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2011,
+    "Crime Count": 2755,
+    "Population (in lakhs)": 29.64,
+    "Crime Rate": 92.94871795
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2011,
+    "Crime Count": 1821,
+    "Population (in lakhs)": 10.91,
+    "Crime Rate": 166.9110907
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2011,
+    "Crime Count": 1083,
+    "Population (in lakhs)": 19.81,
+    "Crime Rate": 54.66935891
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2011,
+    "Crime Count": 61277,
+    "Population (in lakhs)": 419.47,
+    "Crime Rate": 146.0819606
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2011,
+    "Crime Count": 4362,
+    "Population (in lakhs)": 12.44,
+    "Crime Rate": 350.6430868
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2011,
+    "Crime Count": 34883,
+    "Population (in lakhs)": 277.04,
+    "Crime Rate": 125.9132255
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2011,
+    "Crime Count": 165622,
+    "Population (in lakhs)": 686.21,
+    "Crime Rate": 241.3576019
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2011,
+    "Crime Count": 596,
+    "Population (in lakhs)": 6.08,
+    "Crime Rate": 98.02631579
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2011,
+    "Crime Count": 192879,
+    "Population (in lakhs)": 721.39,
+    "Crime Rate": 267.3713248
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2011,
+    "Crime Count": 5803,
+    "Population (in lakhs)": 36.71,
+    "Crime Rate": 158.0768183
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2011,
+    "Crime Count": 195135,
+    "Population (in lakhs)": 1995.81,
+    "Crime Rate": 97.77233304
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2011,
+    "Crime Count": 8774,
+    "Population (in lakhs)": 101.17,
+    "Crime Rate": 86.72531383
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2011,
+    "Crime Count": 143197,
+    "Population (in lakhs)": 913.48,
+    "Crime Rate": 156.7598634
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2012,
+    "Crime Count": 683,
+    "Population (in lakhs)": 5.12,
+    "Crime Rate": 133.3984375
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2012,
+    "Crime Count": 192522,
+    "Population (in lakhs)": 857.44,
+    "Crime Rate": 224.5311625
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2012,
+    "Crime Count": 2420,
+    "Population (in lakhs)": 12.6,
+    "Crime Rate": 192.0634921
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2012,
+    "Crime Count": 77682,
+    "Population (in lakhs)": 310.71,
+    "Crime Rate": 250.014483
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2012,
+    "Crime Count": 146614,
+    "Population (in lakhs)": 994.57,
+    "Crime Rate": 147.4144605
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2012,
+    "Crime Count": 3606,
+    "Population (in lakhs)": 15.32,
+    "Crime Rate": 235.3785901
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2012,
+    "Crime Count": 54598,
+    "Population (in lakhs)": 246.95,
+    "Crime Rate": 221.0892893
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2012,
+    "Crime Count": 318,
+    "Population (in lakhs)": 3.76,
+    "Crime Rate": 84.57446809
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2012,
+    "Crime Count": 239,
+    "Population (in lakhs)": 2.85,
+    "Crime Rate": 83.85964912
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2012,
+    "Crime Count": 54287,
+    "Population (in lakhs)": 191.64,
+    "Crime Rate": 283.275934
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2012,
+    "Crime Count": 3608,
+    "Population (in lakhs)": 18.34,
+    "Crime Rate": 196.7284624
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2012,
+    "Crime Count": 130121,
+    "Population (in lakhs)": 600.62,
+    "Crime Rate": 216.6444674
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2012,
+    "Crime Count": 62480,
+    "Population (in lakhs)": 259.94,
+    "Crime Rate": 240.3631607
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2012,
+    "Crime Count": 12557,
+    "Population (in lakhs)": 68.78,
+    "Crime Rate": 182.5676069
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2012,
+    "Crime Count": 24608,
+    "Population (in lakhs)": 119.14,
+    "Crime Rate": 206.5469196
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2012,
+    "Crime Count": 40946,
+    "Population (in lakhs)": 320.5,
+    "Crime Rate": 127.7566303
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2012,
+    "Crime Count": 134021,
+    "Population (in lakhs)": 602.29,
+    "Crime Rate": 222.5190523
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2012,
+    "Crime Count": 158989,
+    "Population (in lakhs)": 348.82,
+    "Crime Rate": 455.7909524
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2012,
+    "Crime Count": 60,
+    "Population (in lakhs)": 0.77,
+    "Crime Rate": 77.92207792
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2012,
+    "Crime Count": 220335,
+    "Population (in lakhs)": 737.3,
+    "Crime Rate": 298.8403635
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2012,
+    "Crime Count": 202700,
+    "Population (in lakhs)": 1146.97,
+    "Crime Rate": 176.7265055
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2012,
+    "Crime Count": 3737,
+    "Population (in lakhs)": 24.87,
+    "Crime Rate": 150.2613591
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2012,
+    "Crime Count": 2557,
+    "Population (in lakhs)": 26.61,
+    "Crime Rate": 96.09169485
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2012,
+    "Crime Count": 1766,
+    "Population (in lakhs)": 10.2,
+    "Crime Rate": 173.1372549
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2012,
+    "Crime Count": 1090,
+    "Population (in lakhs)": 22.84,
+    "Crime Rate": 47.72329247
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2012,
+    "Crime Count": 67957,
+    "Population (in lakhs)": 412.24,
+    "Crime Rate": 164.8481467
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2012,
+    "Crime Count": 4281,
+    "Population (in lakhs)": 14.71,
+    "Crime Rate": 291.0265126
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2012,
+    "Crime Count": 35790,
+    "Population (in lakhs)": 280.83,
+    "Crime Rate": 127.4436492
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2012,
+    "Crime Count": 170948,
+    "Population (in lakhs)": 692.49,
+    "Crime Rate": 246.8598825
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2012,
+    "Crime Count": 528,
+    "Population (in lakhs)": 6.22,
+    "Crime Rate": 84.88745981
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2012,
+    "Crime Count": 200474,
+    "Population (in lakhs)": 680.02,
+    "Crime Rate": 294.8060351
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2012,
+    "Crime Count": 6264,
+    "Population (in lakhs)": 36.72,
+    "Crime Rate": 170.5882353
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2012,
+    "Crime Count": 198093,
+    "Population (in lakhs)": 2054.26,
+    "Crime Rate": 96.43034475
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2012,
+    "Crime Count": 8882,
+    "Population (in lakhs)": 101.31,
+    "Crime Rate": 87.67150331
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2012,
+    "Crime Count": 161427,
+    "Population (in lakhs)": 905.95,
+    "Crime Rate": 178.1853303
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2013,
+    "Crime Count": 612,
+    "Population (in lakhs)": 5.25,
+    "Crime Rate": 116.5714286
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2013,
+    "Crime Count": 218015,
+    "Population (in lakhs)": 864.76,
+    "Crime Rate": 252.1104121
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2013,
+    "Crime Count": 2776,
+    "Population (in lakhs)": 12.74,
+    "Crime Rate": 217.8963893
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2013,
+    "Crime Count": 87186,
+    "Population (in lakhs)": 314.45,
+    "Crime Rate": 277.265066
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2013,
+    "Crime Count": 167455,
+    "Population (in lakhs)": 1007.15,
+    "Crime Rate": 166.2661967
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2013,
+    "Crime Count": 4077,
+    "Population (in lakhs)": 16.05,
+    "Crime Rate": 254.0186916
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2013,
+    "Crime Count": 56870,
+    "Population (in lakhs)": 250.18,
+    "Crime Rate": 227.3163322
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2013,
+    "Crime Count": 314,
+    "Population (in lakhs)": 3.92,
+    "Crime Rate": 80.10204082
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2013,
+    "Crime Count": 246,
+    "Population (in lakhs)": 2.97,
+    "Crime Rate": 82.82828283
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2013,
+    "Crime Count": 80184,
+    "Population (in lakhs)": 197.14,
+    "Crime Rate": 406.7363295
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2013,
+    "Crime Count": 4312,
+    "Population (in lakhs)": 18.85,
+    "Crime Rate": 228.7533156
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2013,
+    "Crime Count": 157435,
+    "Population (in lakhs)": 608.28,
+    "Crime Rate": 258.8199513
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2013,
+    "Crime Count": 72098,
+    "Population (in lakhs)": 264.05,
+    "Crime Rate": 273.0467714
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2013,
+    "Crime Count": 13750,
+    "Population (in lakhs)": 69.39,
+    "Crime Rate": 198.1553538
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2013,
+    "Crime Count": 25390,
+    "Population (in lakhs)": 120.59,
+    "Crime Rate": 210.5481383
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2013,
+    "Crime Count": 48208,
+    "Population (in lakhs)": 324.79,
+    "Crime Rate": 148.4282152
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2013,
+    "Crime Count": 136689,
+    "Population (in lakhs)": 608.24,
+    "Crime Rate": 224.7287255
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2013,
+    "Crime Count": 176334,
+    "Population (in lakhs)": 351.11,
+    "Crime Rate": 502.2186779
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2013,
+    "Crime Count": 40,
+    "Population (in lakhs)": 0.78,
+    "Crime Rate": 51.28205128
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2013,
+    "Crime Count": 227453,
+    "Population (in lakhs)": 748.65,
+    "Crime Rate": 303.8175382
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2013,
+    "Crime Count": 234385,
+    "Population (in lakhs)": 1162.06,
+    "Crime Rate": 201.6978469
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2013,
+    "Crime Count": 3178,
+    "Population (in lakhs)": 25.16,
+    "Crime Rate": 126.3116057
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2013,
+    "Crime Count": 3259,
+    "Population (in lakhs)": 26.92,
+    "Crime Rate": 121.0624071
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2013,
+    "Crime Count": 1709,
+    "Population (in lakhs)": 10.32,
+    "Crime Rate": 165.6007752
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2013,
+    "Crime Count": 1216,
+    "Population (in lakhs)": 23.1,
+    "Crime Rate": 52.64069264
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2013,
+    "Crime Count": 71718,
+    "Population (in lakhs)": 415.69,
+    "Crime Rate": 172.5276047
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2013,
+    "Crime Count": 3756,
+    "Population (in lakhs)": 15.34,
+    "Crime Rate": 244.8500652
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2013,
+    "Crime Count": 36667,
+    "Population (in lakhs)": 283.79,
+    "Crime Rate": 129.2046936
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2013,
+    "Crime Count": 196224,
+    "Population (in lakhs)": 702.93,
+    "Crime Rate": 279.1515514
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2013,
+    "Crime Count": 851,
+    "Population (in lakhs)": 6.29,
+    "Crime Rate": 135.2941176
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2013,
+    "Crime Count": 203579,
+    "Population (in lakhs)": 683.99,
+    "Crime Rate": 297.6344683
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2013,
+    "Crime Count": 6210,
+    "Population (in lakhs)": 37.14,
+    "Crime Rate": 167.2051696
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2013,
+    "Crime Count": 226445,
+    "Population (in lakhs)": 2089.15,
+    "Crime Rate": 108.3909724
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2013,
+    "Crime Count": 9546,
+    "Population (in lakhs)": 102.71,
+    "Crime Rate": 92.94129101
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2013,
+    "Crime Count": 169535,
+    "Population (in lakhs)": 913.92,
+    "Crime Rate": 185.5031075
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2014,
+    "Crime Count": 746,
+    "Population (in lakhs)": 5.4,
+    "Crime Rate": 138.1481481
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2014,
+    "Crime Count": 221434,
+    "Population (in lakhs)": 871.9,
+    "Crime Rate": 253.9671981
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2014,
+    "Crime Count": 2843,
+    "Population (in lakhs)": 12.9,
+    "Crime Rate": 220.3875969
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2014,
+    "Crime Count": 94337,
+    "Population (in lakhs)": 318.2,
+    "Crime Rate": 296.4707731
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2014,
+    "Crime Count": 177595,
+    "Population (in lakhs)": 1019.4,
+    "Crime Rate": 174.2152246
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2014,
+    "Crime Count": 3221,
+    "Population (in lakhs)": 16.8,
+    "Crime Rate": 191.7261905
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2014,
+    "Crime Count": 58200,
+    "Population (in lakhs)": 253.4,
+    "Crime Rate": 229.6764009
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2014,
+    "Crime Count": 277,
+    "Population (in lakhs)": 4.1,
+    "Crime Rate": 67.56097561
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2014,
+    "Crime Count": 233,
+    "Population (in lakhs)": 3.1,
+    "Crime Rate": 75.16129032
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2014,
+    "Crime Count": 155654,
+    "Population (in lakhs)": 202.8,
+    "Crime Rate": 767.5246548
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2014,
+    "Crime Count": 4466,
+    "Population (in lakhs)": 19.3,
+    "Crime Rate": 231.3989637
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2014,
+    "Crime Count": 131385,
+    "Population (in lakhs)": 615.9,
+    "Crime Rate": 213.3219679
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2014,
+    "Crime Count": 79947,
+    "Population (in lakhs)": 268.1,
+    "Crime Rate": 298.1984334
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2014,
+    "Crime Count": 14160,
+    "Population (in lakhs)": 70,
+    "Crime Rate": 202.2857143
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2014,
+    "Crime Count": 23848,
+    "Population (in lakhs)": 122,
+    "Crime Rate": 195.4754098
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2014,
+    "Crime Count": 45335,
+    "Population (in lakhs)": 329.1,
+    "Crime Rate": 137.7544819
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2014,
+    "Crime Count": 137338,
+    "Population (in lakhs)": 614.1,
+    "Crime Rate": 223.6411008
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2014,
+    "Crime Count": 206789,
+    "Population (in lakhs)": 353.3,
+    "Crime Rate": 585.3071044
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2014,
+    "Crime Count": 81,
+    "Population (in lakhs)": 0.8,
+    "Crime Rate": 101.25
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2014,
+    "Crime Count": 272423,
+    "Population (in lakhs)": 760,
+    "Crime Rate": 358.4513158
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2014,
+    "Crime Count": 249834,
+    "Population (in lakhs)": 1176.9,
+    "Crime Rate": 212.2814173
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2014,
+    "Crime Count": 3641,
+    "Population (in lakhs)": 25.4,
+    "Crime Rate": 143.3464567
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2014,
+    "Crime Count": 3679,
+    "Population (in lakhs)": 27.2,
+    "Crime Rate": 135.2573529
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2014,
+    "Crime Count": 2140,
+    "Population (in lakhs)": 10.4,
+    "Crime Rate": 205.7692308
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2014,
+    "Crime Count": 1157,
+    "Population (in lakhs)": 23.4,
+    "Crime Rate": 49.44444444
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2014,
+    "Crime Count": 74569,
+    "Population (in lakhs)": 419.1,
+    "Crime Rate": 177.9265092
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2014,
+    "Crime Count": 3584,
+    "Population (in lakhs)": 15.9,
+    "Crime Rate": 225.408805
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2014,
+    "Crime Count": 37162,
+    "Population (in lakhs)": 286.7,
+    "Crime Rate": 129.6198116
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2014,
+    "Crime Count": 210418,
+    "Population (in lakhs)": 713.2,
+    "Crime Rate": 295.0336511
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2014,
+    "Crime Count": 1065,
+    "Population (in lakhs)": 6.4,
+    "Crime Rate": 166.40625
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2014,
+    "Crime Count": 193200,
+    "Population (in lakhs)": 687.8,
+    "Crime Rate": 280.8956092
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2014,
+    "Crime Count": 5499,
+    "Population (in lakhs)": 37.6,
+    "Crime Rate": 146.25
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2014,
+    "Crime Count": 240475,
+    "Population (in lakhs)": 2123.9,
+    "Crime Rate": 113.2233156
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2014,
+    "Crime Count": 9156,
+    "Population (in lakhs)": 104.1,
+    "Crime Rate": 87.95389049
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2014,
+    "Crime Count": 193048,
+    "Population (in lakhs)": 921.9,
+    "Crime Rate": 209.4023213
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2015,
+    "Crime Count": 862,
+    "Population (in lakhs)": 5.5,
+    "Crime Rate": 156.7272727
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2015,
+    "Crime Count": 216975,
+    "Population (in lakhs)": 879,
+    "Crime Rate": 246.8430034
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2015,
+    "Crime Count": 2968,
+    "Population (in lakhs)": 13,
+    "Crime Rate": 228.3076923
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2015,
+    "Crime Count": 103616,
+    "Population (in lakhs)": 322,
+    "Crime Rate": 321.7888199
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2015,
+    "Crime Count": 176973,
+    "Population (in lakhs)": 1031.4,
+    "Crime Rate": 171.585224
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2015,
+    "Crime Count": 3248,
+    "Population (in lakhs)": 17.4,
+    "Crime Rate": 186.6666667
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2015,
+    "Crime Count": 56692,
+    "Population (in lakhs)": 256.6,
+    "Crime Rate": 220.9353079
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2015,
+    "Crime Count": 269,
+    "Population (in lakhs)": 4.2,
+    "Crime Rate": 64.04761905
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2015,
+    "Crime Count": 302,
+    "Population (in lakhs)": 3.2,
+    "Crime Rate": 94.375
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2015,
+    "Crime Count": 191377,
+    "Population (in lakhs)": 208.8,
+    "Crime Rate": 916.5565134
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2015,
+    "Crime Count": 3074,
+    "Population (in lakhs)": 19.7,
+    "Crime Rate": 156.0406091
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2015,
+    "Crime Count": 126935,
+    "Population (in lakhs)": 623.3,
+    "Crime Rate": 203.6499278
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2015,
+    "Crime Count": 84466,
+    "Population (in lakhs)": 272.2,
+    "Crime Rate": 310.3085966
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2015,
+    "Crime Count": 14007,
+    "Population (in lakhs)": 70.6,
+    "Crime Rate": 198.3994334
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2015,
+    "Crime Count": 23583,
+    "Population (in lakhs)": 123.4,
+    "Crime Rate": 191.1102107
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2015,
+    "Crime Count": 45050,
+    "Population (in lakhs)": 333.5,
+    "Crime Rate": 135.0824588
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2015,
+    "Crime Count": 138847,
+    "Population (in lakhs)": 619.9,
+    "Crime Rate": 223.9829005
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2015,
+    "Crime Count": 257074,
+    "Population (in lakhs)": 355.5,
+    "Crime Rate": 723.1336146
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2015,
+    "Crime Count": 50,
+    "Population (in lakhs)": 0.8,
+    "Crime Rate": 62.5
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2015,
+    "Crime Count": 268614,
+    "Population (in lakhs)": 771.3,
+    "Crime Rate": 348.2613769
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2015,
+    "Crime Count": 275414,
+    "Population (in lakhs)": 1191.4,
+    "Crime Rate": 231.1683733
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2015,
+    "Crime Count": 3847,
+    "Population (in lakhs)": 25.7,
+    "Crime Rate": 149.688716
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2015,
+    "Crime Count": 4079,
+    "Population (in lakhs)": 27.5,
+    "Crime Rate": 148.3272727
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2015,
+    "Crime Count": 2228,
+    "Population (in lakhs)": 10.6,
+    "Crime Rate": 210.1886792
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2015,
+    "Crime Count": 1302,
+    "Population (in lakhs)": 23.6,
+    "Crime Rate": 55.16949153
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2015,
+    "Crime Count": 83360,
+    "Population (in lakhs)": 422.5,
+    "Crime Rate": 197.3017751
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2015,
+    "Crime Count": 3440,
+    "Population (in lakhs)": 16.5,
+    "Crime Rate": 208.4848485
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2015,
+    "Crime Count": 37983,
+    "Population (in lakhs)": 289.4,
+    "Crime Rate": 131.2474084
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2015,
+    "Crime Count": 198080,
+    "Population (in lakhs)": 723.1,
+    "Crime Rate": 273.931683
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2015,
+    "Crime Count": 766,
+    "Population (in lakhs)": 6.4,
+    "Crime Rate": 119.6875
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2015,
+    "Crime Count": 187558,
+    "Population (in lakhs)": 691.6,
+    "Crime Rate": 271.194332
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2015,
+    "Crime Count": 4692,
+    "Population (in lakhs)": 38,
+    "Crime Rate": 123.4736842
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2015,
+    "Crime Count": 241920,
+    "Population (in lakhs)": 2158.4,
+    "Crime Rate": 112.0830245
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2015,
+    "Crime Count": 10248,
+    "Population (in lakhs)": 105.4,
+    "Crime Rate": 97.22960152
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2015,
+    "Crime Count": 179501,
+    "Population (in lakhs)": 930,
+    "Crime Rate": 193.011828
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2016,
+    "Crime Count": 802,
+    "Population (in lakhs)": 5.5,
+    "Crime Rate": 145.8181818
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2016,
+    "Crime Count": 215765,
+    "Population (in lakhs)": 885.9,
+    "Crime Rate": 243.5545773
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2016,
+    "Crime Count": 2534,
+    "Population (in lakhs)": 13.2,
+    "Crime Rate": 191.969697
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2016,
+    "Crime Count": 102250,
+    "Population (in lakhs)": 325.8,
+    "Crime Rate": 313.8428484
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2016,
+    "Crime Count": 164163,
+    "Population (in lakhs)": 1043,
+    "Crime Rate": 157.3950144
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2016,
+    "Crime Count": 2996,
+    "Population (in lakhs)": 18,
+    "Crime Rate": 166.4444444
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2016,
+    "Crime Count": 55029,
+    "Population (in lakhs)": 259.9,
+    "Crime Rate": 211.7314352
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2016,
+    "Crime Count": 244,
+    "Population (in lakhs)": 4.3,
+    "Crime Rate": 56.74418605
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2016,
+    "Crime Count": 271,
+    "Population (in lakhs)": 3.3,
+    "Crime Rate": 82.12121212
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2016,
+    "Crime Count": 209519,
+    "Population (in lakhs)": 214.9,
+    "Crime Rate": 974.9604467
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2016,
+    "Crime Count": 2692,
+    "Population (in lakhs)": 19.9,
+    "Crime Rate": 135.2763819
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2016,
+    "Crime Count": 147122,
+    "Population (in lakhs)": 630.8,
+    "Crime Rate": 233.230818
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2016,
+    "Crime Count": 88527,
+    "Population (in lakhs)": 276.1,
+    "Crime Rate": 320.6338283
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2016,
+    "Crime Count": 13386,
+    "Population (in lakhs)": 71.2,
+    "Crime Rate": 188.005618
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2016,
+    "Crime Count": 24501,
+    "Population (in lakhs)": 124.6,
+    "Crime Rate": 196.6372392
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2016,
+    "Crime Count": 40710,
+    "Population (in lakhs)": 338,
+    "Crime Rate": 120.443787
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2016,
+    "Crime Count": 148402,
+    "Population (in lakhs)": 625.7,
+    "Crime Rate": 237.1775611
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2016,
+    "Crime Count": 260097,
+    "Population (in lakhs)": 357.5,
+    "Crime Rate": 727.5440559
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2016,
+    "Crime Count": 36,
+    "Population (in lakhs)": 0.8,
+    "Crime Rate": 45
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2016,
+    "Crime Count": 264418,
+    "Population (in lakhs)": 782.6,
+    "Crime Rate": 337.8711986
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2016,
+    "Crime Count": 261714,
+    "Population (in lakhs)": 1205.5,
+    "Crime Rate": 217.0999585
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2016,
+    "Crime Count": 3170,
+    "Population (in lakhs)": 26,
+    "Crime Rate": 121.9230769
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2016,
+    "Crime Count": 3366,
+    "Population (in lakhs)": 27.8,
+    "Crime Rate": 121.0791367
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2016,
+    "Crime Count": 2425,
+    "Population (in lakhs)": 10.7,
+    "Crime Rate": 226.635514
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2016,
+    "Crime Count": 1376,
+    "Population (in lakhs)": 23.9,
+    "Crime Rate": 57.57322176
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2016,
+    "Crime Count": 81460,
+    "Population (in lakhs)": 425.9,
+    "Crime Rate": 191.2655553
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2016,
+    "Crime Count": 4086,
+    "Population (in lakhs)": 16.8,
+    "Crime Rate": 243.2142857
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2016,
+    "Crime Count": 40007,
+    "Population (in lakhs)": 292,
+    "Crime Rate": 137.010274
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2016,
+    "Crime Count": 180398,
+    "Population (in lakhs)": 732.8,
+    "Crime Rate": 246.17631
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2016,
+    "Crime Count": 809,
+    "Population (in lakhs)": 6.5,
+    "Crime Rate": 124.4615385
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2016,
+    "Crime Count": 179896,
+    "Population (in lakhs)": 695.2,
+    "Crime Rate": 258.7686997
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2016,
+    "Crime Count": 3933,
+    "Population (in lakhs)": 38.4,
+    "Crime Rate": 102.421875
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2016,
+    "Crime Count": 282171,
+    "Population (in lakhs)": 2192.4,
+    "Crime Rate": 128.7041598
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2016,
+    "Crime Count": 10867,
+    "Population (in lakhs)": 106.8,
+    "Crime Rate": 101.7509363
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2016,
+    "Crime Count": 176569,
+    "Population (in lakhs)": 938.3,
+    "Crime Rate": 188.1796867
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2017,
+    "Crime Count": 638,
+    "Population (in lakhs)": 5.7,
+    "Crime Rate": 111.9298246
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2017,
+    "Crime Count": 252194,
+    "Population (in lakhs)": 892.6,
+    "Crime Rate": 282.5386511
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2017,
+    "Crime Count": 2565,
+    "Population (in lakhs)": 13.3,
+    "Crime Rate": 192.8571429
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2017,
+    "Crime Count": 104324,
+    "Population (in lakhs)": 329.3,
+    "Crime Rate": 316.8053447
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2017,
+    "Crime Count": 180573,
+    "Population (in lakhs)": 1054.5,
+    "Crime Rate": 171.2403983
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2017,
+    "Crime Count": 3240,
+    "Population (in lakhs)": 18.9,
+    "Crime Rate": 171.4285714
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2017,
+    "Crime Count": 58481,
+    "Population (in lakhs)": 262.9,
+    "Crime Rate": 222.4457969
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2017,
+    "Crime Count": 266,
+    "Population (in lakhs)": 4.4,
+    "Crime Rate": 60.45454545
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2017,
+    "Crime Count": 367,
+    "Population (in lakhs)": 3.5,
+    "Crime Rate": 104.8571429
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2017,
+    "Crime Count": 232066,
+    "Population (in lakhs)": 221,
+    "Crime Rate": 1050.072398
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2017,
+    "Crime Count": 2965,
+    "Population (in lakhs)": 20.4,
+    "Crime Rate": 145.3431373
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2017,
+    "Crime Count": 128775,
+    "Population (in lakhs)": 637.7,
+    "Crime Rate": 201.9366473
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2017,
+    "Crime Count": 97924,
+    "Population (in lakhs)": 280,
+    "Crime Rate": 349.7285714
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2017,
+    "Crime Count": 13007,
+    "Population (in lakhs)": 71.7,
+    "Crime Rate": 181.4086471
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2017,
+    "Crime Count": 22667,
+    "Population (in lakhs)": 125.9,
+    "Crime Rate": 180.0397141
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2017,
+    "Crime Count": 44595,
+    "Population (in lakhs)": 342.1,
+    "Crime Rate": 130.3566209
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2017,
+    "Crime Count": 146354,
+    "Population (in lakhs)": 630.9,
+    "Crime Rate": 231.9765414
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2017,
+    "Crime Count": 235846,
+    "Population (in lakhs)": 359.4,
+    "Crime Rate": 656.2214802
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2017,
+    "Crime Count": 78,
+    "Population (in lakhs)": 0.8,
+    "Crime Rate": 97.5
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2017,
+    "Crime Count": 269512,
+    "Population (in lakhs)": 793.3,
+    "Crime Rate": 339.735283
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2017,
+    "Crime Count": 288879,
+    "Population (in lakhs)": 1219.9,
+    "Crime Rate": 236.8054759
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2017,
+    "Crime Count": 3416,
+    "Population (in lakhs)": 26.3,
+    "Crime Rate": 129.8859316
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2017,
+    "Crime Count": 3521,
+    "Population (in lakhs)": 28.1,
+    "Crime Rate": 125.3024911
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2017,
+    "Crime Count": 2118,
+    "Population (in lakhs)": 10.8,
+    "Crime Rate": 196.1111111
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2017,
+    "Crime Count": 1068,
+    "Population (in lakhs)": 24.1,
+    "Crime Rate": 44.3153527
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2017,
+    "Crime Count": 83583,
+    "Population (in lakhs)": 429.2,
+    "Crime Rate": 194.7413793
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2017,
+    "Crime Count": 3883,
+    "Population (in lakhs)": 17.6,
+    "Crime Rate": 220.625
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2017,
+    "Crime Count": 39288,
+    "Population (in lakhs)": 294.6,
+    "Crime Rate": 133.3604888
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2017,
+    "Crime Count": 169941,
+    "Population (in lakhs)": 742.5,
+    "Crime Rate": 228.8767677
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2017,
+    "Crime Count": 719,
+    "Population (in lakhs)": 6.6,
+    "Crime Rate": 108.9393939
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2017,
+    "Crime Count": 178836,
+    "Population (in lakhs)": 698.4,
+    "Crime Rate": 256.0652921
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2017,
+    "Crime Count": 3918,
+    "Population (in lakhs)": 38.8,
+    "Crime Rate": 100.9793814
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2017,
+    "Crime Count": 310084,
+    "Population (in lakhs)": 2226.1,
+    "Crime Rate": 139.2947307
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2017,
+    "Crime Count": 12889,
+    "Population (in lakhs)": 108,
+    "Crime Rate": 119.3425926
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2017,
+    "Crime Count": 163999,
+    "Population (in lakhs)": 946,
+    "Crime Rate": 173.3604651
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2018,
+    "Crime Count": 706,
+    "Population (in lakhs)": 4,
+    "Crime Rate": 176.5
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2018,
+    "Crime Count": 240586,
+    "Population (in lakhs)": 890.6,
+    "Crime Rate": 270.139232
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2018,
+    "Crime Count": 2613,
+    "Population (in lakhs)": 14.9,
+    "Crime Rate": 175.3691275
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2018,
+    "Crime Count": 112232,
+    "Population (in lakhs)": 340.4,
+    "Crime Rate": 329.706228
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2018,
+    "Crime Count": 196911,
+    "Population (in lakhs)": 1183.3,
+    "Crime Rate": 166.4083495
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2018,
+    "Crime Count": 3072,
+    "Population (in lakhs)": 11.7,
+    "Crime Rate": 262.5641026
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2018,
+    "Crime Count": 60178,
+    "Population (in lakhs)": 284.7,
+    "Crime Rate": 211.3733755
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2018,
+    "Crime Count": 255,
+    "Population (in lakhs)": 5.3,
+    "Crime Rate": 48.11320755
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2018,
+    "Crime Count": 319,
+    "Population (in lakhs)": 4,
+    "Crime Rate": 79.75
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2018,
+    "Crime Count": 249012,
+    "Population (in lakhs)": 195.6,
+    "Crime Rate": 1273.067485
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2018,
+    "Crime Count": 2740,
+    "Population (in lakhs)": 15.3,
+    "Crime Rate": 179.0849673
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2018,
+    "Crime Count": 147574,
+    "Population (in lakhs)": 673.2,
+    "Crime Rate": 219.2127154
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2018,
+    "Crime Count": 108212,
+    "Population (in lakhs)": 284,
+    "Crime Rate": 381.028169
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2018,
+    "Crime Count": 14604,
+    "Population (in lakhs)": 72.7,
+    "Crime Rate": 200.8803301
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2018,
+    "Crime Count": 24216,
+    "Population (in lakhs)": 134.3,
+    "Crime Rate": 180.3127327
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2018,
+    "Crime Count": 45287,
+    "Population (in lakhs)": 370.5,
+    "Crime Rate": 122.2321188
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2018,
+    "Crime Count": 126534,
+    "Population (in lakhs)": 654.5,
+    "Crime Rate": 193.329259
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2018,
+    "Crime Count": 186958,
+    "Population (in lakhs)": 350,
+    "Crime Rate": 534.1657143
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2018,
+    "Crime Count": 48,
+    "Population (in lakhs)": 0.7,
+    "Crime Rate": 68.57142857
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2018,
+    "Crime Count": 248354,
+    "Population (in lakhs)": 814.7,
+    "Crime Rate": 304.8410458
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2018,
+    "Crime Count": 346291,
+    "Population (in lakhs)": 1213.9,
+    "Crime Rate": 285.2714392
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2018,
+    "Crime Count": 2869,
+    "Population (in lakhs)": 30.8,
+    "Crime Rate": 93.14935065
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2018,
+    "Crime Count": 2921,
+    "Population (in lakhs)": 32,
+    "Crime Rate": 91.28125
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2018,
+    "Crime Count": 1774,
+    "Population (in lakhs)": 11.8,
+    "Crime Rate": 150.3389831
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2018,
+    "Crime Count": 1223,
+    "Population (in lakhs)": 21.3,
+    "Crime Rate": 57.41784038
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2018,
+    "Crime Count": 83769,
+    "Population (in lakhs)": 435.5,
+    "Crime Rate": 192.3513203
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2018,
+    "Crime Count": 3606,
+    "Population (in lakhs)": 14.8,
+    "Crime Rate": 243.6486486
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2018,
+    "Crime Count": 41640,
+    "Population (in lakhs)": 297,
+    "Crime Rate": 140.2020202
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2018,
+    "Crime Count": 171889,
+    "Population (in lakhs)": 765.9,
+    "Crime Rate": 224.4274709
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2018,
+    "Crime Count": 620,
+    "Population (in lakhs)": 6.6,
+    "Crime Rate": 93.93939394
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2018,
+    "Crime Count": 185912,
+    "Population (in lakhs)": 754.6,
+    "Crime Rate": 246.3715876
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2018,
+    "Crime Count": 5325,
+    "Population (in lakhs)": 39.6,
+    "Crime Rate": 134.469697
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2018,
+    "Crime Count": 342355,
+    "Population (in lakhs)": 2230,
+    "Crime Rate": 153.5224215
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2018,
+    "Crime Count": 14739,
+    "Population (in lakhs)": 110.6,
+    "Crime Rate": 133.2640145
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2018,
+    "Crime Count": 157610,
+    "Population (in lakhs)": 965,
+    "Crime Rate": 163.3264249
+  },
+  {
+    "Serial Number": 29,
+    "Category": "Union Territory",
+    "State/UT": "A & N Islands",
+    "Year": 2019,
+    "Crime Count": 564,
+    "Population (in lakhs)": 4,
+    "Crime Rate": 141
+  },
+  {
+    "Serial Number": 1,
+    "Category": "State",
+    "State/UT": "Andhra Pradesh",
+    "Year": 2019,
+    "Crime Count": 237567,
+    "Population (in lakhs)": 896,
+    "Crime Rate": 265.1417411
+  },
+  {
+    "Serial Number": 2,
+    "Category": "State",
+    "State/UT": "Arunachal Pradesh",
+    "Year": 2019,
+    "Crime Count": 2590,
+    "Population (in lakhs)": 15.1,
+    "Crime Rate": 171.5231788
+  },
+  {
+    "Serial Number": 3,
+    "Category": "State",
+    "State/UT": "Assam",
+    "Year": 2019,
+    "Crime Count": 123512,
+    "Population (in lakhs)": 344.2,
+    "Crime Rate": 358.837885
+  },
+  {
+    "Serial Number": 4,
+    "Category": "State",
+    "State/UT": "Bihar",
+    "Year": 2019,
+    "Crime Count": 197935,
+    "Population (in lakhs)": 1201.1,
+    "Crime Rate": 164.7947715
+  },
+  {
+    "Serial Number": 30,
+    "Category": "Union Territory",
+    "State/UT": "Chandigarh",
+    "Year": 2019,
+    "Crime Count": 2819,
+    "Population (in lakhs)": 11.8,
+    "Crime Rate": 238.8983051
+  },
+  {
+    "Serial Number": 5,
+    "Category": "State",
+    "State/UT": "Chhattisgarh",
+    "Year": 2019,
+    "Crime Count": 61256,
+    "Population (in lakhs)": 288.5,
+    "Crime Rate": 212.3258232
+  },
+  {
+    "Serial Number": 31,
+    "Category": "Union Territory",
+    "State/UT": "D & N Haveli",
+    "Year": 2019,
+    "Crime Count": 226,
+    "Population (in lakhs)": 5.6,
+    "Crime Rate": 40.35714286
+  },
+  {
+    "Serial Number": 32,
+    "Category": "Union Territory",
+    "State/UT": "Daman & Diu",
+    "Year": 2019,
+    "Crime Count": 322,
+    "Population (in lakhs)": 4.2,
+    "Crime Rate": 76.66666667
+  },
+  {
+    "Serial Number": 33,
+    "Category": "Union Territory",
+    "State/UT": "Delhi",
+    "Year": 2019,
+    "Crime Count": 299475,
+    "Population (in lakhs)": 199.4,
+    "Crime Rate": 1501.880642
+  },
+  {
+    "Serial Number": 6,
+    "Category": "State",
+    "State/UT": "Goa",
+    "Year": 2019,
+    "Crime Count": 2465,
+    "Population (in lakhs)": 15.4,
+    "Crime Rate": 160.0649351
+  },
+  {
+    "Serial Number": 7,
+    "Category": "State",
+    "State/UT": "Gujarat",
+    "Year": 2019,
+    "Crime Count": 139503,
+    "Population (in lakhs)": 682.5,
+    "Crime Rate": 204.4
+  },
+  {
+    "Serial Number": 8,
+    "Category": "State",
+    "State/UT": "Haryana",
+    "Year": 2019,
+    "Crime Count": 111323,
+    "Population (in lakhs)": 288.1,
+    "Crime Rate": 386.4040264
+  },
+  {
+    "Serial Number": 9,
+    "Category": "State",
+    "State/UT": "Himachal Pradesh",
+    "Year": 2019,
+    "Crime Count": 14480,
+    "Population (in lakhs)": 73.2,
+    "Crime Rate": 197.8142077
+  },
+  {
+    "Serial Number": 10,
+    "Category": "State",
+    "State/UT": "Jammu & Kashmir",
+    "Year": 2019,
+    "Crime Count": 22404,
+    "Population (in lakhs)": 135.3,
+    "Crime Rate": 165.5875831
+  },
+  {
+    "Serial Number": 11,
+    "Category": "State",
+    "State/UT": "Jharkhand",
+    "Year": 2019,
+    "Crime Count": 50048,
+    "Population (in lakhs)": 375.8,
+    "Crime Rate": 133.1772219
+  },
+  {
+    "Serial Number": 12,
+    "Category": "State",
+    "State/UT": "Karnataka",
+    "Year": 2019,
+    "Crime Count": 120165,
+    "Population (in lakhs)": 659.7,
+    "Crime Rate": 182.1509777
+  },
+  {
+    "Serial Number": 13,
+    "Category": "State",
+    "State/UT": "Kerala",
+    "Year": 2019,
+    "Crime Count": 175810,
+    "Population (in lakhs)": 351.9,
+    "Crime Rate": 499.6021597
+  },
+  {
+    "Serial Number": 34,
+    "Category": "Union Territory",
+    "State/UT": "Lakshadweep",
+    "Year": 2019,
+    "Crime Count": 123,
+    "Population (in lakhs)": 0.7,
+    "Crime Rate": 175.7142857
+  },
+  {
+    "Serial Number": 14,
+    "Category": "State",
+    "State/UT": "Madhya Pradesh",
+    "Year": 2019,
+    "Crime Count": 246470,
+    "Population (in lakhs)": 826.1,
+    "Crime Rate": 298.3537102
+  },
+  {
+    "Serial Number": 15,
+    "Category": "State",
+    "State/UT": "Maharashtra",
+    "Year": 2019,
+    "Crime Count": 341084,
+    "Population (in lakhs)": 1225.3,
+    "Crime Rate": 278.3677467
+  },
+  {
+    "Serial Number": 16,
+    "Category": "State",
+    "State/UT": "Manipur",
+    "Year": 2019,
+    "Crime Count": 2830,
+    "Population (in lakhs)": 31.1,
+    "Crime Rate": 90.99678457
+  },
+  {
+    "Serial Number": 17,
+    "Category": "State",
+    "State/UT": "Meghalaya",
+    "Year": 2019,
+    "Crime Count": 3125,
+    "Population (in lakhs)": 32.3,
+    "Crime Rate": 96.74922601
+  },
+  {
+    "Serial Number": 18,
+    "Category": "State",
+    "State/UT": "Mizoram",
+    "Year": 2019,
+    "Crime Count": 2379,
+    "Population (in lakhs)": 12,
+    "Crime Rate": 198.25
+  },
+  {
+    "Serial Number": 19,
+    "Category": "State",
+    "State/UT": "Nagaland",
+    "Year": 2019,
+    "Crime Count": 1117,
+    "Population (in lakhs)": 21.6,
+    "Crime Rate": 51.71296296
+  },
+  {
+    "Serial Number": 20,
+    "Category": "State",
+    "State/UT": "Odisha",
+    "Year": 2019,
+    "Crime Count": 96033,
+    "Population (in lakhs)": 437.3,
+    "Crime Rate": 219.6043906
+  },
+  {
+    "Serial Number": 35,
+    "Category": "Union Territory",
+    "State/UT": "Puducherry",
+    "Year": 2019,
+    "Crime Count": 3167,
+    "Population (in lakhs)": 15.2,
+    "Crime Rate": 208.3552632
+  },
+  {
+    "Serial Number": 21,
+    "Category": "State",
+    "State/UT": "Punjab",
+    "Year": 2019,
+    "Crime Count": 44697,
+    "Population (in lakhs)": 299.4,
+    "Crime Rate": 149.2885772
+  },
+  {
+    "Serial Number": 22,
+    "Category": "State",
+    "State/UT": "Rajasthan",
+    "Year": 2019,
+    "Crime Count": 225306,
+    "Population (in lakhs)": 776,
+    "Crime Rate": 290.3427835
+  },
+  {
+    "Serial Number": 23,
+    "Category": "State",
+    "State/UT": "Sikkim",
+    "Year": 2019,
+    "Crime Count": 632,
+    "Population (in lakhs)": 6.7,
+    "Crime Rate": 94.32835821
+  },
+  {
+    "Serial Number": 24,
+    "Category": "State",
+    "State/UT": "Tamil Nadu",
+    "Year": 2019,
+    "Crime Count": 168116,
+    "Population (in lakhs)": 758.1,
+    "Crime Rate": 221.7596623
+  },
+  {
+    "Serial Number": 25,
+    "Category": "State",
+    "State/UT": "Tripura",
+    "Year": 2019,
+    "Crime Count": 5336,
+    "Population (in lakhs)": 40,
+    "Crime Rate": 133.4
+  },
+  {
+    "Serial Number": 26,
+    "Category": "State",
+    "State/UT": "Uttar Pradesh",
+    "Year": 2019,
+    "Crime Count": 353131,
+    "Population (in lakhs)": 2259.7,
+    "Crime Rate": 156.2733991
+  },
+  {
+    "Serial Number": 27,
+    "Category": "State",
+    "State/UT": "Uttarakhand",
+    "Year": 2019,
+    "Crime Count": 12081,
+    "Population (in lakhs)": 111.8,
+    "Crime Rate": 108.059034
+  },
+  {
+    "Serial Number": 28,
+    "Category": "State",
+    "State/UT": "West Bengal",
+    "Year": 2019,
+    "Crime Count": 157610,
+    "Population (in lakhs)": 971.1,
+    "Crime Rate": 162.300484
+  }
+]
