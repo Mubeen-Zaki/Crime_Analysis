@@ -37,7 +37,7 @@
     .prediction-input {
         font-size: 20px;
         font-weight: bold;
-        color: green;
+        color: #222222;
     }
     
     .prediction-label {
@@ -52,7 +52,7 @@
 
 <body onload="tablefilling(1);">
     <nav class="main" style="width: 100%;">
-        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">Crime Analysis</label></a>
+        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">CRIME ANALYSIS</label></a>
         <ul>
             <li><a href="{{url_for('index')}}">Home</a></li>
             <li><a href="#">About</a></li>
@@ -70,7 +70,7 @@
     <div style="display: flex; margin-top: 40px; justify-content: center;">
         <p style="padding: 8px; background-color: #bbbb; border-radius: 10px; border: 1px solid black;"><b>Enter the Following Details:</b></p>
     </div>
-    <div class="predictions" style="display:inline-block; margin-top: 50px; display: flex; margin-left: 28%;">
+    <div class="predictions" style="display:inline-block; margin-top: 50px; display: flex; margin-left: 31%;">
 
         <form action="{{url_for('linearreg')}}" method="post">
 
@@ -83,7 +83,7 @@
                 <script language="javascript">
                     populatestates("state_input");
                 </script>
-                <div class="for-select">
+                <div class="for-select" style="margin-left:40px;">
                     <label for="year-input">Year:</label>
                     <select name="year" id="year-input" style=" padding :10px 0px;">
                     <option disabled selected> Select Year </option>
@@ -95,7 +95,7 @@
             </div>
 
 
-            <button class="button" style=" margin-left:50%; margin-top: 8%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
+            <button class="button" style=" margin-left:59%; margin-top: 8%;" onclick="document.getElementById('prediction-input').style.display='block'">Submit</button>
 
 
             <br>
@@ -121,15 +121,13 @@
 
 
 
-    </div>
-    <div style="clear:both;">
-    </div>
-    <!---This is for prediction-->
 
-    </section>
+        <!---This is for prediction-->
+
+        </section>
 
     </div>
-    <footer>
+    <footer style="bottom:0">
         <p> Copyright &copy; 2023. All rights reserved.</p>
 
     </footer>

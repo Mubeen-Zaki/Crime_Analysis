@@ -46,7 +46,7 @@
 
 <body>
     <nav class="main" style="width: 100%;">
-        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">Crime Analysis</label></a>
+        <a href="{{url_for('index')}}"><label style="margin-left:0;"class="logo">CRIME ANALYSIS</label></a>
         <ul>
             <li><a href="{{url_for('index')}}">Home</a></li>
             <li><a href="#">About</a></li>
@@ -62,18 +62,21 @@
     <div style=" padding:2px; margin-top: 120px; margin-left:40%;">
 
     </div>
+    <div style="display: flex; margin-top: 40px; justify-content: center;">
+        <p style="padding: 8px; background-color: #bbbb; border-radius: 10px; border: 1px solid black;"><b>Enter the Following Details:</b></p>
+    </div>
     <div style="border:1px solid black; border-radius: 10px; display:flex; padding: 10px; font-family: monsterrat; flex-direction: column; align-items: flex-start; position: absolute; margin-top:100px; margin-left: 63%; font-size: 20px">
         <div style="display: flex; justify-content: center; align-items: baseline;">
             <div style="width: 9px; height: 9px; background-color: red; border-radius: 2px; border-color: black; margin-top: 15px;"></div>
-            <p style="margin-left: 5px;">High Crime Rate Area</p>
+            <p style="margin-left: 5px;">High Crime Area</p>
         </div>
         <div style="display: flex; justify-content: center; align-items: baseline; ">
             <div style="width: 9px; height: 9px; background-color: orange;border-radius: 2px; border-color: black;  margin-top: 15px;"></div>
-            <p style="margin-left: 5px;">Medium Crime Rate Area</p>
+            <p style="margin-left: 5px;">Medium Crime Area</p>
         </div>
         <div style="display: flex; justify-content: center; align-items: baseline;">
             <div style="width: 9px; height: 9px; background-color: green;border-radius: 2px; border-color: black; margin-top: 15px;"></div>
-            <p style="margin-left: 5px;">Low Crime Rate Area</p>
+            <p style="margin-left: 5px;">Low Crime Area</p>
         </div>
 
     </div>
@@ -82,7 +85,7 @@
 
 
         <form action="{{url_for('KMeansanalysis')}}" method="post">
-            <div class="selects" style="display:inline-block; margin-top: 25px; display:flex; justify-content: center; align-items: center;" col-md-4>
+            <div class="selects" style="display:inline-block; margin-top: 35px; display:flex; margin-left: 27%; align-items: center;" col-md-4>
                 <div class="for-select">
                     <label for="state_input1">State:</label>
                     <select id="state_input1" name="state_input"></select>
@@ -121,7 +124,7 @@
         </div>
 
 
-        <p style="margin-top: 30px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb;  padding:4px;"><b>Follium Mapping of Each District Plotted Using Their Corresponding Cluster:</b></p>
+        <p style="margin-top: 30px; border-radius:10px; text-align:center; text-decoration: none; background-color:#bbbb;  padding:4px;"><b>Folium Mapping of Each District Plotted Using Their Corresponding Cluster:</b></p>
         <div style="display:flex; justify-content: center;">
             <iframe src="{{url_for('static',filename='images/clusters_folium.html')}}" style="margin-top: 20px; border-radius:10px; height: 450px; width:100%;border: 1px solid black;"></iframe>
         </div>

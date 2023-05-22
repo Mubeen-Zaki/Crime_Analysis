@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/K-means.css')}}">
+    <!-- header footer  script -->
+
+
+
+    <script src="https://kit.fontawesome.com/07e47d8e81.js" crossorigin="anonymous"></script>
+    <script src="neumorphism/html&css/assets/js/neumorphism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="/index.php"></script>
+    <!-- -----------------icons---------------- -->
+    <script src="https://kit.fontawesome.com/7bdcd846e8.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="main">
+        <label class="logo" href="{{url_for('index')}}" style="margin-left:0;">CRIME ANALYSIS</label>
+        <ul>
+            <li>
+                <a href="{{url_for('index')}}">Home</a>
+            </li>
+            <li><a href="{{url_for('about')}}">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid"> </div>
+    <div class="row pt-6">
+
+
+    </div>
+
+    <!-- ----------------------------------------------------------------------Accordion---------------------------------------------------->
+    <div class="row pl-6 pr-6 pb-6">
+        <div class="col-6">
+            <div class="card bg-primary border-light shadow-soft" style="width: 600px;">
+                <div class="card-body">
+
+                    <h3 class="h5 card-title mt-3" style="font-size: 32px;font-weight: 1000; margin-top: 100px;">Why is it needed? </h3>
+                    <p class="card-text"> Trends of crimes in India keep changing with the growing population and rapid development of towns and cities. To curb crime, the Police need countless hours to go through the crime data. There is a necessity for tools that can help
+                        us analyze and predict crime rate in order to ensure proper surveillance. Common people can also understand the crime rate and trends without going through the large clusters of data and jargons. By spotting the crime prone areas
+                        the general public can be given an alert about the crimes in different parts of a country.The data used for our system provides all necessary information about crimes, required for our analysis. Using this data, we will be able
+                        to provide inferences and draw decisions on the severity and location of the crime.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1 pt-5">
+            <div class="card bg-primary border-light shadow-soft" style="background-color: black; height: 300px; width: 5px;">
+            </div>
+        </div>
+        <div class="col-5  ">
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2UeWRZ.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pl-6 pr-3 pb-6">
+        <div class="col-5 pl-7">
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_kifrjgdc.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay>
+                </lottie-player>
+            </div>
+        </div>
+        <div class="col-1 pt-5" style="padding-left: 101px;">
+            <div class="card bg-primary border-light shadow-soft" style="background-color: black; height: 300px; width: 5px;">
+            </div>
+        </div>
+
+        <div class="col-6 pl-6">
+            <div class="card bg-primary border-light shadow-soft" style="width: 600px;">
+                <div class="card-body">
+
+                    <h3 class="h5 card-title mt-3" style="font-size: 32px;font-weight: 1000;">Who will be benifitted?
+                    </h3>
+                    <p class="card-text">&nbsp; • It can help us to analyze and perform comparative study in crime rate and infer various useful conclusions. <br>&nbsp; • The prediction model will help to get a better idea to possible crime rate in near future.<br> &nbsp;
+                        • By spotting the crime prone areas the general public can be given an alert about the crimes in different parts of a country.<br>&nbsp; • It can help the concerned authorities to analyze and predict crime rate in order to ensure
+                        proper surveillance.<br>&nbsp; • The data set developed by us over a period of time through web scraping can be further used for research.<br>&nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row pl-6 pr-6 pb-6">
+        <div class="col-6">
+            <div class="card bg-primary border-light shadow-soft" style="width: 600px;">
+                <div class="card-body">
+                    <h3 class="h5 card-title mt-3" style="font-size: 32px;font-weight: 1000;">Which technologies are used ?</h3>
+                    <p class="card-text">To develop this project, we have used Python, Flask framework, web scraping and crawling, zing charts, Beautiful soup library, pandas, FB Prophet library for implementing maps and Machine Learning.<br> &nbsp; • Data Analysis is the
+                        process of bringing order and structure to collected data. It turns data into information teams can use.<br> &nbsp; • Data visualization is the process of putting data into a chart, graph, or other visual format that helps inform
+                        analysis and interpretation.<br> &nbsp; • Web scraping is the process to extract content and data from a website.<br> &nbsp; • Real-Time analytics the data is analyzed right after data becomes available and processes data and produces
+                        insights.
+                        <br> &nbsp; • Predictive analysis is used tp analyze existing data, work out patterns and predict future outcomes or trends.<br> &nbsp;
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-1 pt-5">
+            <div class="card bg-primary border-light shadow-soft" style="background-color: black; height: 300px; width: 5px;">
+            </div>
+        </div>
+        <div class="col-5  ">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_xsnsvpbs.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+    <!-- ----------------------------------------------------------------------Accordion---------------------------------------------------->
+
+    <!--------------------------------------------------------Cards trial---------------------------------------------------------------------->
+
+    <div class="programmers-image" style="font-size:50px; font-weight: 900; 
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;">
+        <span>
+            <- meet our team <i class="fas fa-users"></i> -/>
+        </span>
+
+    </div>
+
+    <!--------------------------------------------------------Cards trial---------------------------------------------------------------------->
+
+    <!-- -----------------------------------------------------------------------profile cards------------------------------------------------------------------------------------ -->
+    <div>
+        <div class="row pt-8 pr-6 pl-6">
+            <div class="col-3 ">
+                <!-- Profile Card -->
+                <div class="profile-card mb-5 pl-2 pr-2">
+                    <div class="card bg-primary shadow-inset border-light text-center">
+                        <div class="card-header">
+                            <div class="profile-image bg-primary shadow-inset border border-light rounded mx-auto p-3 mt-n6">
+                                <img src="{{url_for('static',filename='assets/images/Rv_profile.jpeg')}}" class="card-img-top rounded" alt="Profile photo">
+                            </div>
+                        </div>
+                        <div class="card-body pb-5">
+                            <h3 class="h5 mb-2">Aryaveer Bajpai</h3>
+                            <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                            <ul class="list-unstyled d-flex justify-content-center mt-3 mb-4">
+                                <li>
+                                    <a href="https://www.facebook.com/aryaveerbajpai/" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/aryaveer3" target="_blank" aria-label="github social link" class="icon icon-xs icon-github mr-3">
+                                        <span class="fab fa-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/aryaveer-bajpai-a6713718b/" target="_blank" aria-label="linkedin social link" class="icon icon-xs icon-linkedin mr-3">
+                                        <span class="fab fa-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn btn-sm btn-primary mr-3" href="https://www.instagram.com/aryaveer_bajpai/">
+                                <span class="fas fa-user-plus mr-1"></span> Follow
+                            </a>
+                            <a class="btn btn-sm btn-primary" href="mailto:aryaveerbajpai@gmail.com">
+                                Message
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Profile Card -->
+            </div>
+            <div class="col-3">
+                <!-- Profile Card -->
+                <div class="profile-card mb-5 pl-2 pr-2">
+                    <div class="card bg-primary shadow-inset border-light text-center">
+                        <div class="card-header">
+                            <div class="profile-image bg-primary shadow-inset border border-light rounded mx-auto p-3 mt-n6">
+                                <img src="{{url_for('static',filename='assets/images/Arpita_profile.jpeg')}}" class="card-img-top rounded" alt="Profile photo">
+                            </div>
+                        </div>
+                        <div class="card-body pb-5">
+                            <h3 class="h5 mb-2">Arpita Mishra</h3>
+                            <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                            <ul class="list-unstyled d-flex justify-content-center mt-3 mb-4">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100052450744390" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/arpita_mishra_" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/arpitamishra27" target="_blank" aria-label="github social link" class="icon icon-xs icon-github mr-3">
+                                        <span class="fab fa-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/arpita-mishra-8a62b3184" target="_blank" aria-label="linkedin social link" class="icon icon-xs icon-linkedin mr-3">
+
+                                        <span class="fab fa-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn btn-sm btn-primary mr-3" href="https://www.instagram.com/arpita.__.mishra/">
+                                <span class="fas fa-user-plus mr-1"></span> Follow
+                            </a>
+                            <a class="btn btn-sm btn-primary" href="mailto:arpitamishra2799@gmail.com">
+                                Message
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Profile Card -->
+            </div>
+            <div class="col-3">
+                <!-- Profile Card -->
+                <div class="profile-card mb-5 pl-2 pr-2">
+                    <div class="card bg-primary shadow-inset border-light text-center">
+                        <div class="card-header">
+                            <div class="profile-image bg-primary shadow-inset border border-light rounded mx-auto p-3 mt-n6">
+                                <img src="{{url_for('static',filename='assets/images/Ashu_profile.jpeg')}}" class="card-img-top rounded" alt="Profile photo">
+                            </div>
+                        </div>
+                        <div class="card-body pb-5">
+                            <h3 class="h5 mb-2">Ashutosh Verma</h3>
+                            <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                            <ul class="list-unstyled d-flex justify-content-center mt-3 mb-4">
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100004749464773" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/ashutoshv1520" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Ashutosh1520" target="_blank" aria-label="github social link" class="icon icon-xs icon-github mr-3">
+                                        <span class="fab fa-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/mwlite/in/the-ashutosh-verma" target="_blank" aria-label="linkedin social link" class="icon icon-xs icon-linkedin mr-3">
+                                        <span class="fab fa-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn btn-sm btn-primary mr-3" href="https://www.instagram.com/ashutoshverma1520/">
+                                <span class="fas fa-user-plus mr-1"></span> Follow
+                            </a>
+                            <a class="btn btn-sm btn-primary" href="mailto:ashutoshv1520@gmail.com">
+                                Message
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Profile Card -->
+            </div>
+            <div class="col-3">
+                <!-- Profile Card -->
+                <div class="profile-card mb-5 pl-2 pr-2">
+                    <div class="card bg-primary shadow-inset border-light text-center">
+                        <div class="card-header">
+                            <div class="profile-image bg-primary shadow-inset border border-light rounded mx-auto p-3 mt-n6">
+                                <img src="{{url_for('static',filename='assets/images/Ayushi_profile.jpeg')}}" class="card-img-top rounded" alt="Profile photo">
+                            </div>
+                        </div>
+                        <div class="card-body pb-5">
+                            <h3 class="h5 mb-2">Ayushi Chauhan</h3>
+                            <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                            <ul class="list-unstyled d-flex justify-content-center mt-3 mb-4">
+                                <li>
+                                    <a href="#" target="_blank" aria-label="facebook social link" class="icon icon-xs icon-facebook mr-3">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" aria-label="twitter social link" class="icon icon-xs icon-twitter mr-3">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" aria-label="slack social link" class="icon icon-xs icon-slack mr-3">
+                                        <span class="fab fa-github"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ayushi-chauhan-55854b1a1" target="_blank" aria-label="linkedin social link" class="icon icon-xs icon-linkedin mr-3">
+                                        <span class="fab fa-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="btn btn-sm btn-primary mr-3" href="#">
+                                <span class="fas fa-user-plus mr-1"></span> Follow
+                            </a>
+                            <a class="btn btn-sm btn-primary" href="mailto:ayushichauhan1310@gmail.com">
+                                Message
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Profile Card -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------------------------------------------profile cards----------------------------------------------------------------------------------- -->
+    <div class="contact-panel" style="    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;">
+
+
+        <div class="col-5 pr-6 pt-7 ">
+            <div class="card bg-primary shadow-soft border-light mb-6">
+                <div class="card-body px-5 py-5 text-center text-md-left">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Get in touch</h2>
+                            <p class="mb-0">
+                                If you need any help with our products or services, choose one of the following ways to contact us.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
+                            <a href="mailto:cridasis.project@gmail.com" class="btn btn-primary">
+                                <span class="mr-1">
+                                    <span class="fas fa-headphones"></span>
+                                </span>
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-us-image pt-4" style="width: 500px;">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_gzl797gs.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
+        </div>
+
+
+    </div>
+
+
+
+    <!------------------------------------------------------------Feedback-------------------------------------------------------------------->
+    <div class="feedback-panel" style="    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;">
+
+
+        <div class="col-5 pr-6 pt-7 ">
+            <div class="card bg-primary shadow-soft border-light ">
+                <div class="card-body px-5 py-5 text-center text-md-left">
+                    <div class="row ">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeus1OWR_sQJtGSWk5DsXKlFXCRlaOtV4ZGXtNzlLrG4ufPRg/viewform?embedded=true" width="450" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-panel pt-4" style="width: 500px; height: 500px;">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_ltuqrtmn.json" background="transparent" speed="1" style="width: 750px; height: 750px;" loop autoplay>
+            </lottie-player>
+        </div>
+
+
+
+
+    </div>
+
+    <!------------------------------------------------------------Feedback-------------------------------------------------------------------->
+
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+
+        </div>
+        <div class="col-3"></div>
+    </div>
+
+
+    <my-footer></my-footer>
+
+</body>
+
+</html>

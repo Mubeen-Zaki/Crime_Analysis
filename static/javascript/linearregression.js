@@ -162,7 +162,7 @@ function handleFileSelect(evt) {
 function changecolor() {
     const text1 = document.getElementById("cluster-text");
     const text = text1.textContent;
-    let color = '#ffa500';
+    let color = '#222222';
 
 
     if (text === "RED ZONE") {

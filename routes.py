@@ -1,10 +1,12 @@
-from flask import Flask, render_template, request, url_for, Markup, jsonify
+from flask import Flask, render_template, request, url_for, Markup, jsonify,make_response
 import pickle
 import pandas as pd
 import numpy as np
 from werkzeug.utils import secure_filename
 import joblib
 from app import app
+import subprocess
+
 
 #Deserializing ml models
 kmeanclus = pickle.load(open('./Prediction/kmean.pkl','rb'))
@@ -50,6 +52,15 @@ def projection(v1,v2,yr1,yr2,year):
 @app.route('/index')
 def index():
     return render_template('index.html')
+
+@app.route('/about')
+def about():
+    return render_template('About.html')
+
+@app.route('/feedback')
+def feedback():
+    return render_template('Feedback.html')
+
 
 #kmeans:
 @app.route('/Kmeans')
@@ -169,7 +180,13 @@ def analysis():
 #crimefeed:
 @app.route('/crimefeed')
 def crimefeed():
- 	return render_template('crimefeed.html')
+    response = make_response('templates/final.html')
+    
+    # Add cache-control headers to prevent caching
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+    response.headers['Pragma'] = 'no-cache'
+    response.headers['Expires'] = '0'
+    return render_template('crimefeed.html')
 
 
 #Plotly charts:
@@ -190,6 +207,12 @@ def datadisp():
 @app.route('/foliummap')
 def foliummap():
  	return render_template("final.html")
+
+@app.route("/run-file")
+def run_file():
+    file_path = "folium-map\index.py"  
+    subprocess.Popen(["python", file_path])
+    return {"message": "File execution initiated"}
 
 
 # defining paths to plotly graphs
