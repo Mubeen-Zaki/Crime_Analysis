@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheets/graphanalysis.css')}}">
+
+</head>
+
+<body>
+    <nav class="main">
+        <label class="logo" href="{{url_for('index')}}">CRIME ANALYSIS</label>
+        <ul>
+            <li>
+                <a href="{{url_for('index')}}">Home</a>
+            </li>
+            <li><a href="{{url_for('about')}}">About</a></li>
+            <li><a href="https://github.com/Mubeen-Zaki/Final_Year_Project">Contact</a></li>
+            <li><a href="{{url_for('feedback')}}">Feedback</a></li>
+        </ul>
+    </nav>
+    <div style="text-align: center; font-family: monsterrat; margin-top: 100px;"></div>
+    <div class="box" style="overflow: hidden; margin-left: 15%; width:1000px;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGOGp2Q9oELy_IZ0P79xcA_rpxMaDazM63chlCh_gMl_NCIg/viewform" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+</body>
+
+</html>

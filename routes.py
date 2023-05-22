@@ -57,6 +57,10 @@ def index():
 def about():
     return render_template('About.html')
 
+@app.route('/feedback')
+def feedback():
+    return render_template('Feedback.html')
+
 
 #kmeans:
 @app.route('/Kmeans')
